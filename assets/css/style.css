@@ -1,0 +1,50 @@
+/* Cambiar color de fondo de la navbar */
+.navbar {
+    background-color: #7a003c !important; /* Color institucional tipo guinda */
+}
+
+/* Cambiar color del texto del menú */
+.navbar .nav-link {
+    color: #ffffff !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+/* Efecto hover en los enlaces */
+.navbar .nav-link:hover {
+    color: #ffd700 !important;  /* Amarillo dorado al pasar el mouse */
+}
+
+/* Alinear el logo y agregarle espacio si es necesario */
+.custom-brand img {
+    margin-right: 20px;
+}
+
+/* Centrar verticalmente los elementos (por si hay desajuste) */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+/* Mover solo un botón a la derecha o izquierda (ejemplo: Contacto) */
+.navbar .nav-item.contacto {
+    margin-left: auto; /* lo empuja a la derecha del todo */
+}
+
+/* Para el dropdown */
+.dropdown-menu {
+    background-color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+}
+
+.dropdown-item {
+    color: #333333;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+    color: #7a003c;
+}

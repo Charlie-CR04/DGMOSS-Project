@@ -3,87 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DGMOSS</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    
-    <!-- Navegador 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <title>PORTAL-DGMOSS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">Icono</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Logo -->
+            <a class="navbar-brand custom-brand" href="/dgmoss-project/">
+                <img src="/dgmoss-project/assets/img/Logo_GM.png" alt="Logo DGMOSS" width="200" height="50" class="align">
+            </a>
+            
+            <!-- Botón responsive para móvil (hamburguesa) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <!--Contenedor del menú de navegación-->
+            <div class="collapse navbar-collapse" id="navbarContenido">
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Nosotros -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Nosotros</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
+
+                    <!-- Direcciones -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="https://www.gob.mx/salud/dgmoss" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownDirecciones" role="button" data-bs-toggle="dropdown">Direcciones</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.gob.mx/salud/dgmoss">DGMOSS</a></li>
-                            <li><a class="dropdown-item" href="https://www.gob.mx/salud/dgmoss">DGMOSS</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Dirección 1</a></li>
+                            <li><a class="dropdown-item" href="#">Dirección 2</a></li>
+                            <li><a class="dropdown-item" href="#">Dirección 3</a></li>
                         </ul>
+                    </li>
+
+                    <!-- Múltimedia-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMultimedia" role="button" data-bs-toggle="dropdown">Múltimedia</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"></a>Ligas de interés</li>
+                            <li><a class="dropdown-item" href="#">Videos</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Contacto -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
--->
-    <!-- Navegador con logo y botones -->
-    <nav class="navbar bg-body-tertiary">
-        <!-- Logo -->
-        <div class="container-liquid">
-            <button class=btn btn-link>
-                <a class="navbar-brand" href="index.php"></a>
-                <img src="assets/img/Logo_GM.png" alt="Logo DGMOSS" width="200" height="50" class="align">
-            </button>
-        </div>
-        <!-- Nosotros -->
-        <div>
-            <button class="btn btn-secondary">
-                <a href="#">Nosotros</a>
-            </button>
-        </div>
-        <!-- Direcciones -->
-        <div class="dropdown">
-            <button class="btn btn-secundary btn-dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Direcciones
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://www.gob.mx/salud/dgmoss">Dirección 1</a></li>
-                <li><a class="dropdown-item" href="https://www.gob.mx/salud/dgmoss">Dirección 2</a></li>
-            </ul>
-        </div>
-        <!-- Múltimedia-->
-        <div class="dropdown">
-            <button class="btn btn-secundary dropdwon-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Múltimedia
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://www.gob.mx/salud/dgmoss">Galería</a></li>
-                <li><a class="dropdown-item" href="https://www.gob.mx/salud/dgmoss">Videos</a></li>
-            </ul>
-        </div>
-        <!-- Contacto -->
-        <div>
-            <button class="btn btn-secondary">
-                <a href="#">Contacto</a>
-            </button>
-        </div>
-    </nav>
-
-    
-
-</head>
-<body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
