@@ -1,6 +1,8 @@
+/*                       Estilos generales para la navbar                           */
+
 /* Cambiar color de fondo de la navbar */
 .navbar {
-    background-color: #7a003c !important; /* Color institucional tipo guinda */
+    background-color: #611232 !important; /* Color institucional tipo guinda */
 }
 
 /* Cambiar color del texto del menú */
@@ -13,7 +15,7 @@
 
 /* Efecto hover en los enlaces */
 .navbar .nav-link:hover {
-    color: #ffd700 !important;  /* Amarillo dorado al pasar el mouse */
+    color: #a57f2c !important; 
 }
 
 /* Alinear el logo y agregarle espacio si es necesario */
@@ -46,5 +48,27 @@
 
 .dropdown-item:hover {
     background-color: #f0f0f0;
-    color: #7a003c;
+    color: #611232;
+}
+
+/*                   Estilos para el footer                  */
+
+.footer {
+  background: #611232 !important;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-link:hover {
+  text-decoration:dashed;
 }

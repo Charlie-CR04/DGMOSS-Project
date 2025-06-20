@@ -15,7 +15,7 @@
         <div class="container-fluid">
             <!-- Logo -->
             <a class="navbar-brand custom-brand" href="/dgmoss-project/">
-                <img src="/dgmoss-project/assets/img/Logo_GM.png" alt="Logo DGMOSS" width="200" height="50" class="align">
+                <img src="/dgmoss-project/assets/img/Logo_GM1.png" alt="Logo DGMOSS" width="165" height="55" class="align">
             </a>
             
             <!-- Botón responsive para móvil (hamburguesa) -->
@@ -29,16 +29,17 @@
 
                     <!-- Nosotros -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="/dgmoss-project/info-page/nosotros.php">Nosotros</a>
                     </li>
 
                     <!-- Direcciones -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownDirecciones" role="button" data-bs-toggle="dropdown">Direcciones</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dirección 1</a></li>
-                            <li><a class="dropdown-item" href="#">Dirección 2</a></li>
-                            <li><a class="dropdown-item" href="#">Dirección 3</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion1.php">Dirección 1</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion2.php">Dirección 2</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion3.php">Dirección 3</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion4.php">Dirección 4</a></li>
                         </ul>
                     </li>
 
@@ -46,14 +47,14 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownMultimedia" role="button" data-bs-toggle="dropdown">Múltimedia</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"></a>Ligas de interés</li>
-                            <li><a class="dropdown-item" href="#">Videos</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/multimedia/videos.php">Videos</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/multimedia/ligas_interes.php">Ligas de interés</a></li>
                         </ul>
                     </li>
 
                     <!-- Contacto -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="/dgmoss-project/info-page/contacto.php">Contacto</a>
                     </li>
                 </ul>
             </div>
