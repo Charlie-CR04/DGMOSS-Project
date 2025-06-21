@@ -75,10 +75,31 @@
 }
 
 .footer-nav .footer-link:hover {
-  text-decoration:underline;
+  text-decoration:dashed;
   color: #a57f2c !important;
 }
 
 .footer .container{
     margin-bottom: 20px;
+}
+
+/*           Estilos para el carrusel          */
+
+/* Establecer un tamaño fijo para el carrusel */
+carrusel {
+    width: 100%;         /* Ancho del carrusel será el 100% de su contenedor */
+    height: 500px;       /* Altura fija del carrusel*/
+}
+
+/* Ajustar las imágenes */
+.carousel-item img {
+    width: 100%;         
+    height: 100%;        
+    object-fit: cover;   
+}
+
+
+/*                   Estilos para las direcciones-main                  */
+.direcciones-main {
+    background: #a57f2c;
 }
