@@ -17,26 +17,35 @@
                 <p class="text-center">Dudas e información a
                     <a href="#enlaces" class="footer-link">informes_dgmoss@salud.gob.mx</a>
                 </p>
-                <p></p>
-                <h4>Siguenos en</h4>
-                <ul class="list-inline">
-                    <li>
+            </div>
+        </nav>
+        <!-- Redes Sociales -->
+</footer>
+
+<footer>
+        <nav class="footer-social-bar">
+            <ul class="list-inline text-center">
+                    <li class="list-inline-item">
                         <a href="https://www.facebook.com/gobmexico" class="footer-link" title="Enlace a Facebook en una nueva pestaña" target="_blank">
-                            <img src="/dgmoss-project/assets/img/red_social/facebook.png" alt="Red social facebook" width="35" height="35">
+                            <img src="/dgmoss-project/assets/img/red_social/facebook.png" alt="Red social facebook">
                         </a>
+                    </li>
+                    <li class="list-inline-item">
                         <a href="https://x.com/GobiernoMX" class="footer-link" title="Enlace a X en una nueva pestaña" target="_blank">
-                            <img src="/dgmoss-project/assets/img/red_social/x.png" alt="Red social x" width="35" height="35">
+                            <img src="/dgmoss-project/assets/img/red_social/x.png" alt="Red social x">
                         </a>
+                    </li>
+                    <li class="list-inline-item">
                         <a href="https://www.instagram.com/gobmx/" class="footer-link" title="Enlace a Instagram en una nueva pestaña" target="_blank">
-                            <img src="/dgmoss-project/assets/img/red_social/instagram.png" alt="Red social instagram" width="35" height="35">
+                            <img src="/dgmoss-project/assets/img/red_social/instagram.png" alt="Red social instagram">
                         </a>
+                    </li>
+                    <li class="list-inline-item">
                         <a href="https://www.youtube.com/@gobiernodemexico" class="footer-link" title="Enlace a Youtube en una nueva pestaña" target="_blank">
-                            <img src="/dgmoss-project/assets/img/red_social/youtube.png" alt="Red social youtube" width="35" height="35">
+                            <img src="/dgmoss-project/assets/img/red_social/youtube.png" alt="Red social youtube">
                         </a>
                     </li>
                 </ul>
-            </div>
         </nav>
-        <!--<p class="mt-3 mb-0 text-center">&copy; 2025 DGMOSS - Todos los derechos reservados</p>-->
     </div>
 </footer>

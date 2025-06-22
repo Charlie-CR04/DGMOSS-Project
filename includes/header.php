@@ -56,6 +56,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/dgmoss-project/info-page/contacto.php" title="Ir a la pagina de Contacto">Contacto</a>
                     </li>
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                    </nav>
                 </ul>
             </div>
         </div>

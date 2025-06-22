@@ -54,15 +54,34 @@
 /*                   Estilos para el footer                  */
 
 .footer {
-  background: #611232 !important;
+  background: #611232;
   color: #fff;
-  padding: 20px 0;
+  padding: 30px 0;
+}
+
+.footer-social-bar{
+    background-color: #a57f2c;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-social-bar ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-bar img{
+    width: 20px;
+    height: 20px;
 }
 
 .footer-nav{
   display: flex; /*Alinear elementos */
   justify-content: center; /* Centrar elementos en el footer */ 
-  gap: 40px;
+  gap: 40px; /*Espacio entre elementos*/
 }
 
 .footer-nav h4{
@@ -79,16 +98,15 @@
   color: #a57f2c !important;
 }
 
-.footer .container{
-    margin-bottom: 20px;
-}
 
 /*           Estilos para el carrusel          */
 
 /* Establecer un tamaño fijo para el carrusel */
-carrusel {
+
+#carrusel {
     width: 100%;         /* Ancho del carrusel será el 100% de su contenedor */
-    height: 500px;       /* Altura fija del carrusel*/
+    height: 289px;       /* Altura fija del carrusel*/
+    background: #611232;
 }
 
 /* Ajustar las imágenes */
