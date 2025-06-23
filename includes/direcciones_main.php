@@ -5,8 +5,8 @@
             <!-- Dirección 1 -->
             <div class="col-md-3">
                 <div class="card direccion-card shadow-sm h-100">
-                    <a href="" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <a href="/dgmoss-project/direcciones/direccion1.php" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/gbmx1.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title text-center">Dirección 1</h5>
                     </div>
@@ -15,8 +15,8 @@
             <!-- Dirección 2 -->
             <div class="col-md-3">
                 <div class="card direccion-card shadow-sm h-100">
-                    <a href="" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <a href="/dgmoss-project/direcciones/direccion2.php" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/gbmx2.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title text-center">Dirección 2</h5>
                     </div>
@@ -25,8 +25,8 @@
             <!-- Dirección 3 -->
             <div class="col-md-3">
                 <div class="card direccion-card shadow-sm h-100">
-                    <a href="" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <a href="/dgmoss-project/direcciones/direccion2.php" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/gbmx1.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title text-center">Dirección 3</h5>
                     </div>
@@ -35,8 +35,8 @@
             <!-- Dirección 4 -->
             <div class="col-md-3">
                 <div class="card direccion-card shadow-sm h-100">
-                    <a href="" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <a href="/dgmoss-project/direcciones/direccion4.php" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/gbmx2.jpg" class="card-img-top" alt="...">
                     <div class="card-body text-center">
                         <h5 class="card-title text-center">Dirección 4</h5>
                     </div>

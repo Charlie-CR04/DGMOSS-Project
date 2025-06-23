@@ -1,5 +1,16 @@
 /*                       Estilos generales para la navbar                           */
 
+/*   Cuerpo de la página   */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Títulos más pesados como "Acciones y programas" */
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;  /* o 700 si quieres más negrita */
+}
+
 /* Cambiar color de fondo de la navbar */
 .navbar {
     background-color: #611232 !important; /* Color institucional tipo guinda */
@@ -96,9 +107,8 @@
 }
 
 #carrusel {
-    width: 100%;         /* Ancho del carrusel será el 100% de su contenedor */
-    height: 289px;       /* Altura fija del carrusel*/
-    background: #611232;
+    width: 100%;         
+    height: 289px;       
 }
 
 /* Ajustar las imágenes */
@@ -107,14 +117,16 @@
     height: 100%;        
     object-fit: cover;   
 }
+/* Carrusel 2*/
+.swiper-slide img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 
 
 /*                   Estilos para las direcciones-main                  */
-.direcciones-main h2{
-    font-family: 'Monserrat',sans-serif;
-    font-weight: 600;
-    color: #161a1d;
-}
 
 .direccion-card{
     transition: transform 0.3s, box-shadow 0.3s;
@@ -135,7 +147,5 @@
 }
 
 .card-title{
-    font-family: 'Monserrat', sans-serif;
-    font-weight: 600;
     color: #611232;
 }

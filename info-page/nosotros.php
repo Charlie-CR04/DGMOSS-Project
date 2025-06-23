@@ -16,7 +16,7 @@
 <body>
     <div class="container mt-4">
         <h1 class="text-center">Nosotros</h1>
-        <p class="text-center">Bienvenido a la sección "Nosotros" de DGMOSS. Aquí encontrarás información sobre nuestra misión, visión y valores.</p>
+        <p class="text-justifi">DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
         
         <h2>Misión</h2>
         <p>Proporcionar servicios de salud de calidad a la población, garantizando el bienestar y la seguridad sanitaria.</p>
