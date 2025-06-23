@@ -1,36 +1,46 @@
-<div class="direcciones-main">
-    <div class="container">
-        <h1 class="text-center">Direcciones DGMOSS</h1>
-        <div class="card" style="width: 18rem;">
-            <img src="/dgmoss-project/assets/img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Dirección 1</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="" class="btn btn-primary stretched-link">Go somewhere</a>
+<div class="direcciones-main py-5">
+    <div class="container py-5">
+        <h2 class="text-center mb-5">Direcciones DGMOSS</h2>
+        <div class="row justifi-content-center g-4">
+            <!-- Dirección 1 -->
+            <div class="col-md-3">
+                <div class="card direccion-card shadow-sm h-100">
+                    <a href="" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Dirección 1</h5>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/dgmoss-project/assets/img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Dirección 2</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="/dgmoss-project/assets/img/img2.jpg" class="btn btn-primary stretched-link">Go somewhere</a>
+            <!-- Dirección 2 -->
+            <div class="col-md-3">
+                <div class="card direccion-card shadow-sm h-100">
+                    <a href="" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Dirección 2</h5>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/dgmoss-project/assets/img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Dirección 3</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="/dgmoss-project/assets/img/img2.jpg" class="btn btn-primary stretched-link">Go somewhere</a>
+            <!-- Dirección 3 -->
+            <div class="col-md-3">
+                <div class="card direccion-card shadow-sm h-100">
+                    <a href="" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Dirección 3</h5>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="/dgmoss-project/assets/img/img2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Dirección 4</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                <a href="/dgmoss-project/assets/img/img2.jpg" class="btn btn-primary stretched-link">Go somewhere</a>
+            <!-- Dirección 4 -->
+            <div class="col-md-3">
+                <div class="card direccion-card shadow-sm h-100">
+                    <a href="" class="btn stretched-link"></a>
+                    <img src="/dgmoss-project/assets/img/img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Dirección 4</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
