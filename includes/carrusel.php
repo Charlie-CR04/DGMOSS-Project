@@ -1,7 +1,4 @@
 <div class="bkg_Default p-3">
-    <h2 class="text-center mb-4">
-        Carrusel 1
-    </h2>
     <div class="container p-3 margen-negtop">
         <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
              <!--Indicatores--> 

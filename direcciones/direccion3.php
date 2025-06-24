@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container mt-4">
-        <h1 class="text-center">Tercera Dirección</h1>
+        <h1 class="text-center">Directorio de la Dirección General de Modernización del Sector Salud</h1>
     </div>
 </body>
     <?php
