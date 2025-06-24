@@ -14,9 +14,13 @@
     <?php
         include('includes/header.php');
     ?>
-
 </head>
 <body>
+    <section class="hero-section">
+        <div class="hero-overlay">
+            <h1 class="hero-title">Dirección General de Modernización del Sector Salud</h1>
+        </div>
+    </section>
 
 <?php
     include('includes/carrusel.php');

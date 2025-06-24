@@ -1,5 +1,5 @@
 <div class="container my-5">
-  <h2 class="text-center mb-4">Carrusel 2</h2>
+  <h2 class="text-center mb-4">Redes Sociales</h2>
 
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">

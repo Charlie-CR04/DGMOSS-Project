@@ -1,15 +1,15 @@
-/*                       Estilos generales para la navbar                           */
-
 /*   Cuerpo de la página   */
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Títulos más pesados como "Acciones y programas" */
+/* Títulos */
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;  /* o 700 si quieres más negrita */
 }
+
+/*                       Estilos generales para la navbar                           */
 
 /* Cambiar color de fondo de la navbar */
 .navbar {
@@ -62,6 +62,44 @@ h1, h2, h3, h4, h5 {
     color: #611232;
 }
 
+#dropdownDirecciones + .dropdown-menu{
+    min-width: 350px;
+    padding: 10px 15px;
+}
+
+#dropdownDirecciones + .dropdown-menu .dropdown-item{
+    font-size: 14px;
+    white-space: normal; /*    Salto de linea    */
+    line-height: 1.3; /*    Legibilidad    */
+}
+
+/*   Hero banner   */
+
+.hero-section{
+    background-image: url('/dgmoss-project/assets/img/img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-overlay{
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.hero-title{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 /*                   Estilos para el footer                  */
 
 .footer-main {
@@ -100,23 +138,31 @@ h1, h2, h3, h4, h5 {
 
 /*           Estilos para el carrusel          */
 
-/* Establecer un tamaño fijo para el carrusel */
-
 .bkg_Default{
-    margin: 20px;
+    margin: auto;
 }
 
 #carrusel {
     width: 100%;         
-    height: 289px;       
+    height: 330px;
+    position:relative;    
 }
 
 /* Ajustar las imágenes */
 .carousel-item img {
     width: 100%;         
     height: 100%;        
-    object-fit: cover;   
+    object-fit: cover;
+    object-position: center center;   
 }
+
+.carousel-control-prev,
+.carousel-control-next{
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+}
+
 /* Carrusel 2*/
 .swiper-slide img {
   height: 200px;
@@ -124,11 +170,9 @@ h1, h2, h3, h4, h5 {
   border-radius: 8px;
 }
 
-
-
 /*                   Estilos para las direcciones-main                  */
 
-.direcciones-main {
+.contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

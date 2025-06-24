@@ -1,5 +1,5 @@
-<div class="direcciones-main py-5">
-    <div class="container py-5">
+<div class="contenedor py-4">
+    <div class="container py-4">
         <h2 class="text-center mb-5">Direcciones DGMOSS</h2>
         <div class="row justifi-content-center g-4">
             <!-- Dirección 1 -->

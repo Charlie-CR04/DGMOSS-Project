@@ -20,10 +20,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownDirecciones" role="button" data-bs-toggle="dropdown" title="Desplegar menú de Direcciones">Direcciones</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion1.php" title="Ir a la Dirección 1">Dirección 1</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion2.php" title="Ir a la Dirección 2">Dirección 2</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion3.php" title="Ir a la Dirección 3">Dirección 3</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion4.php" title="Ir a la Dirección 4">Dirección 4</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion1.php" title="Ir a la Dirección 1">Dirección de Políticas de Tecnologías para la Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion2.php" title="Ir a la Dirección 2">Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion3.php" title="Ir a la Dirección 3">Directorio de la Dirección General de Modernización del Sector Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion4.php" title="Ir a la Dirección 4">Dirección de Salud Digital</a></li>
                     </ul>
                 </li>
                 <!-- Múltimedia-->
@@ -41,7 +41,7 @@
             <!--<nav class="navbar bg-body-tertiary">
                     <div class="container-fluid">
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                             <button class="btn btn-outline-success" type="submit">Buscar</button>
                         </form>
                     </div>
@@ -49,4 +49,4 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav>  
