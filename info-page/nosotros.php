@@ -20,7 +20,7 @@
             en los servicios de salud en México. <br><br>
             La atención médica de calidad esta directamente vinculada al acceso de los pacientes a Tecnologías para la Salud (medicamentos, equipos, dispositivos médicos, 
             procedimientos, formas de organización y sistemas de información) apropiadas y bien gestionadas.<br><br>
-            Hoy día las Tecnologías para la Salud son cada vez más complejas, mas costotsas y su oferta más amplia, por ello, los sistemas de salud necesitan información confiable 
+            Hoy día las Tecnologías para la Salud son cada vez más complejas, mas costosas y su oferta más amplia, por ello, los sistemas de salud necesitan información confiable 
             y oportuna, basada en la mejor evidencia disponible, para decir cuáles de estas tecnologías se deben incorporar, mantener o excluir dependiendo  de su calidad, seguridad 
             y relación costo-efectividad.
         </p>
@@ -53,6 +53,14 @@
         <h2 class="text-center">Nuestra visión.</h2>
         <p>Ser la instancia rectora y autónoma en materia de evaluación y gestión de tecnologías para la salud en el Sistema Nacional de Salud, 
             consolidando el prestigio y la referencia internacional.</p>
+        <h2 class="text-center">Nuestros valores.</h2>
+        <li>Actitud de servicio: Conocer las necesidades de nuestros usuarios, satisfaciéndolas y cubriendo sus expectativas con cortesía, calidez y profesionalismo.</li>
+        <li>Trabajo en equipo: Coordinar los esfuerzos individuales hacia el logro de los objetivos comunes dentro de la organización.</li>
+        <li>Compromiso con responsabilidad: Realizar las actividades cotidianas con base en el respeto , honestidad, solidaridad, equidad y orientación social.</li>
+        <li>Sustentabilidad científica y técnica: Promover el uso del mejor conocimiento, tecnologías y prácticas disponibles en el Sistema Nacional de Salud.</li>
+        <li>Adaptabilidad al cambio: Aceptar de manera flexible y tolerante los factores del entorno, actuando con integridad, respeto, generosidad y equidad,
+             tomando los mejor de cada circunstancia aplicándolo al avance y logro de objetivos.</li>
+        <li>Sentido de pertenencia: Sentirse parte de la organización, estar orgulloso de ella y de cuidar sus recursos.</li>
     </div>
 </body>
 <?php

@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 /*   Hero banner   */
 
 .hero-section{
-    background-image: url('/dgmoss-project/assets/img/img.jpg');
+    background-image: url('/dgmoss-project/assets/img/back2.jpeg');
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -87,16 +87,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-overlay{
-    background-color: rgba(0, 0, 0, 0.25);
-    color: #fff;
+    color:#f0f0f0;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
     width: 100%;
 }
 
 .hero-title{
     font-family: 'Monserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 
@@ -139,7 +138,7 @@ h1, h2, h3, h4, h5 {
 /*           Estilos para el carrusel          */
 
 .bkg_Default{
-    margin: auto;
+    margin: 20px;
 }
 
 #carrusel {
