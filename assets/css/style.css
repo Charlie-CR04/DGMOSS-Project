@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
     line-height: 1.3; /*    Legibilidad    */
 }
 
-/*   Hero banner   */
+/*   Hero banner   
 
 .hero-section{
     background-image: url('/dgmoss-project/assets/img/back2.jpeg');
@@ -97,7 +97,73 @@ h1, h2, h3, h4, h5 {
     font-family: 'Monserrat', sans-serif;
     font-size: 4rem;
     font-weight: 600;
+}*/
+
+.hero-video-section{
+    position:relative;
+    height: 60vh;
+    overflow: hidden; /*Ayuda a limitar el video (recortar)*/
 }
+
+.hero-video{
+    position: absolute; /*El video ocupa todo el contenedor*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Hace que el video cubra todo el contenedor sin distorsionarse  */
+    z-index: 1; /*Se visualiza primero el video*/
+}
+
+.hero-video-overlay{
+    position: absolute;
+    z-index: 2; /*Se visualiza despues del video(texto)*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+    /*Fade-in*/
+    opacity: 0;
+    animation: fadeIn 2.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-title{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.hero-subtitle {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 70px;
+    line-height: 1.6;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /*                   Estilos para el footer                  */
 
@@ -169,33 +235,81 @@ h1, h2, h3, h4, h5 {
   border-radius: 8px;
 }
 
-/*                   Estilos para las direcciones-main                  */
 
-.contenedor {
+/*              Contenedor de las direcciones           */
+
+.contenedor-dir {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Estilo de las tarjetas con imagen a la izquierda */
+.direccion-card {
+    border: 1px solid #ccc;;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Asegurarse de que la imagen se ajuste correctamente */
+.direccion-card img {
+    width: 100%; /* Ocupa todo el espacio de la columna */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo del texto en la tarjeta */
+.card-body {
+    padding: 30px;
+}
+
+.direccion-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    border-color:#333333;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #333333; /* Tono oscuro para el título */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #611232; /* Gris para el texto descriptivo */
+}
+
+
+/*                   Estilos para las colabs */                  
+
+.contenedor-colabs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
 }
 
-.direccion-card{
+.direccion-card-colab{
     transition: transform 0.3s, box-shadow 0.3s;
-    border-radius: 15px;
+    border-radius: 8px;
     overflow: hidden;
     border: 1px solid #ccc;
 }
 
-.direccion-card:hover{
-    transform: translateY(-15px);
+.direccion-card-colab:hover{
+    transform: translateY(-10px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-    border-color:#a57f2c;
+    border-color:#333333;
 }
 
-.direccion-card img{
+.direccion-card-colab img{
     height: 200px;
     object-fit: cover;
 }
 
-.card-title{
+.card-title-colab{
     color: #611232;
 }
