@@ -251,9 +251,16 @@ h1, h2, h3, h4, h5 {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
+    width: 95%;
+    margin: 0 auto;
 }
 
-/* Asegurarse de que la imagen se ajuste correctamente */
+.direccion-card .col-4 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
 .direccion-card img {
     width: 100%; /* Ocupa todo el espacio de la columna */
     height: auto;
@@ -262,7 +269,7 @@ h1, h2, h3, h4, h5 {
 
 /* Estilo del texto en la tarjeta */
 .card-body {
-    padding: 30px;
+    padding: 40px;
 }
 
 .direccion-card:hover{
@@ -273,43 +280,39 @@ h1, h2, h3, h4, h5 {
 
 .card-title {
     font-weight: 600;
-    color: #333333; /* Tono oscuro para el título */
-    margin-bottom: 10px;
+    color: black;
+    margin-bottom: 9px;
+    font-size: 0.9rem; 
+}
+
+.card-title.pequena{
+    font-size: 0.7rem;
+}
+
+.card-title.pequeno{
+    font-size: 0.8rem;
 }
 
 .card-text {
-    font-size: 0.9rem;
-    color: #611232; /* Gris para el texto descriptivo */
-}
-
-
-/*                   Estilos para las colabs */                  
-
-.contenedor-colabs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-
-.direccion-card-colab{
-    transition: transform 0.3s, box-shadow 0.3s;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 1px solid #ccc;
-}
-
-.direccion-card-colab:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-    border-color:#333333;
-}
-
-.direccion-card-colab img{
-    height: 200px;
-    object-fit: cover;
-}
-
-.card-title-colab{
+    font-size: 1rem;
     color: #611232;
+}
+
+.card-text.pequeno {
+    font-size: 0.8rem;
+}
+
+
+/*   Contenedor de Colaboradores   */
+
+.colab-barra .colab-icon {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    transition: tranform 0.3s;
+    display: block;
+}
+
+.colab-barra .colab-icon:hover {
+    transform: scale(1.1);
 }

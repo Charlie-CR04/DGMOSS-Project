@@ -22,7 +22,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion1.php" title="Ir a la Dirección 1">Dirección de Políticas de Tecnologías para la Salud</a></li>
                         <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion2.php" title="Ir a la Dirección 2">Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion3.php" title="Ir a la Dirección 3">Directorio de la Dirección General de Modernización del Sector Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion3.php" title="Ir a la Dirección 3">Dirección de Gestión de Equipo Médico</a></li>
                         <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion4.php" title="Ir a la Dirección 4">Dirección de Salud Digital</a></li>
                     </ul>
                 </li>
