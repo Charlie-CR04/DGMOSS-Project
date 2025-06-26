@@ -1,45 +1,76 @@
-<div class="contenedor py-4">
-    <div class="container py-4">
-        <h2 class="text-center mb-5">Documentos</h2>
-        <div class="row justifi-content-center g-4">
-            <!-- Documento 1 -->
-            <div class="col-md-3">
-                <div class="card direccion-card shadow-sm h-100">
-                    <a href="/dgmoss-project/direcciones/direccion1.php" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/gbmx1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title text-center">Documento 1</h5>
-                    </div>
+<div class="contenedor-publicaciones py-4">
+    <div class="container">
+        <div class="row justify-content-between">
+            <!-- Recuadro Estático: Documentos/Publicaciones -->
+            <div class="col-md-2">
+                <div class="documentos-card-static">
+                    <h4 class="text-center">Documentos/Publicaciones</h4>
+                    <p class="text-center">Consulta las últimas publicaciones y <br> documentos relacionados con nuestra <br> dirección.</p>
                 </div>
             </div>
-            <!-- Documento 2 -->
-            <div class="col-md-3">
-                <div class="card direccion-card shadow-sm h-100">
-                    <a href="/dgmoss-project/direcciones/direccion2.php" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/gbmx2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title text-center">Documento 2</h5>
+
+            <!-- Carrusel de Publicaciones -->
+            <div class="col-md-8">
+                <div id="documentosCarrusel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Publicación 1 y 2 (Slide 1) -->
+                        <div class="carousel-item active">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-md-6">
+                                    <div class="card documento-card">
+                                        <img src="/dgmoss-project/assets/img/back1.jpg" class="card-img-top" alt="Documento 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Publicación 1</h5>
+                                            <p class="card-text">Descripción de la publicación 1.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card documento-card">
+                                        <img src="/dgmoss-project/assets/img/back1.jpeg" class="card-img-top" alt="Documento 2">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Publicación 2</h5>
+                                            <p class="card-text">Descripción de la publicación 2.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Publicación 3 y 4 (Slide 2) -->
+                        <div class="carousel-item">
+                            <div class="row g-4 justify-content-center">
+                                <div class="col-md-6">
+                                    <div class="card documento-card">
+                                        <img src="/dgmoss-project/assets/img/back2.jpeg" class="card-img-top" alt="Documento 3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Publicación 3</h5>
+                                            <p class="card-text">Descripción de la publicación 3.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card documento-card">
+                                        <img src="/dgmoss-project/assets/img/back4.jpeg" class="card-img-top" alt="Documento 4">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Publicación 4</h5>
+                                            <p class="card-text">Descripción de la publicación 4.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!-- Documento 3 -->
-            <div class="col-md-3">
-                <div class="card direccion-card shadow-sm h-100">
-                    <a href="/dgmoss-project/direcciones/direccion2.php" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/gbmx1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title text-center">Documento 3</h5>
-                    </div>
-                </div>
-            </div>
-            <!-- Documento 4 -->
-            <div class="col-md-3">
-                <div class="card direccion-card shadow-sm h-100">
-                    <a href="/dgmoss-project/direcciones/direccion4.php" class="btn stretched-link"></a>
-                    <img src="/dgmoss-project/assets/img/gbmx2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                        <h5 class="card-title text-center">Documento 4</h5>
-                    </div>
+
+                    <!-- Botones del carrusel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#documentosCarrusel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#documentosCarrusel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>

@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
 }
 
-/*           Estilos para el carrusel          */
+/*           Estilos para el carrusel          
 
 .bkg_Default{
     margin: 20px;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5 {
     position:relative;    
 }
 
-/* Ajustar las imágenes */
+/* Ajustar las imágenes 
 .carousel-item img {
     width: 100%;         
     height: 100%;        
@@ -228,86 +228,71 @@ h1, h2, h3, h4, h5 {
     height: 100%;
 }
 
-/* Carrusel 2*/
+/* Carrusel 2 */
 .swiper-slide img {
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
-}
+} 
 
 
 /*              Contenedor de las direcciones           */
 
 .contenedor-dir {
     margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
-/* Estilo de las tarjetas con imagen a la izquierda */
+/* Tarjeta individual */
 .direccion-card {
-    border: 1px solid #ccc;;
-    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-    width: 95%;
-    margin: 0 auto;
-}
-
-.direccion-card .col-4 {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.direccion-card img {
-    width: 100%; /* Ocupa todo el espacio de la columna */
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Estilo del texto en la tarjeta */
-.card-body {
-    padding: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .direccion-card:hover{
     transform: translateY(-10px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-    border-color:#333333;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-color:#6e6e6e;
 }
 
-.card-title {
-    font-weight: 600;
-    color: black;
-    margin-bottom: 9px;
-    font-size: 0.9rem; 
+.direccion-card img {
+    width: 160px; 
+    height: 160px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
 }
 
-.card-title.pequena{
-    font-size: 0.7rem;
+/* Contenido interno de la tarjeta */
+.direccion-card .card-body {
+    padding: 20px 10px;
+    text-align: center;
 }
 
-.card-title.pequeno{
-    font-size: 0.8rem;
-}
-
-.card-text {
+.direccion-card p {
+    font-weight: 500;
+    margin-top: 10px;
+    color: #333333;
     font-size: 1rem;
-    color: #611232;
 }
 
-.card-text.pequeno {
-    font-size: 0.8rem;
+.direccion-card .card-title {
+    font-size: 0.95rem;
+    color: #611232;
+    font-weight: 600;
+}
+
+.titulo-dir {
+    margin-bottom: 40px;
 }
 
 
 /*   Contenedor de Colaboradores   */
 
 .colab-barra .colab-icon {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     transition: tranform 0.3s;
     display: block;
@@ -315,4 +300,84 @@ h1, h2, h3, h4, h5 {
 
 .colab-barra .colab-icon:hover {
     transform: scale(1.1);
+}
+
+/*          Documentos y publicaciones           */
+
+.documentos-card-static {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 250px; 
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+
+.documentos-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+
+/* Ajustar la imagen de cada tarjeta */
+.documentos-card img {
+  height: 60%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px 10px 0 0; 
+}
+
+/* Estilo del texto */
+.documentos-card .card-body {
+  padding: 10px;
+  text-align: center;
+  height: 40%;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #611232;
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555555;
+}
+
+#documentos-carrusel {
+    height: 250px;
+}
+
+/* Estilo para los botones del carrusel */
+.carousel-control-prev, .carousel-control-next {
+  z-index: 2;
+}
+
+/* Redes sociales */
+
+/* Contenedor del carrusel */
+#carrusel4 {
+  height: 300px; /* Ajusta la altura del carrusel */
+}
+
+/* Imagenes dentro del carrusel */
+.carousel-item img {
+  object-fit: cover;
+  height: 100%; /* Hace que la imagen se ajuste a la altura del contenedor */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Para los botones de navegación */
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 2;
 }

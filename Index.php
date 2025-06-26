@@ -47,7 +47,7 @@
 ?>
 
 <?php
-    include('includes/carrusel2.php');
+    include('includes/carrusel3.php');
 ?>
 
 <script src="/dgmoss-project/assets/js/script.js"></script>
