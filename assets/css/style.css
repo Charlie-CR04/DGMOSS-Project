@@ -1,11 +1,11 @@
 /*   Cuerpo de la página   */
-body {
+body p,a{
   font-family: 'Noto Sans', sans-serif;
 }
 
 /* Títulos */
 h1, h2, h3, h4, h5 {
-  font-family: 'Patria', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-weight: 600; 
 }
 
@@ -145,18 +145,34 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+.btn-hero {
+  display: inline-block;
+  margin-top: -20px;
+  padding: 10px 25px;
+  background-color: #a57f2c; /* color dorado institucional */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-hero:hover {
+  background-color: #8e6a22;
+  text-decoration: none;
+  color: white;
+}
+
+
 .hero-title{
-    font-family: 'Monserrat', sans-serif;
     font-size: 3rem;
-    font-weight: 600;
     text-transform: uppercase;
     margin-top: 70px;
 }
 
 .hero-subtitle {
-    font-family: 'Monserrat', sans-serif;
     font-size: 1.1rem;
-    font-weight: 300;
     margin-top: 70px;
     line-height: 1.6;
     max-width: 80%;
@@ -240,6 +256,11 @@ h1, h2, h3, h4, h5 {
 
 .contenedor-dir {
     margin-top: 50px;
+}
+
+.contain-cards {
+    flex: 0 0 20%;
+    max-width: 20%;
 }
 
 /* Tarjeta individual */
