@@ -1,12 +1,12 @@
 /*   Cuerpo de la página   */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 /* Títulos */
 h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;  /* o 700 si quieres más negrita */
+  font-family: 'Patria', sans-serif;
+  font-weight: 600; 
 }
 
 /*                       Estilos generales para la navbar                           */
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5 {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 400px;
-  height: 250px; 
+  height: 320px; 
   display: flex;
   flex-direction:column;
   justify-content:space-around;
@@ -366,18 +366,22 @@ h1, h2, h3, h4, h5 {
 
 /* Contenedor del carrusel */
 #carrusel4 {
-  height: 300px; /* Ajusta la altura del carrusel */
+  height: 250px; /* Ajusta la altura del carrusel */
 }
 
 /* Imagenes dentro del carrusel */
 .carousel-item img {
   object-fit: cover;
-  height: 100%; /* Hace que la imagen se ajuste a la altura del contenedor */
-  border-radius: 10px; /* Bordes redondeados */
+  height: 100%; 
+  border-radius: 10px; 
 }
 
 /* Para los botones de navegación */
-.carousel-control-prev,
-.carousel-control-next {
-  z-index: 2;
+#carrusel4 .carousel-control-prev{
+    left: -60px; /* Ajusta la posición del botón anterior */
+    height: auto;
+}
+#carrusel4 .carousel-control-next {
+    right: -60px; /* Ajusta la posición del botón siguiente */
+    height: auto;
 }

@@ -2,8 +2,8 @@
     <div class="container py-4">
         <h2 class="titulo-dir text-center">DIRECCIONES DGMOSS</h2>
         <div class="row justify-content-center g-4">
+            <!--    Direccion 1   -->
             <div class="col-md-3">
-                <!--    Direccion 1   -->
                 <div class="card direccion-card shadow-sm h-100">
                     <p></p>
                     <h5 class="card-title text-center">Dirección de Políticas de <br> Tecnologías para la Salud</h5>
