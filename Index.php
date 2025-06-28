@@ -31,10 +31,23 @@
             Tu navegador no soporta video HTML5
         </video>
         <div class="hero-video-overlay">
-            <h1 class="hero-title">Dirección General de <br> Modernización del Sector Salud</h1>
-            <p class="hero-subtitle">La DGMOSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones <br> en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
-            <p></p>
-            <a href="/dgmoss-project/info-page/nosotros.php" class="btn-hero">Conoce más sobre DGMOSS</a>
+            <h1 class="hero-title">DGMoSS</h1>
+            <h3 class="hero-title2">Dirección General de <br> Modernización del Sector Salud</h3>
+            <!--<p class="hero-subtitle">La DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones.</p>-->
+        </div>
+    </section>
+    <section class="hero-video-second">
+        <div class="section-content py-4">
+            <div class="container">
+                <div class ="row justify-content-center g-4">
+                    <div class="col-md-3">
+                        <a href="/dgmoss-project/info-page/nosotros.php" class="btn-second">¿Qué es DGMoSS?</a>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="text-left">La DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

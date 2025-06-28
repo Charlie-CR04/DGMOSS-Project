@@ -12,10 +12,10 @@
         <!--Contenedor del menú de navegación-->
         <div class="collapse navbar-collapse" id="navbarContenido">
             <ul class="navbar-nav ms-auto">
-                <!-- Nosotros -->
+                <!-- Nosotros
                 <li class="nav-item">
                     <a class="nav-link" href="/dgmoss-project/info-page/nosotros.php" title="Ir a la página acerca de nosotros">Nosotros</a>
-                </li>
+                </li>-->
                 <!-- Direcciones -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownDirecciones" role="button" data-bs-toggle="dropdown" title="Desplegar menú de Direcciones">Direcciones</a>

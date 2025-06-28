@@ -30,7 +30,7 @@
             <div class="col-md-2.4 contain-cards">
                 <div class="card direccion-card shadow-sm h-100">
                     <p></p>
-                    <h5 class="card-title text-center">Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia</h5>
+                    <h5 class="card-title text-center">Dirección de Desarrollo e Integración de Medicina <br> Basada en la Evidencia</h5>
                     <a href="/dgmoss-project/direcciones/direccion2.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/5901/PamelaDelMoral.jpg" alt="">
                     <div class="text-center">
@@ -42,11 +42,11 @@
             <div class="col-md-2.4 contain-cards">
                 <div class="card direccion-card shadow-sm h-100">
                     <p></p>
-                    <h5 class="card-title text-center">Dirección de Gestión de Equipo Médico</h5>
+                    <h5 class="card-title text-center">Dirección de Gestión de <br> Equipo Médico</h5>
                     <a href="/dgmoss-project/direcciones/direccion3.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/6181/1.jpg" alt="">
                     <div class="text-center">
-                        <p class="text-center">Ing. Patricia Miguel Hernández</p>
+                        <p class="text-center">Ing. Patricia <br> Miguel Hernández</p>
                     </div>
                 </div>
             </div>
