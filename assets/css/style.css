@@ -3,9 +3,15 @@ body p,a{
   font-family: 'Noto Sans', sans-serif;
 }
 
+@font-face {
+    font-family: 'Patria';
+    src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+    font-style: normal;
+}
+
 /* Títulos */
 h1, h2, h3, h4, h5 {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Patria', sans-serif;
   font-weight: 600; 
 }
 
@@ -76,7 +82,7 @@ h1, h2, h3, h4, h5 {
 /*   Hero banner   
 
 .hero-section{
-    background-image: url('/dgmoss-project/assets/img/back2.jpeg');
+    background-image: url('/dgmoss-project/assets/img/good2.jpeg');
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -97,37 +103,37 @@ h1, h2, h3, h4, h5 {
     font-family: 'Monserrat', sans-serif;
     font-size: 4rem;
     font-weight: 600;
-}*/
+} */
+
+/*                          Video              */      
 
 .hero-video-section{
     position:relative;
     height: 60vh;
-    overflow: hidden; /*Ayuda a limitar el video (recortar)*/
+    overflow: hidden; 
 }
 
 .hero-video{
-    position: absolute; /*El video ocupa todo el contenedor*/
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /*Hace que el video cubra todo el contenedor sin distorsionarse  */
-    z-index: 1; /*Se visualiza primero el video*/
+    object-fit: cover; 
+    z-index: 1; 
 }
 
 .hero-video-overlay{
     position: absolute;
-    z-index: 2; /*Se visualiza despues del video(texto)*/
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: rgba(0, 0, 0, 0.7); */
-    content: ""; /*Para que el overlay ocupe todo el espacio del video*/
-    /* Permite que el video se reproduzca sin interferencias */
+    content: ""; 
     position:absolute;
-    pointer-events: none; /*Permite que el video se reproduzca sin interferencias*/
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)); /*Fondo oscuro con transparencia*/
+    pointer-events: none; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)); 
 
     display:flex;
     flex-direction: column;
@@ -136,7 +142,7 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     color: white;
 
-    /*Fade-in*/
+    
     opacity: 0;
     animation: fadeIn 2.5s ease-in-out forwards;
 }
@@ -151,7 +157,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-title{
-    font-size: 4.2rem;
+    font-size: 2.5rem;
     margin-top: 10px;
 }
 
@@ -167,66 +173,37 @@ h1, h2, h3, h4, h5 {
     margin-right: auto;
     color: white;
 }
-/*
-.hero-video-second {
-    /*display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-top: 0px;
-    background-color: rgb(0, 0, 0); /* Color de fondo */
 
-    /*Fade-in
-    opacity: 0;
-    animation: fadeIn 2.2s ease-in-out forwards;
+.hero-video-second {
+  background-color: black;
+  animation: fadeIn 2.2s ease-in-out forwards;
+  opacity: 0;
 }
 
-.hero-video-second .btn-hero {
+.btn-second h5{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
   display: inline-block;
-  color: white; 
-  font-weight: lighter;
+}
+
+.btn-second:hover h5{
+  background-color: #a57f2c;
+  color: white;
   text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.hero-video-second .btn-hero:hover {
-  text-decoration: none;
-  color: #a57f2c;
-} */
-.hero-video-second {
-    margin-top: 0px;
-    background-color: rgb(0, 0, 0); /* Color de fondo */
-    display: flex;
-}
-
-.hero-video-second {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-top: 0px;
-    background-color: rgb(0, 0, 0); /* Color de fondo */
-
-    /*Fade-in*/
-    opacity: 0;
-    animation: fadeIn 2.2s ease-in-out forwards;
-}
-
-.hero-video-second .btn-second {
-    color: white;
-    font-size: 1.5rem;
-    text-decoration: none;
-}
-
-.hero-video-second .btn-second:hover {
-    color: #a57f2c;
-    text-decoration: none;
+  border-color: #a57f2c;
 }
 
 .hero-video-second p {
-    color: white;
-    font-size: 1rem;
+  color: white;
+  font-size: 1rem;
 }
+
 
 
 /*                   Estilos para el footer                  */
@@ -244,9 +221,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .footer-nav h4{
-    margin-bottom: 2px;
-    font-family: 'Monserrat', sans-serif;
-    font-weight: 600;
+    margin-bottom: 1.5px;
     font-size: 16pt;
 }
 
@@ -373,24 +348,13 @@ h1, h2, h3, h4, h5 {
 
 /*          Documentos y publicaciones           */
 
-.documentos-card-static {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  height: 320px; 
-  display: flex;
-  flex-direction:column;
-  justify-content:space-around;
-}
-
-.documentos-card {
+.documento-card {
   border: 1px solid #ccc;
   border-radius: 10px;
   height: auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  height: 250px;
+  width: 22rem;
+  height: 18rem;
   display: flex;
   flex-direction:column;
   justify-content:space-around;

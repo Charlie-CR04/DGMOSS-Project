@@ -14,6 +14,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
+
+    <?php
+        include('includes/header.php');
+    ?>
+
     <!--<section class="hero-section">
         <div class="hero-overlay">
             <h1 class="hero-title">Dirección General de <br> Modernización del Sector Salud</h1>
@@ -21,31 +26,27 @@
         </div>
     </section>-->
 
-    <?php
-        include('includes/header.php');
-    ?>
-
     <section class="hero-video-section">
         <video autoplay muted loop playsinline class="hero-video">
             <source src="/dgmoss-project/assets/video/back1.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5
         </video>
         <div class="hero-video-overlay">
-            <h1 class="hero-title">DGMoSS</h1>
-            <h3 class="hero-title2">Dirección General de <br> Modernización del Sector Salud</h3>
-            <!--<p class="hero-subtitle">La DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones.</p>-->
+            <h1 class="hero-title">Dirección General de <br> Modernización del Sector Salud <br> (DGMoSS)</h1>
         </div>
     </section>
     <section class="hero-video-second">
-        <div class="section-content py-4">
-            <div class="container">
-                <div class ="row justify-content-center g-4">
-                    <div class="col-md-3">
-                        <a href="/dgmoss-project/info-page/nosotros.php" class="btn-second">¿Qué es DGMoSS?</a>
-                    </div>
-                    <div class="col-md-9">
-                        <p class="text-left">La DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
-                    </div>
+        <div class="container py-4">
+            <div class ="row justify-content-center">
+                <div class="col-md-3 text-center text-md-start">
+                    <a href="/dgmoss-project/info-page/nosotros.php" class="btn-second">
+                        <h5 class="text-center">
+                            ¿Qué es DGMoSS?
+                        </h5>
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <p class="text-light text-justify text-md-start">La DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
                 </div>
             </div>
         </div>

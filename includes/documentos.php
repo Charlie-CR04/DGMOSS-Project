@@ -3,7 +3,7 @@
         <div class="row justify-content-between">
             <!-- Recuadro Estático: Documentos/Publicaciones -->
             <div class="col-md-2">
-                <div class="documentos-card-static">
+                <div class="card documento-card">
                     <h4 class="text-center">Documentos/Publicaciones</h4>
                     <p class="text-center">Consulta las últimas publicaciones y <br> documentos relacionados con nuestra <br> dirección.</p>
                 </div>
