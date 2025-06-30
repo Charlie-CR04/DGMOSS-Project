@@ -6,7 +6,7 @@
             </div>
             <div class="col-sm-3">
                 <h4>Enlaces</h4>
-                <a href="#enlaces" class="footer-link">Enlaces y datos</a>
+                <a href="#enlaces" class="footer-link">www.Intranet.com</a>
             </div>
             <div class="col-sm-3">
                 <h4>¿Qué es gob.mx?</h4>
@@ -15,7 +15,7 @@
             <div class="col-sm-3">
                 <h4>Contacto</h4>
                 <p>Dudas e información a
-                    <a href="#enlaces" class="footer-link">informes_dgmoss@salud.gob.mx</a>
+                    <a href="mailto:informes_dgmoss@salud.gob.mx" class="footer-link">informes_dgmoss@salud.gob.mx</a>
                 </p>
                 <p></p>
                 <ul class="list-inline">

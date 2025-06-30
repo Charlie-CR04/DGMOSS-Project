@@ -1,9 +1,19 @@
 /*   Cuerpo de la página   */
-body p,a{
-  font-family: 'Noto Sans', sans-serif;
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/dgmoss-project/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
+    font-style: normal;
 }
 
-@font-face {
+body a, p, li {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333; /* Color de texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    font-weight: 500;
+}
+
+@font-face { 
     font-family: 'Patria';
     src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
     font-style: normal;
@@ -74,7 +84,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #dropdownDirecciones + .dropdown-menu .dropdown-item{
-    font-size: 14px;
+    font-size: 15px;
     white-space: normal; /*    Salto de linea    */
     line-height: 1.3; /*    Legibilidad    */
 }
@@ -105,7 +115,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 600;
 } */
 
-/*                          Video              */      
+/*                          Video              */       
 
 .hero-video-section{
     position:relative;
@@ -157,12 +167,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-title{
-    font-size: 2.5rem;
-    margin-top: 10px;
-}
-
-.hero-title2{
-    font-size: 3.2rem;
+    font-size: 3rem;
     margin-top: 10px;
 }
 
@@ -224,6 +229,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 1.5px;
     font-size: 16pt;
 }
+.footer-nav p {
+  margin: 0;
+  color: #fff;
+}
 
 .footer-nav .footer-link {
   color: #fff;
@@ -232,7 +241,7 @@ h1, h2, h3, h4, h5 {
 
 .footer-nav .footer-link:hover {
   text-decoration:dashed;
-  color: #a57f2c !important;
+  color: #a57f2c !important; 
 }
 
 .footer-second{
@@ -317,14 +326,14 @@ h1, h2, h3, h4, h5 {
 .direccion-card p {
     font-weight: 500;
     margin-top: 10px;
-    color: #333333;
+    color: black;
     font-size: 1rem;
 }
 
 .direccion-card .card-title {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #611232;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .titulo-dir {
@@ -378,12 +387,12 @@ h1, h2, h3, h4, h5 {
 .card-title {
   font-weight: 600;
   color: #611232;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .card-text {
-  font-size: 0.9rem;
-  color: #555555;
+  font-size: 1rem;
+  color: black;
 }
 
 #documentos-carrusel {
@@ -395,9 +404,23 @@ h1, h2, h3, h4, h5 {
   z-index: 2;
 }
 
-/* Redes sociales */
+/*                       Publicaciones de Redes sociales                   */
 
 /* Contenedor del carrusel */
+#carrusel4 h5{
+  color: #611232;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#carrusel4 p {
+  color: #333333;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 #carrusel4 {
   height: 250px; /* Ajusta la altura del carrusel */
 }

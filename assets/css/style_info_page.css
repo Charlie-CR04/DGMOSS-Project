@@ -1,0 +1,14 @@
+h1.bottom-buffer {
+    margin-top: 60px;       /* Espacio desde el top del navegador */
+    margin-bottom: 30px;    /* Espacio debajo del título */
+}
+
+h2 {
+    margin-top: 30px;       /* Espacio desde el top del navegador */
+    margin-bottom: 20px;    /* Espacio debajo del título */
+}
+
+p.text-justifi {
+    text-align: justify;     /* Justifica el texto */
+    margin-bottom: 20px;    /* Espacio debajo del párrafo */
+}

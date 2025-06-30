@@ -2,14 +2,6 @@
   <h2 class="text-center">PUBLICACIONES DE REDES SOCIALES</h2>
   <div class="container py-5">
     <div id="carrusel4" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicadores del carrusel 
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carrusel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carrusel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carrusel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carrusel4" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div> -->
-
       <!-- Contenedor de las imágenes -->
       <div class="carousel-inner">
         <!-- Contenedor 1 -->

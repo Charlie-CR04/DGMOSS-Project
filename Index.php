@@ -32,7 +32,7 @@
             Tu navegador no soporta video HTML5
         </video>
         <div class="hero-video-overlay">
-            <h1 class="hero-title">Dirección General de <br> Modernización del Sector Salud <br> (DGMoSS)</h1>
+            <h1 class="hero-title">Dirección General de Modernización <br> del Sector Salud (DGMoSS)</h1>
         </div>
     </section>
     <section class="hero-video-second">
@@ -46,7 +46,7 @@
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <p class="text-light text-justify text-md-start">La DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
+                    <p class="text-light text-justify text-md-start">La <strong>DGMoSS</strong> proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
                 </div>
             </div>
         </div>
