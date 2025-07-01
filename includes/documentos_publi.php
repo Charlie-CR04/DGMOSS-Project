@@ -19,10 +19,10 @@
                                 <div class="col-md-6">
                                     <a href="https://www.gob.mx/salud/dgmoss" target="_blank" style="text-decoration:none; color:inherit;">
                                         <div class="card documento-card">
-                                            <img src="/dgmoss-project/assets/img/good.jpeg" class="card-img-top" alt="Documento 1">
+                                            <img src="https://www.gob.mx/cms/uploads/document/main_image/131156/TerceraReunionGPC_24-768x326.jpg" class="card-img-top" alt="Documento 1">
                                             <div class="card-body">
-                                                <h5 class="card-title">Publicación 1</h5>
-                                                <p class="card-text">Descripción de la publicación 1.</p>
+                                                <h5 class="card-title">Tercera Reunión</h5>
+                                                <p class="card-text">Guías de práctica clinica.</p>
                                             </div>
                                         </div>
                                     </a>
@@ -30,10 +30,10 @@
                                 <div class="col-md-6">
                                     <a href="https://www.gob.mx/salud/dgmoss" target="_blank" style="text-decoration:none; color:inherit;">
                                         <div class="card documento-card">
-                                            <img src="/dgmoss-project/assets/img/good1.jpg" class="card-img-top" alt="Documento 2">
+                                            <img src="https://www.gob.mx/cms/uploads/document/main_image/131155/SegundaReunionGPC_24-768x326.jpg" class="card-img-top" alt="Documento 2">
                                             <div class="card-body">
-                                                <h5 class="card-title">Publicación 2</h5>
-                                                <p class="card-text">Descripción de la publicación 2.</p>
+                                                <h5 class="card-title">Segunda Reunión</h5>
+                                                <p class="card-text">Guías de práctica clinica.</p>
                                             </div>
                                         </div>
                                     </a>
@@ -49,8 +49,8 @@
                                         <div class="card documento-card">
                                             <img src="/dgmoss-project/assets/img/good2.jpeg" class="card-img-top" alt="Documento 3">
                                             <div class="card-body">
-                                                <h5 class="card-title">Publicación 3</h5>
-                                                <p class="card-text">Descripción de la publicación 3.</p>
+                                                <h5 class="card-title">Documento 3</h5>
+                                                <p class="card-text">Descripción del documento 3.</p>
                                             </div>
                                         </div>
                                     </a>
@@ -60,8 +60,8 @@
                                         <div class="card documento-card">
                                             <img src="/dgmoss-project/assets/img/good3.jpeg" class="card-img-top" alt="Documento 4">
                                             <div class="card-body">
-                                                <h5 class="card-title">Publicación 4</h5>
-                                                <p class="card-text">Descripción de la publicación 4.</p>
+                                                <h5 class="card-title">Documento 4</h5>
+                                                <p class="card-text">Descripción del documento 4.</p>
                                             </div>
                                         </div>
                                     </a>

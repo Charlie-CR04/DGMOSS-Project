@@ -85,11 +85,11 @@ h1, h2, h3, h4, h5 {
 
 #dropdownDirecciones + .dropdown-menu .dropdown-item{
     font-size: 15px;
-    white-space: normal; /*    Salto de linea    */
-    line-height: 1.3; /*    Legibilidad    */
+    white-space: normal;
+    line-height: 1.3; 
 }
 
-/*   Hero banner   
+/*   Hero banner   */
 
 .hero-section{
     background-image: url('/dgmoss-project/assets/img/good2.jpeg');
@@ -110,12 +110,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .hero-title{
-    font-family: 'Monserrat', sans-serif;
     font-size: 4rem;
     font-weight: 600;
-} */
+} 
 
-/*                          Video              */       
+.hero-section p{
+    color: white;
+}
+
+/*                          Video                  */   
 
 .hero-video-section{
     position:relative;
@@ -370,11 +373,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Ajustar la imagen de cada tarjeta */
-.documentos-card img {
+.documento-card img {
   height: 60%;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   border-radius: 10px 10px 0 0; 
+  background-color: white;
 }
 
 /* Estilo del texto */
@@ -425,14 +429,12 @@ h1, h2, h3, h4, h5 {
   height: 250px; /* Ajusta la altura del carrusel */
 }
 
-/* Imagenes dentro del carrusel */
 .carousel-item img {
   object-fit: cover;
   height: 100%; 
   border-radius: 10px; 
 }
 
-/* Para los botones de navegación */
 #carrusel4 .carousel-control-prev{
     left: -60px; /* Ajusta la posición del botón anterior */
     height: auto;

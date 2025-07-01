@@ -41,7 +41,7 @@
                 <div class="col-md-3 text-center text-md-start">
                     <a href="/dgmoss-project/info-page/nosotros.php" class="btn-second">
                         <h5 class="text-center">
-                            ¿Qué es DGMoSS?
+                            ¿Qué es la DGMoSS?
                         </h5>
                     </a>
                 </div>
@@ -61,7 +61,7 @@
     ?>
 
     <?php
-        include('includes/documentos.php');
+        include('includes/documentos_publi.php');
     ?>
 
     <?php
