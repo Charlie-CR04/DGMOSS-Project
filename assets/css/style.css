@@ -279,14 +279,6 @@ h1, h2, h3, h4, h5 {
     height: 100%;
 }
 
-/* Carrusel 2 */
-.swiper-slide img {
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-} 
-
-
 /*              Contenedor de las direcciones           */
 
 .contenedor-dir {
@@ -366,26 +358,27 @@ h1, h2, h3, h4, h5 {
   height: auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 22rem;
-  height: 18rem;
   display: flex;
   flex-direction:column;
-  justify-content:space-around;
+  justify-content:start;
 }
 
 /* Ajustar la imagen de cada tarjeta */
 .documento-card img {
-  height: 60%;
+  height: 130px;
   object-fit: contain;
   width: 100%;
+  padding: 5px;
   border-radius: 10px 10px 0 0; 
   background-color: white;
+  display: block;
+  margin: auto;
 }
 
 /* Estilo del texto */
-.documentos-card .card-body {
+.documento-card .card-body {
   padding: 10px;
   text-align: center;
-  height: 40%;
 }
 
 .card-title {
@@ -407,6 +400,9 @@ h1, h2, h3, h4, h5 {
 .carousel-control-prev, .carousel-control-next {
   z-index: 2;
 }
+
+
+
 
 /*                       Publicaciones de Redes sociales                   */
 

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <?php
-        include('../direcciones/header_dir.php');
+        include(__DIR__ . '/../header_dir.php'); 
     ?>
 
 </head>
@@ -121,6 +121,6 @@
     </section>
 </body>
     <?php
-        include('../includes/footer.php');
+        include(__DIR__ . '/../../includes/footer.php');
     ?>
 </html>
