@@ -1,0 +1,93 @@
+/*                          Video                  */   
+
+.hero-video-DSD{
+    position:relative;
+    height: 70vh;
+    overflow: hidden; 
+}
+
+.hero-video{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1; 
+}
+
+.hero-video-overlay{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ""; 
+    position:absolute;
+    pointer-events: none; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)); 
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-title{
+  font-size: 4.5rem;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+/*                    Sección 1                   */
+
+.direccion-DSD .direccion-section p{
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #161a1d;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.direccion-DSD .text-muted {
+  font-size: 1rem;
+  color: #161a1d;  
+}
+
+.direccion-DSD figure {
+    margin-bottom: 2rem;
+}
+
+.direccion-DSD figcaption {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #161a1d;
+  margin-top: 1rem;
+}
+
+.direccion-DSD img {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 320px;
+  width: auto;
+}
+
+.direccion-DSD .directorio_interno {
+  text-align: center;
+}

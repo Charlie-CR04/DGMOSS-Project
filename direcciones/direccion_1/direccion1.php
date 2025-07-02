@@ -18,11 +18,9 @@
 <body>
     <section class="direccion-section py-5">
         <div class="container">
-            
-            <!-- Título principal de la dirección -->
             <h1 class="text-center mb-4 titulo-direccion">Dirección General de Modernización del Sector Salud (DGMoSS)</h1>
             <p>&nbsp;</p>
-            <!-- Director/a: Imagen + Nombre + Cargo -->
+            <!--        Director       -->
             <div class="row align-items-center mb-4">
                 <!-- Imagen -->
                 <div class="col-md-4 text-center">
