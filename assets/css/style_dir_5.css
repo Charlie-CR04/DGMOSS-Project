@@ -2,7 +2,7 @@
 
 .hero-video-DSD{
     position:relative;
-    height: 70vh;
+    height: 50vh;
     overflow: hidden; 
 }
 
@@ -26,7 +26,7 @@
     content: ""; 
     position:absolute;
     pointer-events: none; 
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)); 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)); 
 
     display:flex;
     flex-direction: column;
@@ -50,28 +50,46 @@
 }
 
 .hero-title{
-  font-size: 4.5rem;
-  margin-top: 10px;
-  margin-bottom: 100px;
+  font-size: 3.5rem;
 }
 
 /*                    Sección 1                   */
 
-.direccion-DSD .direccion-section p{
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #161a1d;
-  text-align: justify;
-  margin-bottom: 1.5rem;
+.direccion-DSD .titulo {
+  padding-bottom: 50px;
+}
+
+.direccion-DSD strong{
+    font-weight: 600;
+    color: #161a1d;
+}
+
+.direccion-DSD p{
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #161a1d;
+    text-align: justify;
+    margin-bottom: 1.5rem;
 }
 
 .direccion-DSD .text-muted {
-  font-size: 1rem;
-  color: #161a1d;  
+    font-size: 1.2rem;
+    color: #161a1d;
+    
+}
+
+.direccion-DSD h2{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: #161a1d;
+    margin: 2rem 0 1.5rem;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.5rem;
 }
 
 .direccion-DSD figure {
     margin-bottom: 2rem;
+    margin-top: 100px;
 }
 
 .direccion-DSD figcaption {
@@ -82,12 +100,144 @@
 }
 
 .direccion-DSD img {
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-height: 320px;
   width: auto;
 }
 
-.direccion-DSD .directorio_interno {
-  text-align: center;
+/* Estilos para la tarjeta de contacto */
+.direccion-DSD .contacto-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border: 1px solid #eaeaea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 0px;
+}
+
+.direccion-DSD .contacto-card:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.direccion-DSD .contacto-card-header {
+    background-color: #611232;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.direccion-DSD .contacto-card-header h5 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.direccion-DSD .contacto-card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.direccion-DSD .contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.direccion-DSD .contacto-item:last-child {
+    margin-bottom: 0;
+}
+
+.direccion-DSD .contacto-item i {
+    font-size: 1.2rem;
+    color: #a57f2c;
+    width: 24px;
+    text-align: center;
+}
+
+.direccion-DSD .contacto-label {
+    display: block;
+    font-weight: 600;
+    color: #161a1d;
+    font-size: 1rem;
+}
+
+.direccion-DSD .contacto-value {
+    display: block;
+    color: #161a1d;
+    font-size: 1rem;
+}
+
+.direccion-DSD .contacto-value a {
+    color: #a57f2c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.direccion-DSD .contacto-value a:hover {
+    color: #611232;
+    text-decoration: underline;
+    transform: translateY(-5px);
+}
+
+/*                        Sección 2                           */
+
+.section-dos-DSD {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #161a1d;
+    font-weight: 600;
+}
+
+.section-dos-DSD h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #611232;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.5rem;
+}
+
+.section-dos-DSD .shadow-sm {
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.section-dos-DSD p {
+    text-align: justify;
+    font-size: 1.05rem;
+    color: #161a1d;
+}
+
+.section-dos-DSD h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #611232;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+/*               Organigrama               */
+
+.organigrama-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.organigrama-img:hover {
+  transform: scale(1.02);
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }

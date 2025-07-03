@@ -1,69 +1,61 @@
-<div class="container my-5">
+<section class="section-dos-DSD">
+  <div class="container my-5 section-dos-DSD">
+  <h3 class="mb-3 text-center">Hacia un Futuro Saludable: Salud Digital y Telesalud en México</h3>
   <div class="row">
     <!-- Columna 1: Objetivo -->
     <div class="col-md-6 mb-4">
       <div class="p-4  shadow-sm h-100">
-        <h3 class="mb-3 text-center">Objetivo de la Dirección</h3>
         <p>
-          México comparte con otros países del mundo problemas como la insuficiencia  de médicos especialistas, la escasez de recursos, 
-          el aumento en la demanda de servicios y la centralización de estos. A dichos factores, se suma la gran extensión del país, 
-          las características accidentadas de su territorio y las dificultades de comunicación. En este contexto, llevar recursos de salud 
-          a zonas remotas resulta difícil, y en ocasiones, incosteable. <br> <br>
-          Es por ello que en nuestro país  se vuelve imperativo aprovechar las características y potencial de la Telesalud, en favor de 
-          la universalidad de la cobertura, la calidad y oportunidad de la atención médica. <br> <br>
-          El CENETEC basado en el Programa de Acción Específico 2013-2018, tiene como objetivo Impulsar las políticas e instrumentos para 
-          la ejecución y evaluación de la Telesalud en México con el fin de facilitar el acceso efectivo a la atención médica de especialidad a 
-          la población, para lo cual propone: <br> <br>
-          <ul>
-            <li>Implementar programas de telesalud para asegurar la atención médica de calidad de manera oportuna.</li>
-            <li>Facilitar la atención médica a través de la construcción y empleo de modelos integrales de telesalud en las diversas instituciones del país, y
-                promover el uso de dispositivos, equipos, dispositivos móviles y de múltiples plataformas, para la provisión de servicios de Telesalud.</li>
-          </ul> <br> 
+          México, como muchas otras naciones, ha enfrentado desafíos históricos en cuanto a la distribución de médicos especialistas, 
+          recursos limitados y la creciente demanda de servicios de salud, especialmente en regiones apartadas y de difícil acceso. 
+          Sin embargo, gracias a los avances tecnológicos y a una visión renovada en las políticas públicas, el país se encuentra en 
+          una posición privilegiada para transformar estos retos en grandes oportunidades. <br> <br>
+          Hoy, la salud digital y la telesalud se perfilan como herramientas poderosas para cerrar brechas y garantizar que todas las personas, 
+          sin importar su ubicación, reciban atención médica de calidad y oportuna. <br> <br>
+          La <strong>Dirección de Salud Digital</strong> de la <strong>Dirección de Modernización del Sector Salud</strong> tiene un papel fundamental para impulsar el crecimiento 
+          y consolidación de la telesalud en México, especialmente si se enfoca en crear regulaciones innovadoras que acompañen el avance tecnológico 
+          y las necesidades de la población, permitiendo diseñar, coordinar y supervisar políticas y acciones innovadoras en salud digital y telesalud. 
+          Esto incluye desarrollar plataformas tecnológicas avanzadas, promover la capacitación continua del personal médico y establecer estándares 
+          de calidad e interoperabilidad que aseguren la protección y el uso ético de los datos de los pacientes. <br> <br>
+          El futuro de la salud en México se construye sobre la base de la colaboración entre instituciones públicas, privadas, académicas y sociales, 
+          lo que permitirá consolidar proyectos de telesalud que respondan a las necesidades reales de la población. La integración de dispositivos móviles, 
+          equipos de última generación y soluciones digitales facilitará la atención médica a distancia, haciendo posible que incluso las comunidades más 
+          remotas accedan a servicios especializados. <br> <br>
+          <strong>La visión es clara:</strong> aprovechar al máximo la tecnología para universalizar la cobertura, elevar la calidad y garantizar la equidad en la atención médica. 
+          Con la consolidación de estos proyectos, México avanza hacia un sistema de salud más moderno, eficiente y humano, donde la innovación y la solidaridad 
+          se convierten en los motores principales del bienestar social.
         </p>
-        <p>
-            De esta forma, colabora con las instituciones de salud en la creación, consolidación y seguimiento de los proyectos y programas de telemedicina, 
-            con el objetivo principal de incorporar la tecnología médica sustentada en estándares internacionales, procurando la homogenización de procesos y 
-            vinculación entre diversas instituciones del sector. <br> <br>
-            Para la implementación y consolidación de los proyectos y programas de Telemedicina se trabaja con los Servicios Estatales de Salud mediante asesorías 
-            y recomendaciones; se promueve la participación conjunta de las instituciones del sector salud, sector académico y de organizaciones no gubernamentales, 
-            difundiendo recomendaciones, homogenizando procesos y puntualizando las líneas de trabajo para la consolidación de dicho sistema. <br> <br>
-        </p>
+        <p>&nbsp;</p>
       </div>
     </div>
     <!-- Columna 2: Directorio -->
     <div class="col-md-6">
       <div class="p-4 shadow-sm h-100">
-        <h4 class="mb-3 text-center">Directorio</h4>
-        <ul class="list-unstyled">
-          <li class="mb-3">
-            <strong>Dirección de Salud Digital</strong><br>
-            Lic. Yibrán Alejandro Hernández Montoya<br>
-            <a href="mailto:yibran.hernandez@salud.gob.mx">yibran.hernandez@salud.gob.mx</a><br>
-            Ext. 52343
-          </li>
-          <li class="mb-3">
-            <strong>Subdirección de Área [Plaza eventual]<br>Subdirección de Gestión de Información</strong><br>
-            Lic. Francisco Emmanuel Vázquez Repizo<br>
-            <a href="mailto:francisco.vazquez@salud.gob.mx">francisco.vazquez@salud.gob.mx</a>
-          </li>
-          <li class="mb-3">
-            <strong>Subdirección de Administración</strong><br>
-            Vacante
-          </li>
-          <li class="mb-3">
-            <strong>Departamento de Control Presupuestal y Registro Contable</strong><br>
-            C.P. Nancy Yadira Tolentino Cruz<br>
-            <a href="mailto:nancy.tolentinoc@salud.gob.mx">nancy.tolentinoc@salud.gob.mx</a><br>
-            Ext. 58803
-          </li>
-          <li class="mb-3">
-            <strong>Departamento de Recursos Materiales y Servicios Generales</strong><br>
-            Lic. Aldo Alejandro Gónzalez Sánchez<br>
-            <a href="mailto:aldo.gonzalez@salud.gob.mx">aldo.gonzalez@salud.gob.mx</a><br>
-            Ext. 52313
-          </li>
-        </ul>
+        <!-- Vista previa -->
+        <div class="organigrama-container text-center">
+          <h4 class="mb-3">Organigrama</h4>
+          <img src="/dgmoss-project/assets/img/organigrama_dsd.png" alt="Organigrama Dirección de Salud Digital"
+              class="img-fluid organigrama-img shadow-sm"
+              data-bs-toggle="modal" data-bs-target="#modalOrganigrama">
+          <p class="small text-muted mt-2">Haz clic en la imagen para ampliarla</p>
+        </div>
+        <!-- Modal con encabezado y botón cerrar -->
+        <div class="modal fade" id="modalOrganigrama" tabindex="-1" aria-labelledby="modalOrganigramaLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalOrganigramaLabel">Organigrama completo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+
+              <div class="modal-body text-center">
+                <img src="/dgmoss-project/assets/img/organigrama_dsd.png" alt="Organigrama completo" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
