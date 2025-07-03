@@ -241,3 +241,113 @@
   height: auto;
   border-radius: 5px;
 }
+
+/*                      Sección 3                */
+
+/* Sección 3: Dropdowns y buscador 
+.section-dsd-publicaciones .dropdown .btn {
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border-color: #ccc;
+  transition: all 0.2s ease-in-out;
+}
+
+.section-dsd-publicaciones .dropdown .btn:hover {
+  background-color: #611232;
+  color: white;
+  border-color: #611232;
+}
+
+.section-dsd-publicaciones .dropdown-menu {
+  font-size: 0.9rem;
+  min-width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.section-dsd-publicaciones .dropdown-item {
+  padding: 6px 12px;
+}
+
+.section-dsd-publicaciones .dropdown-item:hover {
+  background-color: #f4f4f4;
+  color: #611232;
+}
+
+/* Contenedor de filtros y buscador 
+.section-dsd-publicaciones .row.align-items-center {
+  gap: 10px;
+}
+
+/* Buscador 
+.section-dsd-publicaciones input[type="text"] {
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.section-dsd-publicaciones input[type="text"]:focus {
+  border-color: #611232;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(97, 18, 50, 0.2);
+}
+
+/* Contenedor general */
+.section-dsd-publicaciones .card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  border: 1px solid #e0e0e0;
+}
+
+/* Imagen superior */
+.section-dsd-publicaciones .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contenido interno */
+.section-dsd-publicaciones .card-body {
+  padding: 1rem;
+}
+
+.section-dsd-publicaciones .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #611232;
+  margin-bottom: 0.5rem;
+}
+
+.section-dsd-publicaciones .card-text {
+  font-size: 0.95rem;
+  color: #333;
+  text-align: justify;
+}
+
+/* Botón "Ver más" */
+.section-dsd-publicaciones .btn-outline-primary {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effects */
+.section-dsd-publicaciones .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-dsd-publicaciones .btn-outline-primary:hover {
+  background-color: #611232;
+  color: #fff;
+  border-color: #611232;
+}
