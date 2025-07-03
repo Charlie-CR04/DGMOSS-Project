@@ -12,3 +12,81 @@ p.text-justifi {
     text-align: justify;     /* Justifica el texto */
     margin-bottom: 20px;    /* Espacio debajo del párrafo */
 }
+ 
+/* Estilos para la tarjeta de contacto */
+
+.contacto-main {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border: 1px solid #eaeaea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacto-main:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header-contacto-card {
+    background-color: #611232;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.header-contacto-card h5 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.body-contacto-card {
+    padding: 1.5rem;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+
+.contacto-item:last-child {
+    margin-bottom: 0;
+}
+
+.contacto-item i {
+    font-size: 1.2rem;
+    color: #a57f2c;
+    width: 24px;
+    text-align: center;
+}
+
+.contacto-label {
+    display: block;
+    font-weight: 600;
+    color: #161a1d;
+    font-size: 1.1rem;
+}
+
+.contacto-value {
+    display: block;
+    color: #161a1d;
+    font-size: 1rem;
+}
+
+.contacto-value a {
+    color: #a57f2c;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contacto-value a:hover {
+    color: #611232;
+    text-decoration: underline;
+}

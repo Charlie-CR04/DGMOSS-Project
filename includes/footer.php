@@ -6,10 +6,28 @@
             </div>
             <div class="col-sm-3">
                 <h4>Enlaces</h4>
-                <a href="#enlaces" class="footer-link">www.Intranet.com</a>
+                <div>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#enlaces" class="footer-link">Intranet-DGMoSS</a>
+                        </li>
+                        <li>
+                            <a href="https://historico.datos.gob.mx/" class="footer-link" title="Enlace a la página Datos" target="_blank">Datos</a>
+                        </li>
+                        <li>
+                            <a href="https://alertadores.buengobierno.gob.mx/" class="footer-link" title="Enlace a la página Alerta" target="_blank">Alerta</a>
+                        </li>
+                        <li>
+                            <a href="https://sidec.buengobierno.gob.mx/" class="footer-link" title="Enlace a la página Denuncia" target="_blank">Denuncia</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="col-sm-3">
                 <h4>¿Qué es gob.mx?</h4>
+                <p> Es el portal único de trámites, <br> información y participación <br> ciudadana.
+                    <a href="https://www.gob.mx/que-es-gobmx" class="footer-link" title="Enlace a la página ¿Qué es gob.mx?" target="_blank">Leer más</a>
+                </p>
                 <a href="#enlaces" class="footer-link">Términos y condiciones</a>
             </div>
             <div class="col-sm-3">

@@ -33,7 +33,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Descripción del director o mensaje -->
                 <div class="col-md-8">
                     <h1 class="text-center titulo">Director de Salud Digital</h1>

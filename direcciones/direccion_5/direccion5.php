@@ -19,7 +19,8 @@
     <?php
         include(__DIR__ . '/hero_video.php');         
         include(__DIR__ . '/seccion1.php');
-        include(__DIR__ . '/seccion2.php');         
+        include(__DIR__ . '/seccion2.php');    
+        include(__DIR__ . '/seccion3.php');     
     ?>
 
 
