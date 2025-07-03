@@ -33,7 +33,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Descripción del director o mensaje -->
                 <div class="col-md-8">
                     <p> <strong>Licenciado en Sistemas Computacionales Administrativos</strong> por la <strong>Universidad del Valle de México</strong>, cuenta con diversas certificaciones en gestión 

@@ -230,16 +230,18 @@ h1, h2, h3, h4, h5 {
 
 .footer-nav h4{
     margin-bottom: 1.5px;
-    font-size: 16pt;
+    font-size: 1.3rem;
 }
 .footer-nav p {
   margin: 0;
   color: #fff;
+  font-size: 1rem;
 }
 
 .footer-nav .footer-link {
   color: #fff;
   text-decoration: none; /*Eliminar la decoración del texto */
+  font-size: 1rem;
 }
 
 .footer-nav .footer-link:hover {
