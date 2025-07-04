@@ -1,4 +1,5 @@
 <section class="section-dsd-publicaciones py-5">
+    <h2 class="text-center">Documentos y publicaciones</h2>
     <div class="container">
         <!-- Filtros y buscador -->
         <div class="row align-items-center mb-4">
@@ -110,7 +111,7 @@
         <div class="col-md-4">
             <a href="/dgmoss-project/documentos/dir5/Boletines/Boletin de Telesalud Roldan.pdf" target="_blank" style="text-decoration:none; color:inherit;">
                 <div class="card h-100 shadow-sm">
-                    <img src="https://media-public.canva.com/0Y45c/MAFXF80Y45c/1/wm_s.png" class="card-img-top" alt="...">
+                    <img src="/dgmoss-project/assets/img/dir5-public/telemedicina.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Etapas en el desarrollo de un servicio de Telemedicina en un Instituto Nacional de Salud en México</h5>
                         <p class="card-text">Para evitar el peligro de la desatención de sus pacientes se realizaron evaluaciones emergentes de sus 
@@ -137,7 +138,7 @@
         <div class="col-md-4">
             <a href="https://iris.paho.org/handle/10665.2/52007" target="_blank" style="text-decoration:none; color:inherit;">
                 <div class="card h-100 shadow-sm">
-                    <img src="https://media-public.canva.com/wVgKE/MAGhmKwVgKE/1/wm_s.png" class="card-img-top" alt="...">
+                    <img src="/dgmoss-project/assets/img/dir5-public/pandemia.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Teleconsulta durante una pandemia</h5>
                         <p class="card-text">En situaciones donde se declara una pandemia, los sentimientos de ansiedad e 
@@ -149,24 +150,28 @@
         </div>
         <!-- Publicación 8 -->
         <div class="col-md-4">
-            <a href="/dgmoss-project/documentos/dir5/" target="_blank" style="text-decoration:none; color:inherit;">
+            <a href="https://iris.paho.org/handle/10665.2/52205" target="_blank" style="text-decoration:none; color:inherit;">
                 <div class="card h-100 shadow-sm">
-                    <img src="/dgmoss-project/assets/img/dir5-public/" class="card-img-top" alt="...">
+                    <img src="/dgmoss-project/assets/img/dir5-public/covid19.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
+                        <h5 class="card-title">COVID-19 y el rol de los sistemas de información y las tecnologías en el primer nivel de atención</h5>
+                        <p class="card-text">Los sistemas de información para la salud a través del acceso oportuno a datos correctamente desagregados, 
+                            la correcta integración de los sistemas nacionales y locales, la salud digital y la utilización de las tecnologías 
+                            de la información (TIC) de uso frecuente facilitan la identicación eficaz, el reporte y análisis de casos y contactos</p>
                     </div>
                 </div>
             </a>        
         </div>
         <!-- Publicación 9 -->
         <div class="col-md-4">
-            <a href="/dgmoss-project/documentos/dir5/" target="_blank" style="text-decoration:none; color:inherit;">
+            <a href="https://iris.paho.org/handle/10665.2/52128" target="_blank" style="text-decoration:none; color:inherit;">
                 <div class="card h-100 shadow-sm">
-                    <img src="/dgmoss-project/assets/img/dir5-public/" class="card-img-top" alt="...">
+                    <img src="/dgmoss-project/assets/img/dir5-public/covid_19.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text"></p>
+                        <h5 class="card-title">COVID-19 y la importancia de fortalecer los sistemas de información</h5>
+                        <p class="card-text">¿Por qué los sistemas de información son claves para responder a la pandemia? Durante 
+                            una pandemia, más que en ninguna otra situación de salud pública, los sistemas de información juegan un 
+                            papel crítico para gerenciar los datos y la información necesaria a la velocidad que la situación lo requiere.</p>
                     </div>
                 </div>
             </a>        
