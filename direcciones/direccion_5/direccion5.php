@@ -28,4 +28,6 @@
     <?php
         include(__DIR__ . '/../../includes/footer.php');
     ?>
+    <script src="/dgmoss-project/assets/js/buscador.js"></script>
+
 </html>

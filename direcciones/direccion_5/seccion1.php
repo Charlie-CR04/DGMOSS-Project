@@ -34,15 +34,15 @@
                     </div>
                 </div>
                 <!-- Descripción del director o mensaje -->
-                <div class="col-md-8">
+                <div class="col-md-8 descripcion-director">
                     <h1 class="text-center titulo">Director de Salud Digital</h1>
                     <p> <strong>Licenciado en Sistemas Computacionales Administrativos</strong> por la <strong>Universidad del Valle de México</strong>, cuenta con diversas certificaciones en gestión 
                         y gobernanza de Tecnologías de la Información, metodologías ágiles y ciberseguridad, además de diplomados en dirección de proyectos y computación 
-                        en la nube. Su formación le ha permitido desarrollar estrategias tecnológicas innovadoras para la telesalud y la administración digital de flujos de trabajo. <br> <br> 
+                        en la nube. Su formación le ha permitido desarrollar estrategias tecnológicas innovadoras para la Telesalud y la administración digital de flujos de trabajo. <br> <br> 
                         Con más de 20 años de experiencia en el sector privado en gestión de proyectos y servicios tecnológicos, desde 2018 se desempeña en la <strong>Dirección General de Modernización del Sector Salud</strong>. Actualmente, como Director de la <strong>Dirección de Salud Digital</strong>, lidera iniciativas para fortalecer la salud digital en México, 
                         coordinando estrategias interinstitucionales y promoviendo lineamientos para la adopción de servicios de telemedicina en el <strong>Sistema Nacional de Salud</strong>. <br> <br> 
                         Ha colaborado con instituciones nacionales e internacionales como la OPS, la Universidad Federal de Minas Gerais y diversas instancias de salud 
-                        pública en América Latina. Además, ha sido ponente en múltiples foros sobre salud digital y coautor de publicaciones científicas en telemedicina y telesalud.
+                        pública en América Latina. Además, ha sido ponente en múltiples foros sobre salud digital y coautor de publicaciones científicas en Telemedicina y Telesalud.
                     </p>
                 </div>
             </div>

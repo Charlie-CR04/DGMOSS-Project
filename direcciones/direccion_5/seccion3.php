@@ -11,9 +11,21 @@
                         Docs en Salud Digital
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Modelo AMD 2025.pdf">Modelo de Atención Médica a Distancia</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Modelo AMD 2025.pdf">Modelo de Atención Médica a Distancia</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Catalogoserviciosportelesalud2025.pdf">Catálogo de servicios por Telesalud</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Cedula_InstrumentosJuridicos_Telesalud_Mx2025.pdf">Cédula de Instrumentos Jurídicos aplicables a la práctica de la Telesalud en México</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Componentes Tecnológicos y Colaborativos_UCADS 2025.pdf">Componentes Tecnológicos y Colaborativos UCADS 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Consideraciones Regulatorias AMD 2025.pdf">Consideraciones Regulatorias AMD 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Estudio Componentes Tecnológicos_Electrocardiógrafo 2025.pdf">Estudio Componentes Tecnológicos Electrocardiógrafo 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Estudio sobre CT_Camara de video 2025.pdf">Estudio sobre CT Camara de video 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Expediente clinico electronico 2025.pdf">Expediente clinico electronico 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/GuiaRapida_Asesoría_2025.pdf">Guia Rápida Asesoría 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/GuiaRapida_MentoriaRapida_2025.pdf">Guía Rápida Mentoria Rápida 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/GuiaRapida_Monitoreo_2025.pdf">Guía Rápida Monitoreo 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/GuiaRapida_seguimiento_2025.pdf">Guía Rápida seguimiento 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Modelo de Atención en Salud_ContactCenter.pdf">Modelo de Atención en Salud ContactCenter</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/TS_Guiaplaneacionyelaboracionproyectos2025.pdf">TS_Guía planeación y elaboración proyectos 2025</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/UCADS_2025.pdf">Unidad de Contacto para la Atención a Distancia en Salud 2025</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
@@ -22,8 +34,11 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin CECOSAMA Pachuca_versión completa.pdf">Boletin CECOSAMA Pachuca</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin de Telesalud Roldan.pdf">Etapas en el desarrollo de un servicio de Telemedicina en un Instituto Nacional de Salud en México</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Jalisco_Ignacio Marcial.pdf">Jalisco construye un nuevo camino hacía el fortalecimento del modelo de atención a la salud</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin de Telesalud Roldan.pdf">Boletin sobre las etapas en el desarrollo de un servicio de Telemedicina</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Jalisco_Ignacio Marcial.pdf">Jalisco construye camino hacía el fortalecimento del modelo de atención a la salud</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Secretaria de Salud del Estado de Hidalgo.- Versión revisada CAPASITS.pdf">Boletin Secretaria de Salud del Estado de Hidalgo - Versión revisada CAPASITS</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Sonora_Martin Ravelo.pdf">Boletin Sonora_Martin Ravelo</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin_CENETEC_CRUM.pdf">Boletin_CENETEC_CRUM</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
@@ -50,8 +65,10 @@
         </div>
         <!-- Buscador -->
         <div class="col-md-3 mt-3 mt-md-0">
-            <input type="text" class="form-control" placeholder="Buscar">
+            <input type="text" id="busqueda" class="form-control" placeholder="Buscar documento..." onkeyup="buscarDocumentos()">
         </div>
+        <!--    Resultados  -->
+        <div class="mt-4" id="resultados-busqueda"></div>
     </div>
 
     <!-- Publicaciones destacadas -->
