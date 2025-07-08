@@ -253,7 +253,7 @@
 
 .section-dsd-publicaciones .dropdown .btn {
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   padding: 0.5rem 1rem;
   border-radius: 8px;
   border-color: #ccc;
@@ -277,6 +277,10 @@
 
 .section-dsd-publicaciones .dropdown-item {
   padding: 6px 12px;
+}
+
+.section-dsd-publicaciones .dropdown-menu a{
+  font-size: 0.9rem;
 }
 
 .section-dsd-publicaciones .dropdown-item:hover {

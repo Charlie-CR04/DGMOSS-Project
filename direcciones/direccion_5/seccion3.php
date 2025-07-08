@@ -46,9 +46,9 @@
                         Salud Digital en México
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Op1</a></li>
-                        <li><a class="dropdown-item" href="#">Op2</a></li>
-                        <li><a class="dropdown-item" href="#">Op3</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="#">Op1</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="#">Op2</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="#">Op3</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
@@ -56,9 +56,21 @@
                         Docs Internacionales
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Op1</a></li>
-                        <li><a class="dropdown-item" href="#">Op2</a></li>
-                        <li><a class="dropdown-item" href="#">Op3</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/53887">La inteligencia artificial en la salud pública</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52007">Teleconsulta durante una pandemia</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52205">COVID-19 y el rol de los sistemas de información y las tecnologías en el primer nivel de atención</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52128">COVID-19 y la importancia de fortalecer los sistemas de información</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52022">El potencial de las tecnologías de la información de uso frecuente durante la pandemia</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52487">Los sistemas de información y la salud digital en la pandemia de COVID-19</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52004">Registros electrónicos de salud e interoperabilidad: dos conceptos fundamentales para mejorar la respuesta de salud pública</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52440">¿Por qué los modelos predictivos son cruciales en la lucha contra la COVID-19?</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52073">¿Por qué es importante la desagregación de datos durante una pandemia?</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52441">Seminario web Compartir-Escuchar-Actuar, COVID 19.</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52053">Entender la infodemia y la desinformación en la lucha contra la COVID-19</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52575">Salud digital: Una estrategia de continuidad asistencial para personas con enfermedades no transmisibles durante la COVID-19</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52671">30 conceptos fundamentales para luchar contra la COVID 19 en la era de la interdependencia digital</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.who.int/bitstream/handle/10665/354399/9789240046993-spa.pdf?sequence=1&isAllowed=y">Directriz de la OMS: recomendaciones sobre intervenciones digitales para fortalecer los sistemas de salud</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.who.int/bitstream/handle/10665/334306/9789240010567-eng.pdf?sequence=1&isAllowed=y">Guía de inversión en implementación digital de la OMS (en inglés)</a></li>
                     </ul>
                 </div>
             </div>
