@@ -33,12 +33,31 @@
                         Boletines
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin CECOSAMA Pachuca_versión completa.pdf">Boletin CECOSAMA Pachuca</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin de Telesalud Roldan.pdf">Boletin sobre las etapas en el desarrollo de un servicio de Telemedicina</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin CECOSAMA Pachuca_versión completa.pdf">Boletín CECOSAMA Pachuca</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin de Telesalud Roldan.pdf">Boletín sobre las etapas en el desarrollo de un servicio de Telemedicina</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Jalisco_Ignacio Marcial.pdf">Jalisco construye camino hacía el fortalecimento del modelo de atención a la salud</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Secretaria de Salud del Estado de Hidalgo.- Versión revisada CAPASITS.pdf">Boletin Secretaria de Salud del Estado de Hidalgo - Versión revisada CAPASITS</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Sonora_Martin Ravelo.pdf">Boletin Sonora_Martin Ravelo</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin_CENETEC_CRUM.pdf">Boletin_CENETEC_CRUM</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Sonora_Martin Ravelo.pdf">Boletín Sonora Martin Ravelo</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin_CENETEC_CRUM.pdf">Boletín CENETEC CRUM</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletín No 1_Marzo-Mayo_2020.pdf">Boletín No1 Marzo-Mayo 2020</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin_COVID-19__Marzo_2020.pdf">Boletín COVID-19 Marzo 2020</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletín No 2_Junio-Agosto_2020.pdf">Boletín No2 Junio-Agosto 2020</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin_No_3_Septiembre-Diciembre_2020.pdf">Boletín No3 Septiembre-Diciembre 2020</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin No4_Enero-Marzo_2021.pdf">Boletín No4 Enero-Marzo_2021</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletín No 5_Abril-Junio_2021.pdf">Boletín No5 Abril-Junio 2021</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletín No 6_Julio - Septiembre 2021.pdf">Boletín No6 Julio - Septiembre 2021</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Sonora_Martin Ravelo.pdf">Boletín Sonora Martin Ravelo</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin-en-TeleSalud_Abr_Jun22_final.pdf">Boletin en TeleSalud Abr Jun22 final</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/BoletinTS_Ene-Mar-2022.pdf">BoletinTS_Ene-Mar-2022</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/BoletinTS_Oct-Dic22.pdf">BoletinTS_Oct-Dic22.pdf</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/BoletinTS_Jul-Sep22_v4.pdf">BoletinTS_Jul-Sep22_v4</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/BoletinTS_Ene-Abr23_v4.pdf">BoletinTS_Ene-Abr23_v4</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/BoletinTS_May-Ago23_final.pdf">BoletinTS_May-Ago23_final</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/BoletinTS_Sep-Dic23.pdf">BoletinTS_Sep-Dic23.pdf</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin-en-Telesalud-14_Ene-Abr-2024.pdf">Boletín en Telesalud 14 Ene-Abr 2024</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin-en-Telesalud-15_May-Ago-2024.pdf">Boletin en Telesalud 15 May-Ago 2024</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin-en-Telesalud-16-sep-dic-2024.pdf">Boletin en Telesalud 16 Sep-Dic 2024</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Sección de boletines – Observatorio de Telesalud.pdf">Sección de boletines – Observatorio de Telesalud</a></li>
                     </ul>
                 </div>
                 <div class="dropdown">
