@@ -8,16 +8,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/dgmoss-project/assets/css/style.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/style_dir.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/style_dir_4.css">
     <?php
         include(__DIR__ . '/../header_dir.php'); 
     ?>
 </head>
 <body>
-    <div class="container mt-4">
-        <h1 class="text-center">Dirección de Gestión de Equipo Médico</h1>
-    </div>
 </body>
     <?php
+        include(__DIR__ . '/hero.php');
+        include(__DIR__ . '/seccion1.php');
+        include(__DIR__ . '/seccion2.php');
         include(__DIR__ . '/../../includes/footer.php');
     ?>
 </html>

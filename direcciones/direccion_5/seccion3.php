@@ -13,7 +13,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Modelo AMD 2025.pdf">Modelo de Atención Médica a Distancia</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Catalogoserviciosportelesalud2025.pdf">Catálogo de servicios por Telesalud</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Cedula_InstrumentosJuridicos_Telesalud_Mx2025.pdf">Cédula de Instrumentos Jurídicos aplicables a la práctica de la Telesalud en México</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Cedula_InstrumentosJuridicos_Telesalud_Mx2025.pdf">Cédula de Instrumentos Jurídicos aplicables <br> a la práctica de la Telesalud en México</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Componentes Tecnológicos y Colaborativos_UCADS 2025.pdf">Componentes Tecnológicos y Colaborativos UCADS 2025</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Consideraciones Regulatorias AMD 2025.pdf">Consideraciones Regulatorias AMD 2025</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Estudio Componentes Tecnológicos_Electrocardiógrafo 2025.pdf">Estudio Componentes Tecnológicos Electrocardiógrafo 2025</a></li>
@@ -34,9 +34,9 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin CECOSAMA Pachuca_versión completa.pdf">Boletín CECOSAMA Pachuca</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin de Telesalud Roldan.pdf">Boletín sobre las etapas en el desarrollo de un servicio de Telemedicina</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Jalisco_Ignacio Marcial.pdf">Jalisco construye camino hacía el fortalecimento del modelo de atención a la salud</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Secretaria de Salud del Estado de Hidalgo.- Versión revisada CAPASITS.pdf">Boletin Secretaria de Salud del Estado de Hidalgo - Versión revisada CAPASITS</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin de Telesalud Roldan.pdf">Boletín sobre las etapas en el desarrollo de <br> un servicio de Telemedicina</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Jalisco_Ignacio Marcial.pdf">Boletín Jalisco construye camino hacía <br> el fortalecimento del modelo de atención a la salud</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Secretaria de Salud del Estado de Hidalgo.- Versión revisada CAPASITS.pdf">Boletin Secretaria de Salud del Estado de Hidalgo <br> Versión revisada CAPASITS</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin Sonora_Martin Ravelo.pdf">Boletín Sonora Martin Ravelo</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletin_CENETEC_CRUM.pdf">Boletín CENETEC CRUM</a></li>
                         <li><a class="dropdown-item" target="_blank" href="/dgmoss-project/documentos/dir5/Boletines/Boletín No 1_Marzo-Mayo_2020.pdf">Boletín No1 Marzo-Mayo 2020</a></li>
@@ -77,18 +77,18 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/53887">La inteligencia artificial en la salud pública</a></li>
                         <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52007">Teleconsulta durante una pandemia</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52205">COVID-19 y el rol de los sistemas de información y las tecnologías en el primer nivel de atención</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52205">COVID-19 y el rol de los sistemas de información <br> y las tecnologías en el primer nivel de atención</a></li>
                         <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52128">COVID-19 y la importancia de fortalecer los sistemas de información</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52022">El potencial de las tecnologías de la información de uso frecuente durante la pandemia</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52022">El potencial de las tecnologías de la información de <br> uso frecuente durante la pandemia</a></li>
                         <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52487">Los sistemas de información y la salud digital en la pandemia de COVID-19</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52004">Registros electrónicos de salud e interoperabilidad: dos conceptos fundamentales para mejorar la respuesta de salud pública</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52440">¿Por qué los modelos predictivos son cruciales en la lucha contra la COVID-19?</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52004">Registros electrónicos de salud e interoperabilidad: <br> dos conceptos fundamentales para mejorar la respuesta de salud pública</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52440">¿Por qué los modelos predictivos son cruciales <br> en la lucha contra la COVID-19?</a></li>
                         <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52073">¿Por qué es importante la desagregación de datos durante una pandemia?</a></li>
                         <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52441">Seminario web Compartir-Escuchar-Actuar, COVID 19.</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52053">Entender la infodemia y la desinformación en la lucha contra la COVID-19</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52575">Salud digital: Una estrategia de continuidad asistencial para personas con enfermedades no transmisibles durante la COVID-19</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52671">30 conceptos fundamentales para luchar contra la COVID 19 en la era de la interdependencia digital</a></li>
-                        <li><a class="dropdown-item" target="_blank" href="https://iris.who.int/bitstream/handle/10665/354399/9789240046993-spa.pdf?sequence=1&isAllowed=y">Directriz de la OMS: recomendaciones sobre intervenciones digitales para fortalecer los sistemas de salud</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52053">Entender la infodemia y la desinformación en la lucha <br> contra la COVID-19</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52575">Salud digital: Una estrategia de continuidad asistencial para personas <br> con enfermedades no transmisibles durante la COVID-19</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.paho.org/handle/10665.2/52671">30 conceptos fundamentales para luchar contra <br> la COVID 19 en la era de la interdependencia digital</a></li>
+                        <li><a class="dropdown-item" target="_blank" href="https://iris.who.int/bitstream/handle/10665/354399/9789240046993-spa.pdf?sequence=1&isAllowed=y">Directriz de la OMS: recomendaciones sobre <br> intervenciones digitales para fortalecer los sistemas de salud</a></li>
                         <li><a class="dropdown-item" target="_blank" href="https://iris.who.int/bitstream/handle/10665/334306/9789240010567-eng.pdf?sequence=1&isAllowed=y">Guía de inversión en implementación digital de la OMS (en inglés)</a></li>
                     </ul>
                 </div>
