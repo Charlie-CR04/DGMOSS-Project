@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: #a57f2c;
+    margin-bottom: 30px;
+}
+
+.sign-in {
+    background-color: #611232;
+    color: white;
+    margin: 50px auto;
+    padding: 40px 30px;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in input[type=text],
+.sign-in input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sign-in button,
+.sign-in input[type=submit]{
+    width: 100%;
+    background-color: #a57f2c;
+    color: white;
+    padding: 12px 0px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.sign-in button:hover,
+.sign-in input[type=submit]{
+    background-color: #8c6723;
+}
+
+@media (max-width: 576px) {
+    .sign-in {
+        margin: 30px 15px;
+        padding: 30px 20px;
+    }
+}

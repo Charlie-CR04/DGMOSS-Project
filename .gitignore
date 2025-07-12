@@ -1,0 +1,17 @@
+# Variables de entorno (seguridad)
+.env
+**/.env
+
+# Dependencias de Composer
+vendor/
+
+# Archivos de desarrollo/configuración local
+.vscode/        # Configuración de VS Code
+*.log           # Logs
+
+# Dependencias de Node.js
+node_modules/   
+
+# Sistema operativo
+Thumbs.db       # Windows
+.DS_Store       # macOS

@@ -34,7 +34,7 @@
         <!-- Vista previa -->
         <div class="organigrama-container text-center">
           <h4 class="mb-3">Organigrama</h4>
-          <img src="/dgmoss-project/assets/img/organigrama_dsd.png" alt="Organigrama Dirección de Salud Digital"
+          <img src="/dgmoss-project/assets/img/orga.png" alt="Organigrama Dirección de Salud Digital"
               class="img-fluid organigrama-img shadow-sm"
               data-bs-toggle="modal" data-bs-target="#modalOrganigrama">
           <p class="small text-muted mt-2">Haz clic en la imagen para ampliarla</p>
@@ -50,7 +50,7 @@
               </div>
 
               <div class="modal-body text-center">
-                <img src="/dgmoss-project/assets/img/organigrama_dsd.png" alt="Organigrama completo" class="img-fluid">
+                <img src="/dgmoss-project/assets/img/orga.png" alt="Organigrama completo" class="img-fluid">
               </div>
             </div>
           </div>

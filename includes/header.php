@@ -39,14 +39,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/dgmoss-project/info-page/contacto.php" title="Ir a la pagina de Contacto">Contacto</a>
                 </li>
-                <nav class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
-                        
-                        <button type="button" class="btn btn-secondary" >
-                            <i class="fas fa-sign-in-alt"></i></button>
-                    </div>
-                </nav>
-                </ul>
-            </div>
+                <li class="nav-item">
+                    <a href="/dgmoss-project/sign-in/Index_login.php" class="btn btn-outline ms-2" title="Iniciar Sesión">
+                        <i class="fas fa-user-tie"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>  
+    </div>
+</nav>  

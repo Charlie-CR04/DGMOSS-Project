@@ -57,8 +57,8 @@ h1, h2, h3, h4, h5 {
     transform: translateX(-20%);
 }
 
-.dropdown-item {
-    color: #333333;
+.dropdown-item i{
+    color: white;
 }
 
 .dropdown-item:hover {
