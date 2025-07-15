@@ -3,27 +3,14 @@
   <h3 class="mb-3 text-center">Hacia un Futuro Saludable: Salud Digital y Telesalud en México</h3>
   <div class="row">
     <!-- Columna 1: Objetivo -->
-    <div class="col-md-6 mb-4">
+    <div class="col-md-6 mb-4"> 
       <div class="p-4  shadow-sm h-100">
         <p>
-          México, como muchas otras naciones, ha enfrentado desafíos históricos en cuanto a la distribución de médicos especialistas, 
-          recursos limitados y la creciente demanda de servicios de salud, especialmente en regiones apartadas y de difícil acceso. 
-          Sin embargo, gracias a los avances tecnológicos y a una visión renovada en las políticas públicas, el país se encuentra en 
-          una posición privilegiada para transformar estos retos en grandes oportunidades. <br> <br>
-          Hoy, la salud digital y la telesalud se perfilan como herramientas poderosas para cerrar brechas y garantizar que todas las personas, 
-          sin importar su ubicación, reciban atención médica de calidad y oportuna. <br> <br>
-          La <strong>Dirección de Salud Digital</strong> de la <strong>Dirección de Modernización del Sector Salud</strong> tiene un papel fundamental para impulsar el crecimiento 
-          y consolidación de la telesalud en México, especialmente si se enfoca en crear regulaciones innovadoras que acompañen el avance tecnológico 
-          y las necesidades de la población, permitiendo diseñar, coordinar y supervisar políticas y acciones innovadoras en salud digital y telesalud. 
-          Esto incluye desarrollar plataformas tecnológicas avanzadas, promover la capacitación continua del personal médico y establecer estándares 
-          de calidad e interoperabilidad que aseguren la protección y el uso ético de los datos de los pacientes. <br> <br>
-          El futuro de la salud en México se construye sobre la base de la colaboración entre instituciones públicas, privadas, académicas y sociales, 
-          lo que permitirá consolidar proyectos de telesalud que respondan a las necesidades reales de la población. La integración de dispositivos móviles, 
-          equipos de última generación y soluciones digitales facilitará la atención médica a distancia, haciendo posible que incluso las comunidades más 
-          remotas accedan a servicios especializados. <br> <br>
-          <strong>La visión es clara:</strong> aprovechar al máximo la tecnología para universalizar la cobertura, elevar la calidad y garantizar la equidad en la atención médica. 
-          Con la consolidación de estos proyectos, México avanza hacia un sistema de salud más moderno, eficiente y humano, donde la innovación y la solidaridad 
-          se convierten en los motores principales del bienestar social.
+          Aprovechar <strong>la salud digital y la telesalud</strong> para transformar el sistema de salud en México, 
+          logrando la <strong>universalización de la cobertura</strong>, la <strong>mejora de la calidad</strong> y 
+          la <strong>equidad en la atención médica</strong>,mediante el desarrollo de plataformas tecnológicas avanzadas, regulaciones innovadoras, 
+          capacitación continua del personal y una sólida colaboración interinstitucional, asegurando un uso ético de los datos 
+          y la atención oportuna para toda la población, especialmente en regiones de difícil acceso.
         </p>
         <p>&nbsp;</p>
       </div>

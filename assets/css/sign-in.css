@@ -1,3 +1,36 @@
+/*   Cuerpo de la página   */
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/dgmoss-project/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
+    font-style: normal;
+}
+
+body a, p, li {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333; /* Color de texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    font-weight: 500;
+}
+
+@font-face { 
+    font-family: 'Patria';
+    src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+  font-family: 'Patria', sans-serif;
+  font-weight: 600; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     text-align: center;
     color: #a57f2c;
@@ -7,10 +40,11 @@ h1 {
 .sign-in {
     background-color: #611232;
     color: white;
-    margin: 50px auto;
+    margin: 82px auto;
     padding: 40px 30px;
     max-width: 500px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
 
 .sign-in input[type=text],

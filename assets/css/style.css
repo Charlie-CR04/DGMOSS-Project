@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5 {
   display: inline-block;
 }
 
-.btn-second:hover h5{
+.btn-second:hover h5{ 
   background-color: #a57f2c;
   color: white;
   text-decoration: none;
@@ -286,9 +286,10 @@ h1, h2, h3, h4, h5 {
 /* Tarjeta individual */
 .direccion-card {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 15px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(to bottom, #e0e0e0, #a57f2c);
 }
 
 .direccion-card:hover{
@@ -320,7 +321,7 @@ h1, h2, h3, h4, h5 {
 
 .direccion-card .card-title {
     font-size: 1rem;
-    color: #611232;
+    color: #161a1d;
     font-weight: 500;
 }
 

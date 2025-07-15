@@ -21,7 +21,7 @@
                 <div class="card direccion-card shadow-sm h-100">
                     <p></p>
                     <div class="card-header-custom">
-                        <h5 class="card-title text-center">Dirección de Políticas de Tecnologías para <br> la Salud</h5>
+                        <h5 class="card-title text-center">Dirección de Políticas de Tecnologías <br> para la Salud</h5>
                     </div>
                     <a href="/dgmoss-project/direcciones/direccion_2/direccion2.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/2431/AdrianPacheco_OK.jpg" alt="">
@@ -35,12 +35,12 @@
                 <div class="card direccion-card shadow-sm h-100">
                     <p></p>
                     <div class="card-header-custom">
-                        <h5 class="card-title text-center">Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia</h5>
+                        <h5 class="card-title text-center">Dirección de Desarrollo e Integración de Medicina <br> Basada en la Evidencia</h5>
                     </div>
                     <a href="/dgmoss-project/direcciones/direccion_3/direccion3.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/5901/PamelaDelMoral.jpg" alt="">
                     <div class="text-center">
-                        <p class="text-center">Dra. Pamela Stephany Guiovanna del Moral Villavicencio</p>
+                        <p class="text-center">Dra. Pamela del Moral Villavicencio</p>
                     </div>
                 </div>
             </div>

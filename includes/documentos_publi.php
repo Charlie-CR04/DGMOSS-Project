@@ -4,7 +4,7 @@
             <!-- Recuadro Estático: Documentos/Publicaciones -->
             <div class="col-md-2">
                 <div class="card documento-card fijo">
-                    <h4 class="text-center">Documentos/Publicaciones</h4>
+                    <h4 class="text-center">DOCUMENTOS</h4>
                     <img src="/dgmoss-project/assets/img/dir5-public/doc.jpg"class="card-img-top" alt="">
                     <div class="card-body">
                         <p class="text-center card-text">Consulta las últimas publicaciones y documentos relacionados con nuestra dirección.</p>

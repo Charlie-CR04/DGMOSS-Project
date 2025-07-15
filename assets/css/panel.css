@@ -1,0 +1,198 @@
+/*                       Estilos generales para la navbar                           */
+
+/*   Cuerpo de la página   */
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/dgmoss-project/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
+    font-style: normal;
+}
+
+body a, p, li {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333; /* Color de texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    font-weight: 500;
+}
+
+@font-face { 
+    font-family: 'Patria';
+    src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+  font-family: 'Patria', sans-serif;
+  font-weight: 600; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-admin {
+    background-color: #611232;
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-admin-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-admin-logo img{
+    height: 65px;
+}
+
+.navbar-admin-user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.usuario-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.usuario-info i {
+    font-size: 24px;
+}
+
+.btn-cerrar-sesion {
+    color: white;
+    background-color: #a57f2c;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cerrar-sesion:hover {
+    background-color: #8e6c25;
+}
+
+/*  Direcciones */
+
+.panel-direcciones-container {
+    padding-top: 40px;
+    max-width: 1200px;
+    margin:auto;
+    text-align: center;
+}
+
+.btn-agregar{
+    color: white;
+    background-color: #a57f2c;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 30px;
+}
+
+.titulo-panel{
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #611232;
+    text-align: center;
+}
+
+.grid-direcciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-dir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b9b9b9;
+    border-radius: 12px;
+    padding: 30px;
+    width: 250px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+}
+
+.card-dir:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    color: #611232;   
+}
+
+.icon-dir {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #a57f2c;
+}
+
+/*      CRUD    */
+
+.tabla-documentos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tabla-documentos th,
+.tabla-documentos td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+.tabla-documentos th {
+    background-color: #611232;
+    color: white;
+}
+
+.tabla-documentos .btn-ver,
+.tabla-documentos .btn-editar,
+.tabla-documentos .btn-eliminar {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 2px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-ver {
+    background-color: #6c757d;
+}
+
+.btn-editar {
+    background-color: #198754;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+}
+
+.no-docs {
+    padding: 1rem;
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-align: center;
+}
