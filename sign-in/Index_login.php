@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['nombre'])) {
+if (isset($_SESSION['nombre_usuario'])) {
     header("Location: /dgmoss-project/admin/panel.php");
     exit();
 }
@@ -19,7 +19,7 @@ if (isset($_SESSION['nombre'])) {
     <link rel="stylesheet" href="/dgmoss-project/assets/css/sign-in.css">
 </head>
 <body>
-    <?php
+    <?php 
         include(__DIR__ . "/../direcciones/header_dir.php");
     ?>
     

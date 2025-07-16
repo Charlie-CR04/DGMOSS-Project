@@ -14,7 +14,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){ //2. Solo si el usuario a enviado el 
         $_error = "Por favor complete todos los campos";
     } else {
         //4. Preparamos la consulta para evitar inyecciones SQL
-        $stmt = $conexion->prepare("SELECT id_usuario, nombre, contraseña FROM USUARIOS WHERE correo = ?");
+        $stmt = $conexion->prepare("SELECT id_usuario, nombre_usuario, contraseña FROM USUARIOS WHERE correo = ?");
         $stmt->bind_param("s", $correo); // "s" indica string
 
         //5. Ejecuta la consulta y obtenemos  resultados
@@ -29,10 +29,10 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){ //2. Solo si el usuario a enviado el 
             //7. Verificamos que la contraseña ingresada coincida con la hash almacenada
             if(password_verify($password, $usuario['contraseña'])){
                 //Iniciamos sesión
-                session_start();
+                //session_start();
                 //Si es correcta la contraseña: Guardamos en sesión
                 $_SESSION['id_usuario'] = $usuario['id_usuario'];
-                $_SESSION['nombre'] = $usuario['nombre'];
+                $_SESSION['nombre_usuario'] = $usuario['nombre_usuario'];
                 $_SESSION['correo'] = $correo;
 
                 //8. Redirigimos al panel de administración

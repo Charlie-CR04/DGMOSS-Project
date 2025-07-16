@@ -12,7 +12,7 @@
             <!--    Icono y nombre del usuario  -->
             <div class="usuario-info">
                 <i class="fas fa-user-circle"></i>
-                <span><?php echo $_SESSION['nombre'] ?? 'Invitado';?></span>
+                <span><?php echo $_SESSION['nombre_usuario'] ?? 'Invitado';?></span>
             </div>
             <!--    Botón de cerrar sesión  -->
             <a href="/dgmoss-project/sign-in/logout.php" class="btn-cerrar-sesion">

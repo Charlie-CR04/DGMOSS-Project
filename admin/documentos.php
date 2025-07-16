@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(!isset($_SESSION['nombre'])){
+if(!isset($_SESSION['nombre_usuario'])){
     header("Location: /dgmoss-project/sign-in/Index_login.php");
     exit();
 }
@@ -13,7 +13,7 @@ if(!$id_direccion || !is_numeric($id_direccion)){
 }
 
 // Obtener nombre de la dirección
-$sql_direccion = "SELECT nombre FROM direcciones WHERE id_direccion = ?";
+$sql_direccion = "SELECT nombre_direccion FROM direcciones WHERE id_direccion = ?";
 $stmt = $conexion->prepare($sql_direccion);
 $stmt->bind_param("i", $id_direccion);
 $stmt->execute();
@@ -22,12 +22,12 @@ $resultado = $stmt->get_result();
 if($resultado->num_rows !== 1){
     die("Dirección no encontrada");
 }
-$nombre_direccion = $resultado->fetch_assoc()['nombre'];
+$nombre_direccion = $resultado->fetch_assoc()['nombre_direccion'];
 
 // Obtener documentos de esa dirección
 $sql_doc = "SELECT * FROM documentos WHERE id_direccion = ?";
 $stmt_doc = $conexion->prepare($sql_doc);
-$stmt_doc->bind_param("i", $id_direccion);  // CORREGIDO: antes tenía mal el bind
+$stmt_doc->bind_param("i", $id_direccion); 
 $stmt_doc->execute();
 $docs = $stmt_doc->get_result();
 ?>

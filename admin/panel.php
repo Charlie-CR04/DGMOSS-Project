@@ -1,7 +1,7 @@
 <?php
     session_start(); // 1. Iniciar sesión o recupera una sesión activa
     // 2. Si no hay un usuario logueado (no existe $_SESSION['nombre']), redirige al login
-    if(!isset($_SESSION['nombre'])){ 
+    if(!isset($_SESSION['nombre_usuario'])){ 
         header("Location: /dgmoss-project/sign-in/Index_login.php"); // 3. Redirige si no hay sesión
         exit(); // 4. Detiene el script por seguridad
     }
@@ -25,7 +25,7 @@
         <div class="grid-direcciones">
             <?php 
                 // 7. Consulta SQL para obtener direcciones
-                $sql = "SELECT id_direccion, nombre FROM direcciones";
+                $sql = "SELECT id_direccion, nombre_direccion FROM direcciones";
                 $result = $conexion->query($sql);
                 
                 // 8. Manejo básico de errores en consulta
@@ -39,7 +39,7 @@
                         <a href="documentos.php?dir=<?php echo $row['id_direccion']; ?>" class="card-dir">
                             <i class="fas fa-folder icon-dir"></i>
                             <!-- 12. Escapar output para prevenir XSS -->
-                            <span><?php echo htmlspecialchars($row['nombre']); ?></span>
+                            <span><?php echo htmlspecialchars($row['nombre_direccion']); ?></span>
                         </a>
                     <?php endwhile; ?>
                 <?php else: // 13. Si no hay resultados ?>

@@ -17,7 +17,7 @@
 <body>
 </body>
     <?php
-        include(__DIR__ . '/hero.php');
+        include(__DIR__ . '/hero_video.php');
         include(__DIR__ . '/seccion1.php');
         include(__DIR__ . '/../../includes/footer.php');
     ?>
