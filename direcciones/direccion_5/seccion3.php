@@ -5,7 +5,7 @@
         <div class="row align-items-center mb-4">
             <div class="col-md-9">
                 <div class="d-flex flex-wrap gap-3">
-                <!-- Dropdowns -->
+                <!-- Dropdowns (categorias) -->
                 <div class="dropdown">
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         Docs en Salud Digital
@@ -102,7 +102,7 @@
         <div class="mt-4" id="resultados-busqueda"></div>
     </div>
 
-    <!-- Publicaciones destacadas -->
+    <!-- Publicaciones destacadas direccion-->
     <div class="row g-4">
         <!-- Publicación 1 -->
         <div class="col-md-4">

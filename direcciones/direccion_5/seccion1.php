@@ -5,11 +5,11 @@
                 <div class="objetivo-container">
                     <h2 class="objetivo-titulo text-center">Objetivo</h2>
                     <p class="lead">
-                        Aprovechar <strong>la salud digital y la telesalud</strong> para transformar el sistema de salud en México, 
-                        logrando la <strong>universalización de la cobertura</strong>, la <strong>mejora de la calidad</strong> y 
-                        la <strong>equidad en la atención médica</strong>, mediante el desarrollo de plataformas tecnológicas avanzadas, regulaciones innovadoras, 
-                        capacitación continua del personal y una sólida colaboración interinstitucional, asegurando un uso ético de los datos 
-                        y la atención oportuna para toda la población, especialmente en regiones de difícil acceso.
+                        Dirigir, coordinar y supervisar la implementación de estrategias y políticas 
+                        integrales de salud digital que impulsen la innovación tecnológica, aseguren 
+                        la interoperabilidad y la protección de los datos de salud, promuevan la capacitación 
+                        continua, fortalezcan la medicina personalizada y fomenten la colaboración 
+                        internacional para transformar y modernizar los servicios de salud.
                     </p>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                     <div class="col-12">
                         <div class="bio-container p-4 shadow-sm">
                             <div class="descripcion-director">
-                                <p>Con más de 20 años de experiencia en el sector privado en gestión de proyectos y servicios tecnológicos, desde 2018 se desempeña en la <strong>Dirección General de Modernización del Sector Salud</strong>. Actualmente, como Director de la <strong>Dirección de Salud Digital</strong>, lidera iniciativas para fortalecer la salud digital en México, 
+                                <p>Con más de 15 años de experiencia en el sector privado en gestión de proyectos y servicios tecnológicos, desde 2018 se desempeña en la <strong>Dirección General de Modernización del Sector Salud</strong>. Actualmente, como <strong> Director de Salud Digital</strong>, lidera iniciativas para fortalecer la salud digital en México, 
                                     coordinando estrategias interinstitucionales y promoviendo lineamientos para la adopción de servicios de telemedicina en el <strong>Sistema Nacional de Salud</strong>.</p>
                                 
                                 <p>Ha colaborado con instituciones nacionales e internacionales como la OPS, la Universidad Federal de Minas Gerais y diversas instancias de salud 

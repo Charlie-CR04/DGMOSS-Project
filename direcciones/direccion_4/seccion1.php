@@ -5,18 +5,11 @@
                 <div class="objetivo-container">
                     <h2 class="objetivo-titulo text-center">Objetivo</h2>
                     <p class="lead objetivo">
-                        Conducir las políticas públicas para la gestión de equipo médico que faciliten el acceso efectivo a los servicios 
-                        de atención médica y guíen la modernización del Sector Salud. <br>
-                        El equipo médico desempeña un papel crucial en la calidad de los servicios de atención médica, facilitando el acceso efectivo a diagnósticos y tratamientos oportunos. Una eficiente gestión 
-                        del equipo médico implica importantes desafíos para el sistema de salud, especialmente para aquellos equipos de alta tecnología 
-                        debido a su alto costo de adquisición y operación, así como a los requisitos de infraestructura física, autorizaciones sanitarias 
-                        y personal especializado necesarios para su funcionamiento adecuado. <br>
-                        La planificación del equipo médico de alta tecnología no 
-                        debe limitarse únicamente a requerimientos técnico-administrativos. Es esencial considerar factores geográficos, demográficos, 
-                        epidemiológicos y las redes de servicios para identificar las necesidades de la población y los desiertos de atención. <br>
-                        Este enfoque integral orientará la toma de decisiones para su correcta incorporación, mejorando la accesibilidad, promoviendo una 
-                        distribución más equitativa y reduciendo las brechas de desigualdad social. Una gestión de equipo médico eficaz, propicia un 
-                        mejor aprovechamiento de los recursos disponibles y contribuye a mejorar la salud pública en nuestro país.
+                        Elaboramos información técnica que orienta la toma de decisiones en el sector salud para la planificación, 
+                        incorporación, operación, baja y disposición final del equipo médico. Este proceso promueve el uso eficiente 
+                        de los recursos y el análisis integral de las necesidades poblacionales, considerando factores epidemiológicos,
+                        demográficos y geográficos. Bajo un enfoque de red, buscamos optimizar el acceso equitativo a diagnósticos y 
+                        tratamientos oportunos para mejorar la calidad de los servicios de salud.
 
                     </p>
                 </div>
@@ -43,14 +36,13 @@
                     <div class="col-12">
                         <div class="bio-container p-4 shadow-sm">
                             <div class="descripcion-director">
-                                <p>La Ing. Patricia Miguel Hernández es una profesional destacada en el ámbito de la ingeniería biomédica, 
-                                    con más de 20 años de experiencia en el sector privado y en la Administración Pública Federal. 
-                                    Su trayectoria se ha centrado en la planificación y gestión de proyectos relacionados con el equipamiento médico. <br>
-                                    En el Centro Nacional de Excelencia Tecnológica en Salud, ha ocupado diversos cargos, incluyendo jefa del departamento de 
-                                    planeación interinstitucional de equipo médico y subdirectora de equipamiento médico. <br>
-                                    A lo largo de su carrera, ha enriquecido su formación profesional mediante varios diplomados en áreas clave, como la evaluación 
-                                    de tecnologías sanitarias y la evaluación de proyectos de inversión pública. Esto le ha proporcionado una sólida base para tomar
-                                     decisiones informadas sobre el impacto de la incorporación de equipos médicos de alta tecnología en los servicios de salud.</p>
+                                <p> Ingeniera biomédica con más de 20 años de experiencia en el sector salud, especializada en la planeación y 
+                                    gestión de proyectos de equipamiento médico. Ha liderado iniciativas estratégicas interinstitucionales para 
+                                    la evaluación, incorporación y optimización de equipo médico de alta tecnología, contribuyendo directamente 
+                                    al fortalecimiento de los servicios de salud. Su formación académica complementaria en evaluación de tecnologías 
+                                    sanitarias, proyectos de inversión y salud pública respalda sólidas decisiones técnicas orientadas al uso eficiente 
+                                    de recursos y a una atención médica equitativa y de calidad.
+                                </p>
                             </div>
                         </div>
                     </div>
