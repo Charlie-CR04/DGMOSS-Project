@@ -3,8 +3,8 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-10">
                 <div class="objetivo-container">
-                    <h2 class="objetivo-titulo text-center">Objetivo</h2>
-                    <p class="lead">
+                    <h3 class="objetivo-titulo text-center">¿Qué hace la Dirección de Políticas <br> de Tecnologías para la Salud?</h3>
+                    <p>
                         Conducir el diseño, la implementación y el desarrollo de las políticas de evaluación de tecnologías para la salud, 
                         así como los programas derivados de dichas políticas, utilizando metodologías y herramientas basadas en evidencia 
                         científica que integran criterios como la efectividad, la seguridad y la costo-efectividad. Además, de considerar aspectos éticos 
@@ -36,18 +36,15 @@
                         <div class="bio-container p-4 shadow-sm">
                             <div class="descripcion-director">
                                 <p>
-                                    Ingeniero Biomédico, con especialización en Ingeniería Clínica, obtenida en la Universidad Autónoma 
-                                    Metropolitana en la Ciudad de México. Cuenta con Diplomado en Evaluación de Tecnologías en Salud del 
-                                    Instituto de Efectividad Clínica y Sanitaria en Argentina, Diplomado en Gestión de Sistemas y Servicios 
-                                    de Salud del Instituto Nacional de Salud Pública de México y especialidad en Salud Electrónica de la 
-                                    Universidad Oberta de Catalunya en España. <br> 
-                                    Desde el año 2003, ha estado involucrado en la operación, 
-                                    gestión, desarrollo y evaluación de proyectos de tecnologías para la salud en México. A partir de 2007, 
-                                    se unió al Centro Nacional de Excelencia Tecnológica en Salud. Además de su destacada labor en México, 
-                                    ha sido asesor y consultor en diversos proyectos en Latinoamérica, colaborando con instituciones públicas, 
-                                    privadas y organizaciones internacionales como la Organización Panamericana de la Salud y el Banco 
-                                    Interamericano de Desarrollo. Autor de publicaciones sobre evaluaciones de programas y proyectos 
-                                    tecnologías para la salud y salud electrónica, profesor en universidades de Latinoamérica y México.
+                                    Ingeniero biomédico con especialización en ingeniería clínica, egresado de la Universidad 
+                                    Autónoma Metropolitana. Cuenta con formación en evaluación de tecnologías en salud, gestión de 
+                                    sistemas y servicios de salud, y salud electrónica, adquirida en instituciones de México, 
+                                    Argentina y España. Desde 2003 ha trabajado en la operación, gestión, desarrollo y evaluación 
+                                    de proyectos de tecnologías para la salud en México. Desde 2007 forma parte de la actual Dirección 
+                                    General de Modernización del Sector Salud. Ha sido asesor y consultor en proyectos en Latinoamérica, 
+                                    colaborando con instituciones públicas, privadas y organismos internacionales como la OPS y el BID. 
+                                    Es autor de publicaciones en salud electrónica y evaluación de tecnologías, y ha sido docente en universidades 
+                                    de México y América Latina.
                                 </p>
                             </div>
                         </div>

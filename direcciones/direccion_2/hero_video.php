@@ -11,15 +11,18 @@
     <div class="container py-4">
         <div class ="row justify-content-center">
             <div class="col-md-3 text-center text-md-start">
-                <a href="/dgmoss-project/info-page/nosotros.php" class="btn-second">
+                <a href="/dgmoss-project/direcciones/direccion_2/CONETES/conetes.php" class="btn-second">
                     <h5 class="text-center">
-                        ¿Qué es la DGMoSS?
+                        CONETES
                     </h5>
                 </a>
             </div>
-        <div class="col-md-9">
-                <p class="text-light text-justify text-md-start">La <strong>DGMoSS</strong> proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
-                </div>
+            <div class="col-md-9">
+                <p class="text-light text-justify text-md-start">
+                    El <strong>Comité Nacional de Evaluación de Tecnologías para la Salud (CONETES)</strong> es un grupo 
+                    interinstitucional rector, coordinador y articulador de la Evaluación de Tecnologías para la Salud en México.
+                </p>
+            </div>
         </div>
     </div>
 </section>

@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5 {
 .dropdown-menu {
     background-color: #ffffff;
     border-radius: 0 0 5px 5px;
-    text-align: center;
+    text-align: justify;
     right: 0;
     left: auto;
     transform: translateX(-20%);
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 #dropdownDirecciones + .dropdown-menu{
     min-width: 300px;
-    max-width: 90vw;
+    max-width: 150vw;
     padding: 10px 15px;
     overflow: break-word; /*    Evita que el texto se desborde    */
     word-break: break-word; /*    Permite el salto de línea en palabras largas    */
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5 {
     font-size: 1.2rem;
     font-weight: 600;
 }
-
+    
 .contacto-card-header h5 {
     margin: 0;
     display: flex;

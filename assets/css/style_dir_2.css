@@ -1,3 +1,29 @@
+/*   Cuerpo de la página   */
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/dgmoss-project/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
+    font-style: normal;
+}
+
+body a, p, li {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333; 
+    line-height: 1.428; 
+    font-size: 18px; 
+}
+
+@font-face { 
+    font-family: 'Patria';
+    src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+  font-family: 'Patria', sans-serif;
+  font-weight: 600; 
+}
+
 /*                          Video                  */   
 
 .hero-video-DSD{
@@ -50,10 +76,9 @@
 }
 
 .hero-title{
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
-/* Colores institucionales */
 :root {
     --color-primario: #611232;
     --color-secundario: #a57f2c;
@@ -62,9 +87,7 @@
     --color-borde: #dee2e6;
 }
 
-/* Estilos generales */
-body {
-    line-height: 1.6;
+body { 
     color: var(--color-texto);
     background-color: #fff;
 }
@@ -77,11 +100,8 @@ body {
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-left: 5px solid var(--color-primario);
-}
-
-.objetivo {
+    border-right: 5px solid var(--color-primario);
     text-align: justify;
-    text-justify: inter-word;
 }
 
 .objetivo-titulo {
@@ -211,6 +231,40 @@ body {
     display: block;
 }
 
+/*      Categorías      */
+.section-dpts-publicaciones {
+    padding: 2rem 0;
+}
+
+.section-dpts-publicaciones h3 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.filtros-dpts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.filtros-dpts-container .dropdown {
+    flex: 1 1 auto;
+    min-width: 180px;
+}
+
+.filtros-dpts-container #input-busqueda-dpts {
+    flex: 1 1 auto;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+#resultados-busqueda-dpts {
+    margin-top: 1.5rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .director-img {
@@ -224,3 +278,5 @@ body {
         padding: 1rem;
     }
 }
+
+

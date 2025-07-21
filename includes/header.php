@@ -12,10 +12,6 @@
         <!--Contenedor del menú de navegación-->
         <div class="collapse navbar-collapse" id="navbarContenido">
             <ul class="navbar-nav ms-auto">
-                <!-- Nosotros
-                <li class="nav-item">
-                    <a class="nav-link" href="/dgmoss-project/info-page/nosotros.php" title="Ir a la página acerca de nosotros">Nosotros</a>
-                </li>-->
                 <!-- Direcciones -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownDirecciones" role="button" data-bs-toggle="dropdown" title="Desplegar menú de Direcciones">Direcciones</a>
@@ -24,7 +20,7 @@
                         <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion_2/direccion2.php" title="Ir a la Dirección de Políticas de Tecnologías para la Salud">Dirección de Políticas de <br> Tecnologías para la Salud</a></li>
                         <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion_3/direccion3.php" title="Ir a la Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia">Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia</a></li>
                         <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion_4/direccion4.php" title="Ir a la Dirección de Gestión de Equipo Médico">Dirección de Gestión de Equipo Médico</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion_5/direccion4.php" title="Ir a la Dirección de Salud Digital">Dirección de Salud Digital</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/direcciones/direccion_5/direccion5.php" title="Ir a la Dirección de Salud Digital">Dirección de Salud Digital</a></li>
                     </ul>
                 </li>
                 <!-- Múltimedia-->

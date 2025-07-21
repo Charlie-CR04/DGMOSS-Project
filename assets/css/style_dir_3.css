@@ -1,3 +1,29 @@
+/*   Cuerpo de la página   */
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/dgmoss-project/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
+    font-style: normal;
+}
+
+body a, p, li {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333333; 
+    line-height: 1.428; 
+    font-size: 18px; 
+    font-weight: 500;
+}
+
+@font-face { 
+    font-family: 'Patria';
+    src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+  font-family: 'Patria', sans-serif;
+  font-weight: 600; 
+}
 /*                          Video                  */   
 
 .hero-video-DSD{
@@ -50,7 +76,7 @@
 }
 
 .hero-title{
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 /* Colores institucionales */
@@ -77,6 +103,7 @@ body {
     margin-bottom: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-left: 5px solid var(--color-primario);
+    border-right: 5px solid var(--color-primario);
 }
 
 .objetivo {

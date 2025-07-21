@@ -3,14 +3,13 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-10">
                 <div class="objetivo-container">
-                    <h2 class="objetivo-titulo text-center">Objetivo</h2>
-                    <p class="lead objetivo">
+                    <h3 class="objetivo-titulo text-center">¿Qué hace la Dirección de Gestión <br> de Equipo Médico?</h3>
+                    <p>
                         Elaboramos información técnica que orienta la toma de decisiones en el sector salud para la planificación, 
                         incorporación, operación, baja y disposición final del equipo médico. Este proceso promueve el uso eficiente 
                         de los recursos y el análisis integral de las necesidades poblacionales, considerando factores epidemiológicos,
                         demográficos y geográficos. Bajo un enfoque de red, buscamos optimizar el acceso equitativo a diagnósticos y 
                         tratamientos oportunos para mejorar la calidad de los servicios de salud.
-
                     </p>
                 </div>
             </div>

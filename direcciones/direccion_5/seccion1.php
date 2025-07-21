@@ -3,8 +3,8 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-10">
                 <div class="objetivo-container">
-                    <h2 class="objetivo-titulo text-center">Objetivo</h2>
-                    <p class="lead">
+                    <h3 class="objetivo-titulo text-center">¿Qué hace la Dirección de Salud Digital</h3>
+                    <p>
                         Dirigir, coordinar y supervisar la implementación de estrategias y políticas 
                         integrales de salud digital que impulsen la innovación tecnológica, aseguren 
                         la interoperabilidad y la protección de los datos de salud, promuevan la capacitación 

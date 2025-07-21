@@ -17,6 +17,16 @@ if (isset($_SESSION['nombre_usuario'])) {
     <link rel="stylesheet" href="/dgmoss-project/assets/css/style.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/style_dir.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/sign-in.css">
+        <!-- GOB -->
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
+    <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
+    <!-- jQuery 3.7.1 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-..."></script>
+    <!-- Modernizr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/3.13.1/modernizr.min.js"></script>
+    <!-- Floating UI -->
+    <script src="https://unpkg.com/@floating-ui/dom@1.6.7/dist/floating-ui.dom.min.js"></script>
 </head>
 <body>
     <?php 

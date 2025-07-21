@@ -3,11 +3,23 @@
         <div class="row justify-content-center mb-5">
             <div class="col-lg-10">
                 <div class="objetivo-container">
-                    <h2 class="objetivo-titulo text-center">Objetivo</h2>
-                    <p class="lead">
+                    <h3 class="objetivo-titulo text-center">¿Qué hace la Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia?</h3>
+                    <p>
                         Coordinar y promover la integración de la Medicina Basada en Evidencia como marco de referencia, 
-                        sistematizando los procesos y procedimientos para mejorar la calidad de la atención médica dentro del Sistema Nacional 
-                        de Salud y en colaboración con las instituciones académicas.
+                        sistematizando los procesos y procedimientos para mejorar la calidad de la atención médica dentro 
+                        del Sistema Nacional de Salud y en colaboración con las instituciones académicas.
+                    </p>
+                    <h3 class="objetivo-titulo text-center">Misión</h2>
+                    <p>
+                        Poner a disposición de los profesionales de la salud, tomadores de decisiones, pacientes y cuidadores, 
+                        documentos elaborados con Medicina Basada en la Evidencia para que tengan acceso a intervenciones de salud efectivas, 
+                        seguras y costo-efectivas.
+                    </p>
+                    <h3 class="objetivo-titulo text-center">Visión</h2>
+                    <p>
+                        Coadyuvar en las estrategias para transformar la práctica médica en un proceso más efectivo, 
+                        eficiente y centrado en el paciente, utilizando Medicina Basada en la Evidencia, 
+                        buscando la mejora de las decisiones sanitarias.
                     </p>
                 </div>
             </div>
@@ -34,14 +46,14 @@
                         <div class="bio-container p-4 shadow-sm">
                             <div class="descripcion-director">
                                 <p>
-                                    Dentro de su preparación académica incluye la carrera de Médico Cirujano, Maestría en Ciencias Médicas, Maestría en 
-                                    Dirección de Instituciones de Salud y la Especialidad en Bienestar y Salud Corporativa en la Universidad Anáhuac Norte y la 
-                                    conclusión de la especialidad en Salud Pública en el Instituto de Ciencias y Estudios Superiores de Tamaulipas. <br>
-                                    Su experiencia laboral abarca la gestión como Directora de Área en la Coordinación de Distribución y Operación en el 
-                                    Instituto de Salud para el Bienestar (INSABI), en el Instituto de Salud del Estado de México (ISEM) en varias capacidades, como fue la 
-                                    Directora de Centros de Salud hasta Directora del Centro Especializado de Atención Primaria a la Salud (CEAPS) y actualmente como 
-                                    Directora de Integración Guías de Práctica Clínica. <br> Además de su experiencia en la gestión, ha mostrado su compromiso con la 
-                                    formación continua al completar varios cursos y diplomados. Entre ellos, el "Clinical trials in Latin America: Intensive Workshop" en la Universidad de California, San Diego, el Diplomado "Novedades en Diabetes, Ciencia para un abordaje completo" en el Tecnológico de Monterrey y el Diplomado "Liderazgo Administrativo en Instituciones de Salud" en la Universidad Anáhuac Norte.
+                                    Médica Cirujana, Maestra en Ciencias Médicas y Dirección de Instituciones de Salud; 
+                                    Especialista en Bienestar y Salud Corporativa y Salud Pública, por la UAN y el ICEST; 
+                                    Curso Clinical trials in Latin America: Intensive Workshop por la Universidad de California, 
+                                    San Diego y Diplomado Liderazgo Administrativo en Instituciones de Salud por la UAN.Directora 
+                                    de Área en la Coordinación de Distribución y Operación en el INSABI; Directora de CEAPS, de 
+                                    Centro de Salud y Coordinadora Municipal en el ISEM; Directora de Integración de Guías de Práctica 
+                                    Clínica en el CENETEC y actualmente Directora de Desarrollo e Integración de Medicina Basada en la Evidencia en la DGMoSS.
+
                                 </p>
                             </div>
                         </div>

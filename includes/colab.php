@@ -8,8 +8,8 @@
             <a href="https://www.paho.org/" target="_blank">
                 <img src="https://www.paho.org/themes/paho/images/logo-en.png" alt="OPS" class="colab-icon">
             </a>
-            <a href="https://www.unicef.org/" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/UNICEF_Logo.png" alt="UNICEF" class="colab-icon">
+            <a href="https://redclara.net/es/colaboracion/conozca/rute-al" target="_blank">
+                <img src="/dgmoss-project/assets/img/red_clara.png" alt="UNICEF" class="colab-icon">
             </a>
             <a href="https://www.cdc.gov/" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/US_CDC_logo.svg" alt="CDC" class="colab-icon">
