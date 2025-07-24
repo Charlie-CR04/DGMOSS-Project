@@ -1,0 +1,132 @@
+
+
+.director-section {
+    background-color: #f8f9fa;
+}
+
+.objetivo-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #611232;
+    border-right: 5px solid #611232;
+    text-align: justify;
+}
+
+.director-img {
+    border: 3px solid #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.director-img:hover {
+    transform: scale(1.03);
+}
+
+.bio-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-right: 5px solid #611232;
+}
+
+.obj-title {
+    color: #611232;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.sub-title {
+    color: #161a1d;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.organigrama-img {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.organigrama-img:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.organigrama-container {
+    margin-bottom: 1.5rem;
+    padding-top: 10px;
+}
+
+/*          Tarjeta de contacto             */
+.contacto-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border: 1px solid #eaeaea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contacto-card-header {
+    background-color: #611232;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+.contacto-card-header h5 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.contacto-card-body {
+    padding: 1rem;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.75rem;
+}
+
+.contacto-item i {
+    color: #a57f2c;
+    width: 24px;
+    text-align: center;
+}
+
+.contacto-label {
+    font-weight: 600;
+    margin-right: 0.5rem;
+    color: #161a1d;
+}
+
+.contacto-value {
+    color: #161a1d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .director-img {
+        max-height: 250px;
+    }
+    
+    .objetivo-container,
+    .director-container,
+    .organigrama-container,
+    .bio-container {
+        padding: 1rem;
+    }
+}

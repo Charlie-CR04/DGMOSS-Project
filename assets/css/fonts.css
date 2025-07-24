@@ -1,0 +1,25 @@
+/*   Cuerpo de la página   */
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('/dgmoss-project/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
+    font-style: normal;
+}
+
+body a, p, li {
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    line-height: 1.428;
+    font-size: 18px; 
+}
+
+@font-face { 
+    font-family: 'Patria';
+    src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+    font-style: normal;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5 {
+  font-family: 'Patria', sans-serif;
+  font-weight: 600; 
+}

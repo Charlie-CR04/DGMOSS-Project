@@ -1,0 +1,150 @@
+/*              Contenedor de las direcciones           */
+
+.contenedor-dir {
+    margin-top: 50px;
+}
+
+.contain-cards {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+/* Tarjeta individual */
+.direccion-card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(to bottom, #e0e0e0, #a57f2c);
+}
+
+.direccion-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-color:#6e6e6e;
+}
+
+.direccion-card img {
+    width: 160px; 
+    height: 160px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+/* Contenido interno de la tarjeta */
+.direccion-card .card-body {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.direccion-card p {
+    font-weight: 500;
+    margin-top: 10px;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.direccion-card .card-title {
+    color: #161a1d;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.titulo-dir {
+    margin-bottom: 40px;
+}
+
+
+/*   Contenedor de Colaboradores   */
+
+.colab-barra .colab-icon {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transition: tranform 0.3s;
+    display: block;
+}
+
+.colab-barra .colab-icon:hover {
+    transform: scale(1.1);
+}
+
+/*          Documentos y publicaciones           */
+
+.documento-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 22rem;
+  display: flex;
+  flex-direction:column;
+  justify-content:start;
+}
+
+/* Ajustar la imagen de cada tarjeta */
+.documento-card .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  padding: 5px;
+  display: block;
+  margin: auto;
+}
+
+
+.card-title {
+  font-weight: 600;
+  color: #611232;
+}
+
+.card-text {
+  color: black;
+  text-align: justify;
+}
+
+#documentos-carrusel {
+    height: 250px;
+}
+
+/* Estilo para los botones del carrusel */
+.carousel-control-prev, .carousel-control-next {
+  z-index: 2;
+}
+
+/*                       Publicaciones de Redes sociales                   */
+
+/* Contenedor del carrusel */
+#carrusel4 h5{
+  color: #611232;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#carrusel4 p {
+  color: #333333;
+  text-align: center;
+}
+
+#carrusel4 {
+  height: auto;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%; 
+  border-radius: 10px; 
+}
+
+#carrusel4 .carousel-control-prev{
+    left: -60px; /* Ajusta la posición del botón anterior */
+    height: auto;
+}
+#carrusel4 .carousel-control-next {
+    right: -60px; /* Ajusta la posición del botón siguiente */
+    height: auto;
+}

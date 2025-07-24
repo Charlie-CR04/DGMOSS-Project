@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirección General de Modernización del Sector Salud | Gobierno | gob.mx</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/style_home.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/sub-navbar.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
@@ -28,7 +29,7 @@
 
     <section class="hero-video-section">
         <video autoplay muted loop playsinline class="hero-video">
-            <source src="/dgmoss-project/assets/video/p2.mp4" type="video/mp4">
+            <source src="/dgmoss-project/assets/video/dgmoss.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5
         </video>
         <div class="hero-video-overlay">
@@ -54,17 +55,11 @@
 
     <?php
         include(__DIR__ . '/includes/direcciones_main.php');
-    
         include(__DIR__ . '/includes/colab.php');
-    
         include(__DIR__ . '/includes/documentos_publi.php');
-
         include(__DIR__ . '/includes/redes_sociales.php');
     ?>
 
     <script src="/dgmoss-project/assets/js/script.js"></script>
 </body>
-    <?php
-        include(__DIR__ . '/includes/footer.php');
-    ?>
 </html>

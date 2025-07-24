@@ -1,0 +1,124 @@
+/*                          DGMoSS                      */
+.titulo-direccion {
+  font-size: 2.2rem;
+  color: #161a1d;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  margin-top: 10rem;
+}
+
+.direccion-section strong{
+    font-weight: 600;
+    color: #161a1d; 
+}
+
+.direccion-section p{
+    line-height: 1.8;
+    color: #161a1d;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+.direccion-section .text-muted {
+    color: #161a1d;
+    
+}
+
+.direccion-section h2{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    color: #161a1d;
+    margin: 2rem 0 1.5rem;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.5rem;
+}
+
+.direccion-section figure {
+    margin-bottom: 2rem;
+}
+
+.direccion-section figcaption {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #161a1d;
+  margin-top: 1rem;
+}
+
+.direccion-section img {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 320px;
+  width: auto;
+}
+
+/* Estilos para la tarjeta de contacto */
+.contacto-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 1.5rem 0;
+    border: 1px solid #eaeaea;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contacto-card-header {
+    background-color: #611232;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+    
+.contacto-card-header h5 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacto-card-body {
+    padding: 1.5rem;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+
+.contacto-item i {
+    color: #a57f2c;
+    width: 24px;
+    text-align: center;
+}
+
+.contacto-label {
+    display: block;
+    font-weight: 600;
+    color: #161a1d;
+}
+
+.contacto-value span{
+    display: block;
+    color: #161a1d;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.contacto-value a {
+    color: #a57f2c;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 16px;
+}
+
+.contacto-value a:hover {
+    color: #611232;
+    text-decoration: underline;
+}
+

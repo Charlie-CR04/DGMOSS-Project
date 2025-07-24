@@ -8,10 +8,10 @@
                     <div class="card-header-custom">
                         <h5 class="card-title text-center">Dirección General de Modernización <br> del Sector Salud</h5>
                     </div>
-                    <a href="/dgmoss-project/direcciones/direccion_1/direccion1.php" class="btn stretched-link"></a>
+                    <a href="/dgmoss-project/direccion_1/direccion1.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/6180/FOTO_JEPO.jpg" alt="">
                     <div class="text-center">
-                        <p class="text-center">Dr. José Enrique Pérez Olguín</p>
+                        <p class="text-center">Dr. José Enrique <br> Pérez Olguín</p>
                     </div>
                 </div>
             </div>
@@ -19,12 +19,12 @@
             <div class="col-md-2.4 contain-cards">
                 <div class="card direccion-card shadow-sm h-100">
                     <div class="card-header-custom">
-                        <h5 class="card-title text-center">Dirección de Políticas de <br> Tecnologías para la Salud</h5>
+                        <h5 class="card-title text-center">Dirección de Políticas <br> de Tecnologías <br> para la Salud</h5>
                     </div>
-                    <a href="/dgmoss-project/direcciones/direccion_2/direccion2.php" class="btn stretched-link"></a>
+                    <a href="/dgmoss-project/direccion_2/direccion2.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/2431/AdrianPacheco_OK.jpg" alt="">
                     <div class="text-center">
-                        <p class="text-center">Ing. Adrián Pacheco López</p>
+                        <p class="text-center">Ing. Adrián <br> Pacheco López</p>
                     </div>
                 </div>
             </div>
@@ -32,9 +32,9 @@
             <div class="col-md-2.4 contain-cards">
                 <div class="card direccion-card shadow-sm h-100">
                     <div class="card-header-custom">
-                        <h5 class="card-title text-center">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</h5>
+                        <h5 class="card-title text-center">Dirección de Desarrollo e Integración de <br> Medicina Basada en la Evidencia</h5>
                     </div>
-                    <a href="/dgmoss-project/direcciones/direccion_3/direccion3.php" class="btn stretched-link"></a>
+                    <a href="/dgmoss-project/direccion_3/direccion3.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/5901/PamelaDelMoral.jpg" alt="">
                     <div class="text-center">
                         <p class="text-center">Dra. Pamela del Moral Villavicencio</p>
@@ -47,10 +47,10 @@
                     <div class="card-header-custom">
                         <h5 class="card-title text-center">Dirección de Gestión de <br> Equipo Médico</h5>
                     </div>
-                    <a href="/dgmoss-project/direcciones/direccion_4/direccion4.php" class="btn stretched-link"></a>
+                    <a href="/dgmoss-project/direccion_4/direccion4.php" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/6181/1.jpg" alt="">
                     <div class="text-center">
-                        <p class="text-center">Ing. Patricia Miguel Hernández</p>
+                        <p class="text-center">Ing. Patricia <br> Miguel Hernández</p>
                     </div>
                 </div>
             </div>
@@ -60,10 +60,10 @@
                     <div class="card-header-custom">
                         <h5 class="card-title text-center">Dirección de Salud <br> Digital</h5>
                     </div>
-                    <a href="/dgmoss-project/direcciones/direccion_5/direccion5.php" class="btn stretched-link" class="btn stretched-link"></a>
+                    <a href="/dgmoss-project/direccion_5/direccion5.php" class="btn stretched-link" class="btn stretched-link"></a>
                     <img src="https://www.gob.mx/cms/uploads/structure/main_image/6107/2.jpg" alt="" >
                     <div class="text-center">
-                        <p class="text-center">Lic. Yibran Alejandro Hernández Montoya</p>
+                        <p class="text-center">Lic. Yibran Alejandro <br> Hernández Montoya</p>
                     </div>
                 </div>
             </div>

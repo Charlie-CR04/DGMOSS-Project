@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // 5. Realizamos una petición al servidor (busqueda_dsd.php)
-    fetch(`/dgmoss-project/direcciones/direccion_5/busqueda_dsd.php?q=${encodeURIComponent(termino)}`)
+    fetch(`/dgmoss-project/direccion_5/busqueda_dsd.php?q=${encodeURIComponent(termino)}`)
       .then(response => response.text()) // Esperamos texto (HTML)
       .then(data => {
         document.getElementById("resultados-busqueda-dsd").innerHTML = data;

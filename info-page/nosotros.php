@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/style.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/style_info_page.css">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
     <?php
         include('../includes/header.php');
@@ -50,7 +49,4 @@
         </div>
     </main>
 </body>
-<?php
-    include('../includes/footer.php');
-?>
 </html>
