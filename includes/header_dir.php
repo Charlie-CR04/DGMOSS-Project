@@ -10,7 +10,7 @@
         </a>
         <div class="collapse navbar-collapse" id="navbarContenido">
             <ul class="navbar-nav">
-                <li class="nav-item dropdown">
+                <li class="btn-group dropstart">
                     <a class="nav-link subnav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                         Direcciones
                     </a>

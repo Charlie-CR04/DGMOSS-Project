@@ -1,9 +1,10 @@
-<div class="container py-5">
-        <!-- Objetivo -->
+<section class="director-section">
+    <div class="container py-5">
+        <!-- OBJETIVO -->
         <div class="row justify-content-center mb-5">
             <div class="col-lg-10">
                 <div class="objetivo-container">
-                    <h3 class="objetivo-titulo text-center">¿Qué hace la Dirección de Políticas <br> de Tecnologías para la Salud?</h3>
+                    <h3 class="obj-title text-center mb-4">¿Qué hace la Dirección de Políticas <br> de Tecnologías para la Salud?</h3>
                     <p>
                         Conducir el diseño, la implementación y el desarrollo de las políticas de evaluación de tecnologías para la salud, 
                         así como los programas derivados de dichas políticas, utilizando metodologías y herramientas basadas en evidencia 
@@ -14,56 +15,25 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Sección de director + organigrama (alineados) -->
-        <div class="row align-items-start mb-4">
-            <!-- Director y directorio -->
-            <div class="col-md-6">
-                <div class="director-container p-4 shadow-sm h-100">
-                    <div class="text-center mb-4">
-                        <figure>
-                            <img src="https://www.gob.mx/cms/uploads/structure/main_image/2431/AdrianPacheco_OK.jpg" 
-                                 alt="Ing. Adrián Pacheco López" 
-                                 class="img-fluid rounded shadow-sm director-img">
-                            <figcaption class="mt-2 fw-semibold">Ing. Adrián Pacheco López</figcaption>
-                            <p class="text-muted">Director de Políticas de Tecnologías para la Salud</p>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Biografía del director -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="bio-container p-4 shadow-sm">
-                            <div class="descripcion-director">
-                                <p>
-                                    Ingeniero biomédico con especialización en ingeniería clínica, egresado de la Universidad 
-                                    Autónoma Metropolitana. Cuenta con formación en evaluación de tecnologías en salud, gestión de 
-                                    sistemas y servicios de salud, y salud electrónica, adquirida en instituciones de México, 
-                                    Argentina y España. Desde 2003 ha trabajado en la operación, gestión, desarrollo y evaluación 
-                                    de proyectos de tecnologías para la salud en México. Desde 2007 forma parte de la actual Dirección 
-                                    General de Modernización del Sector Salud. Ha sido asesor y consultor en proyectos en Latinoamérica, 
-                                    colaborando con instituciones públicas, privadas y organismos internacionales como la OPS y el BID. 
-                                    Es autor de publicaciones en salud electrónica y evaluación de tecnologías, y ha sido docente en universidades 
-                                    de México y América Latina.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Organigrama -->
-            <div class="col-md-6">
-                <div class="organigrama-container p-4 shadow-sm h-100">
-                    <h4 class="mb-3 text-center">Organigrama</h4>
-                    <img src="/dgmoss-project/assets/img/orga_salud.png" 
-                         alt="Organigrama Dirección de Salud Digital"
-                         class="img-fluid organigrama-img shadow-sm"
-                         data-bs-toggle="modal" 
-                         data-bs-target="#modalOrganigrama">
-                    <p class="small text-muted mt-2 text-center">Haz clic en la imagen para ampliarla</p>
-                </div>
 
+        <!-- Director -->
+        <div class="row justify-content-center align-items-start">
+            <!-- Foto y contacto -->
+            <div class="col-lg-4 col-md-5 mb-4">
+                <div class="director-container text-center">
+                    <figure class="mb-4">
+                        <img src="/dgmoss-project/assets/img/Directores/4.png" 
+                            alt="Ing. Adrián Pacheco López" 
+                            class="img-fluid rounded-circle director-img mb-3"
+                            style="width: 200px; height: 200px; object-fit: cover;">
+                        <figcaption class="text-muted h5">
+                            Ing. Adrián Pacheco López
+                        </figcaption>
+                        <p class="fw-semibold">
+                            Director de Políticas de Tecnologías <br> para la Salud
+                        </p>
+                    </figure>
+                </div>
                 <div class="contacto-card">
                     <div class="contacto-card-header">
                         <h5>
@@ -83,22 +53,36 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    
-    <!-- Modal del organigrama -->
-    <div class="modal fade" id="modalOrganigrama" tabindex="-1" aria-labelledby="modalOrganigramaLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalOrganigramaLabel">Organigrama completo</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            <!-- Biografía -->
+            <div class="col-lg-6 col-md-7">
+                <div class="bio-container p-4">
+                    <div class="descripcion-director">
+                        <p>
+                            Ingeniero biomédico con especialización en ingeniería clínica, egresado de la Universidad 
+                            Autónoma Metropolitana. Cuenta con formación en evaluación de tecnologías en salud, gestión de 
+                            sistemas y servicios de salud, y salud electrónica, adquirida en instituciones de México, 
+                            Argentina y España.  <br> <br>
+                            Desde 2003 ha trabajado en la operación, gestión, desarrollo y evaluación 
+                            de proyectos de tecnologías para la salud en México. Desde 2007 forma parte de la actual Dirección 
+                            General de Modernización del Sector Salud. Ha sido asesor y consultor en proyectos en Latinoamérica, 
+                            colaborando con instituciones públicas, privadas y organismos internacionales como la OPS y el BID. <br> <br>
+                            Es autor de publicaciones en salud electrónica y evaluación de tecnologías, y ha sido docente en universidades 
+                            de México y América Latina.
+                        </p>
+                    </div>
                 </div>
-                <div class="modal-body text-center">
-                    <img src="/dgmoss-project/assets/img/orga_salud.png" 
-                         alt="Organigrama completo" 
-                         class="img-fluid modal-organigrama-img">
+            </div>
+            <!-- Organigrama -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-10">
+                    <div class="organigrama-container">
+                        <h4 class="sub-title mb-3 text-center">Organigrama</h4>
+                            <img src="/dgmoss-project/assets/img/organigramas/organigrama_politicas.png" 
+                            alt="Organigrama Dirección de Salud Digital"
+                            class="img-fluid organigrama-img shadow-sm">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>

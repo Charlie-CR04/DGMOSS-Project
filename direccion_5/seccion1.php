@@ -20,7 +20,7 @@
             <div class="col-lg-4 col-md-5 mb-4">
                 <div class="director-container text-center">
                     <figure class="mb-4">
-                        <img src="/dgmoss-project/assets/img/Directores/Yibran_H.png" 
+                        <img src="/dgmoss-project/assets/img/Directores/1.png" 
                             alt="Lic. Yibran Alejandro Hernández Montoya" 
                             class="img-fluid rounded-circle director-img mb-3"
                             style="width: 200px; height: 200px; object-fit: cover;">
@@ -68,7 +68,7 @@
                 <div class="col-lg-10">
                     <div class="organigrama-container">
                         <h4 class="sub-title mb-3 text-center">Organigrama</h4>
-                            <img src="/dgmoss-project/assets/img/organigramas/organigrama_dsd3.png" 
+                            <img src="/dgmoss-project/assets/img/organigramas/organigrama_dsd.png" 
                             alt="Organigrama Dirección de Salud Digital"
                             class="img-fluid organigrama-img shadow-sm">
                     </div>

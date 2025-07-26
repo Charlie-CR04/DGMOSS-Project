@@ -13,10 +13,10 @@
         <div class="collapse navbar-collapse" id="navbarContenido">
             <ul class="navbar-nav">
                 <!-- Direcciones -->
-                <li class="nav-item dropdown">
+                <li class="btn-group dropstart">
                     <a class="nav-link subnav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Desplegar menú de Direcciones">Direcciones</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirecciones">
-                        <li><a class="dropdown-item" href="/dgmoss-project/direccion_1/direccion1.php" title="Ir a la Dirección General de Modernización del Sector Salud">Dirección General de Modernización del Sector Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/direccion_1/direccion1.php" title="Ir a la Dirección General de Modernización del Sector Salud">Dirección General de Modernización <br> del Sector Salud</a></li>
                         <li><a class="dropdown-item" href="/dgmoss-project/direccion_2/direccion2.php" title="Ir a la Dirección de Políticas de Tecnologías para la Salud">Dirección de Políticas de Tecnologías para la Salud</a></li>
                         <li><a class="dropdown-item" href="/dgmoss-project/direccion_3/direccion3.php" title="Ir a la Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia">Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia</a></li>
                         <li><a class="dropdown-item" href="/dgmoss-project/direccion_4/direccion4.php" title="Ir a la Dirección de Gestión de Equipo Médico">Dirección de Gestión de Equipo Médico</a></li>

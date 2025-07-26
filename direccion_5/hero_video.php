@@ -1,6 +1,6 @@
 <section class="hero-video-section">
     <video autoplay muted loop playsinline class="hero-video">
-        <source src="/dgmoss-project/assets/video/back2.mp4" type="video/mp4">
+        <source src="/dgmoss-project/assets/video/DSD.mp4" type="video/mp4">
                 Tu navegador no soporta video HTML5
     </video>
     <div class="hero-video-overlay">

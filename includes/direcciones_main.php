@@ -2,19 +2,7 @@
     <div class="container py-4">
         <h2 class="titulo-dir text-center">DIRECCIONES DGMOSS</h2>
         <div class="row justify-content-center g-4">
-            <!--    Direccion 1   -->
-            <div class="col-md-2.4 contain-cards">
-                <div class="card direccion-card shadow-sm h-100">
-                    <div class="card-header-custom">
-                        <h5 class="card-title text-center">Dirección General de Modernización <br> del Sector Salud</h5>
-                    </div>
-                    <a href="/dgmoss-project/direccion_1/direccion1.php" class="btn stretched-link"></a>
-                    <img src="https://www.gob.mx/cms/uploads/structure/main_image/6180/FOTO_JEPO.jpg" alt="">
-                    <div class="text-center">
-                        <p class="text-center">Dr. José Enrique <br> Pérez Olguín</p>
-                    </div>
-                </div>
-            </div>
+            
             <!--    Direccion 2   -->
             <div class="col-md-2.4 contain-cards">
                 <div class="card direccion-card shadow-sm h-100">

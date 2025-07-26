@@ -40,7 +40,7 @@
         <div class="container py-4">
             <div class ="row justify-content-center">
                 <div class="col-md-3 text-center text-md-start">
-                    <a href="/dgmoss-project/info-page/nosotros.php" class="btn-second">
+                    <a href="/dgmoss-project/direccion_1/direccion1.php" class="btn-second">
                         <h5 class="text-center">
                             ¿Qué es la DGMoSS?
                         </h5>
