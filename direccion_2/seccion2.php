@@ -38,11 +38,11 @@ $stmt2->close();
 ?>
 
 
-<section class="section-dpts-publicaciones">
+<section class="section-publicaciones">
     <h3 class="text-center">Documentos y Publicaciones</h3>
     <div class="container">
 
-        <div class="filtros-dpts-container">
+        <div class="filtros-container">
             <!--    Dropdowns   -->
             <?php foreach($categorias2 as $categoria2): ?>
                 <div class="dropdown">
@@ -61,10 +61,8 @@ $stmt2->close();
                 </div>
             <?php endforeach; ?>
 
-            <!--    Buscador    -->
-            <input type="text" id="input-busqueda-dpts" class="form-control" placeholder="Buscar documento...">
-        </div>
-
-        <div id="resultados-busqueda-dpts"></div>
+            <!-- Buscador -->
+            <input type="text" id="input-busqueda-dpts" class="form-control" placeholder="Buscar documento por nombre...">
+            <div class="mt-3" id="resultados-busqueda-dpts"></div>
     </div>
 </section>

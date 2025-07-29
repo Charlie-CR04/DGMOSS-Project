@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dirección General de Modernización del Sector Salud</title>
+    <title>Dictamen de Validación de Equipo Médico</title>
     <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion1.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
@@ -14,10 +13,11 @@
 </head>
 <body>
     <?php
-        include(__DIR__ . '/../includes/header_dir.php'); 
-        include(__DIR__ . '/hero_video.php');
-        include(__DIR__ . '/breadcrumb.php');
-        include(__DIR__ . '/seccion1.php');
+        include(__DIR__ . '/../includes/header_dir.php');
+        include(__DIR__ . '/breadcrumb.php');          
     ?>
+    <div class="container">
+        <img class="img-responsive" src="/dgmoss-project/assets/img/emote.jpg" alt="">
+    </div>
 </body>
 </html>

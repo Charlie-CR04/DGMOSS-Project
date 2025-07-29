@@ -1,25 +1,24 @@
+// buscador_dpts.js
+document.addEventListener('DOMContentLoaded', function () {
+    const input = document.getElementById('input-busqueda-dpts');
+    const contenedor = document.getElementById('resultados-busqueda-dpts');
 
-//1. Espera que la página cargue completamente
-document.addEventListener("DOMContentLoaded", function () {
-    //2. Seleccionar el id por su input
-    const inputBusqueda_2 = document.getElementById("input-busqueda.dpts");
-    //3. Escucha cuando el usuario escribe (evento keyup)
-    inputBusqueda_2.addEventListener("keyup", function() {
-        const termino_2 = inputBusqueda_2.trim();
-    //4. Si el termino es muy corto limpiamos resultados
-    if(termino_2.length < 2) {
-        document.getElementById("resultados-busqueda-dpts").innerHTML = "";
-        return;
-    }
+    input.addEventListener('keyup', function () {
+        const query = input.value.trim();
 
-    //5. Realizamos una petición al servidor (busqueda_dpts.php)
-    fetch(`/dgmoss-project/direccion_2/buscador.php?q=${encodeURIComponent(termino_2)}`)
-    .then(response => response.text()) // Esperamos texto (HTML)
-    .then(data => {
-        document.getElementById("resultados_busqueda-dpts").innerHTML = data;
-    })
-    .catch(error => {
-        console.error("Error al buscar documentos:", error);
-    });
+        if (query.length < 2) {
+            contenedor.innerHTML = '';
+            return;
+        }
+
+        fetch(`/dgmoss-project/direccion_2/buscador_dpts.php?q=${encodeURIComponent(query)}`)
+            .then(response => response.text())
+            .then(html => {
+                contenedor.innerHTML = html;
+            })
+            .catch(error => {
+                contenedor.innerHTML = '<p>Error al buscar documentos.</p>';
+                console.error(error);
+            });
     });
 });

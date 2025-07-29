@@ -4,6 +4,6 @@
                 Tu navegador no soporta video HTML5
     </video>
     <div class="hero-video-overlay">
-        <h1 class="hero-title">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</h1>
+        <h1 class="hero-title">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia <br> DDIMBE</h1>
     </div>
 </section>

@@ -16,7 +16,7 @@
 <body>
 
 <?php 
-    include(__DIR__ . '/../../header_dir.php');
+    include(__DIR__ . '/../../includes/header_dir.php');
     include(__DIR__ . '/hero-conetes.php');
     include(__DIR__ . '/seccion1.php');
 ?>

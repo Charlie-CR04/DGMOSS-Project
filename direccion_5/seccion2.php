@@ -50,11 +50,11 @@
     $stmt->close();
 ?>
 
-<section class="section-dsd-publicaciones">
+<section class="section-publicaciones">
     <h3 class="text-center">Documentos y Publicaciones</h3>
     <div class="container">
 
-        <div class="filtros-dsd-container">
+        <div class="filtros-container">
             <!--    Dropdowns   -->
             <?php foreach ($categorias as $categoria): ?>
                 <div class="dropdown">

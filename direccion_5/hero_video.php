@@ -4,6 +4,6 @@
                 Tu navegador no soporta video HTML5
     </video>
     <div class="hero-video-overlay">
-        <h1 class="hero-title">Dirección de Salud Digital</h1>
+        <h1 class="hero-title">Dirección de Salud Digital <br> DSD</h1>
     </div>
 </section>

@@ -1,11 +1,11 @@
 
 
 .director-section {
-    background-color: #f8f9fa;
+    background-color: white;
 }
 
 .objetivo-container {
-    background-color: white;
+    background-color: #f8f9fa;
     border-radius: 8px;
     padding: 2rem;
     margin-bottom: 2rem;
@@ -37,7 +37,7 @@
 }
 
 .bio-container {
-    background-color: #fff;
+    background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -76,7 +76,7 @@
 
 /*          Tarjeta de contacto             */
 .contacto-card {
-    background: white;
+    background: #f8f9fa;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     overflow: hidden;
@@ -92,7 +92,7 @@
 
 .contacto-card-header {
     background-color: #611232;
-    color: white;
+    color: #f8f9fa;
     padding: 1rem 1.5rem;
 }
 
@@ -103,6 +103,7 @@
 
 .contacto-card-body {
     padding: 1rem;
+    color: #f8f9fa;
 }
 
 .contacto-item {
