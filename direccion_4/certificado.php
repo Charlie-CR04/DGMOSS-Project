@@ -16,8 +16,6 @@
         include(__DIR__ . '/../includes/header_dir.php');
         include(__DIR__ . '/breadcrumb.php');          
     ?>
-    <div class="container">
-        <img class="img-responsive" src="/dgmoss-project/assets/img/emote.jpg" alt="">
-    </div>
+    
 </body>
 </html>

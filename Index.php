@@ -59,7 +59,5 @@
         include(__DIR__ . '/includes/documentos_publi.php');
         include(__DIR__ . '/includes/redes_sociales.php');
     ?>
-
-    <script src="/dgmoss-project/assets/js/script.js"></script>
 </body>
 </html>

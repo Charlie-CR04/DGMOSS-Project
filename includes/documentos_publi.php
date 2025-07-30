@@ -1,9 +1,9 @@
 <div class="contenedor-publicaciones py-5">
-    <div class="container">
+    <div class="container publicaciones-destacadas-home">
         <div class="row justify-content-between">
             <!-- Recuadro Estático: Documentos/Publicaciones -->
             <div class="col-md-2">
-                <div class="card documento-card fijo">
+                <div class=" documento-card fijo">
                     <h4 class="text-center">DOCUMENTOS</h4>
                     <img src="/dgmoss-project/assets/img/dir5-public/doc.jpg"class="card-img-top" alt="">
                     <div class="card-body">
@@ -21,7 +21,7 @@
                             <div class="row g-4 justify-content-center">
                                 <div class="col-md-6">
                                     <a href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Modelo AMD 2025.pdf" target="_blank" style="text-decoration:none; color:inherit;">
-                                        <div class="card documento-card">
+                                        <div class=" documento-card">
                                             <img src="/dgmoss-project/assets/img/dir5-public/AMD.png" class="card-img-top" alt="Documento 1">
                                             <div class="card-body">
                                                 <h5 class="card-title">Modelo de Atención Médica a Distancia</h5>
@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <a href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Catalogoserviciosportelesalud2025.pdf" target="_blank" style="text-decoration:none; color:inherit;">
-                                        <div class="card documento-card">
+                                        <div class=" documento-card">
                                             <img src="/dgmoss-project/assets/img/dir5-public/catalogoserviciosportelesalud.png" class="card-img-top" alt="Documento 2">
                                             <div class="card-body">
                                                 <h5 class="card-title">Catálogo de servicios por Telesalud</h5>
@@ -51,7 +51,7 @@
                             <div class="row g-4 justify-content-center">
                                 <div class="col-md-6">
                                     <a href="/dgmoss-project/documentos/dir5/Documentos de Telesalud/Cedula_InstrumentosJuridicos_Telesalud_Mx2025.pdf" target="_blank" style="text-decoration:none; color:inherit;">
-                                        <div class="card documento-card">
+                                        <div class=" documento-card">
                                             <img src="/dgmoss-project/assets/img/dir5-public/cedulaInstrumentosTelesalud.png" class="card-img-top" alt="Documento 3">
                                             <div class="card-body">
                                                 <h5 class="card-title">Cédula de Instrumentos Jurídicos aplicables a la práctica de la Telesalud en México.</h5>
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <a href="/dgmoss-project/documentos/dir5/Boletines/Boletin CECOSAMA Pachuca_versión completa.pdf"" target="_blank" style="text-decoration:none; color:inherit;">
-                                        <div class="card documento-card">
+                                        <div class=" documento-card">
                                             <img src="/dgmoss-project/assets/img/dir5-public/CECOSAMA_Pachuca.png" class="card-img-top" alt="Documento 4">
                                             <div class="card-body">
                                                 <h5 class="card-title">Boletin CECOSAMA Pachuca</h5>

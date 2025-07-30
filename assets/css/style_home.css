@@ -1,76 +1,77 @@
 /*              Contenedor de las direcciones           */
-
-.contenedor-dir {
-    margin-top: 50px;
-}
-
-.contain-cards {
-    flex: 0 0 20%;
-    max-width: 20%;
-}
-
-/* Tarjeta individual */
-.direccion-card {
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background: linear-gradient(to bottom, #e0e0e0, #a57f2c);
-}
-
-.direccion-card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    border-color:#6e6e6e;
+.contenedor-dir{
+  padding: 2rem 0;
 }
 
 .direccion-card img {
-    width: 160px; 
-    height: 160px;
-    border-radius: 10px;
-    margin: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* Contenido interno de la tarjeta */
-.direccion-card .card-body {
-    padding: 20px 10px;
-    text-align: center;
+.direccion-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.direccion-card p {
-    font-weight: 500;
-    margin-top: 10px;
-    color: black;
-    font-size: 1.4rem;
+.direccion-card:hover{
+    transform: translateY(-5px);
 }
 
-.direccion-card .card-title {
-    color: #161a1d;
-    font-weight: 500;
-    font-size: 1.5rem;
-}
-
-.titulo-dir {
-    margin-bottom: 40px;
+.direccion-card:hover img {
+  filter: brightness(1.1);
 }
 
 
 /*   Contenedor de Colaboradores   */
 
-.colab-barra .colab-icon {
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-    transition: tranform 0.3s;
-    display: block;
+.colaboraciones {
+  background-color: #f8f9fa;
+  border-left: 5px solid #611232;
+  border-right: 5px solid #611232;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
 }
 
-.colab-barra .colab-icon:hover {
-    transform: scale(1.1);
+img.colab-icon.img-fluid {
+  max-width: 140px;
+  transition: transform 0.3s ease;
+}
+
+img.colab-icon.img-fluid.REDETSA {
+  max-width: 230px;
+  transition: transform 0.3s ease;
+}
+
+img.colab-icon.img-fluid.WHO {
+  max-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+img.colab-icon.img-fluid.PAHO {
+  max-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+img.colab-icon.img-fluid.PAHO {
+  max-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+img.colab-icon.img-fluid.BRISA {
+  max-width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.colab-icon:hover {
+  transform: scale(1.1);
 }
 
 /*          Documentos y publicaciones           */
+
+.publicaciones-destacadas-home {
+  background-image: url('/dgmoss-project/assets/img/backs/texturaN1.png');
+}
 
 .documento-card {
   border: 1px solid #ccc;
