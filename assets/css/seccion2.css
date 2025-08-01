@@ -31,14 +31,16 @@
 }
 
 .filtros-container #input-busqueda-dsd, 
-.filtros-container #input-busqueda-dpts {
+.filtros-container #input-busqueda-dpts,
+.filtros-container #input-busqueda-ddimbe{
   flex: 1 1 auto;
   max-width: 300px;
   border-radius: 15px;
 }
 
 #resultados-busqueda-dsd,
-#resultados-busqueda-dpts {
+#resultados-busqueda-dpts,
+#resultados-busqueda-ddimbe {
   margin-top: 1.5rem;
 }
 
@@ -51,7 +53,8 @@
 
   .filtros-container .dropdown,
   .filtros-container #input-busqueda-dsd, 
-  .filtros-container #input-busqueda-dpts {
+  .filtros-container #input-busqueda-dpts,
+  .filtros-container #input-busqueda-ddimbe {
     width: 100%;
   }
 }

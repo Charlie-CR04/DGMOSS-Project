@@ -5,17 +5,18 @@
             <div class="col-9">
                 <div class="row ro-cols-2 row-cols-md-4 g-4 align-items-center">
                     
-                    <div class="col text-center">
-                        <a href="https://www.iom.int/" target="_blank" rel="noopener noreferrer">
-                            <img src="/dgmoss-project/assets/img/colabs/IOM.png" alt="IOM" class="colab-icon img-fluid  IOM">
+                    <div class="col">
+                        <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">
+                            <img src="/dgmoss-project/assets/img/colabs/WHO.png" alt="WHO" class="colab-icon img-fluid WHO">
                         </a>
                     </div>
 
                     <div class="col text-center">
-                        <a href="https://www.paho.org/" target="_blank" rel="noopener noreferrer">
-                            <img src="/dgmoss-project/assets/img/colabs/PAHO.png" alt="PAHO" class="colab-icon img-fluid PAHO">
+                        <a href="https://www.unam.mx/" target="_blank" rel="noopener noreferrer">
+                            <img src="/dgmoss-project/assets/img/colabs/unam.png" alt="UNA" class="colab-icon img-fluid unam">
                         </a>
                     </div>
+
                     <div class="col text-center">
                         <a href="https://redclara.net/es/colaboracion/conozca/rute-al" target="_blank" rel="noopener noreferrer">
                             <img src="/dgmoss-project/assets/img/colabs/red_clara.png" alt="UNICEF" class="colab-icon img-fluid redClara">
@@ -28,15 +29,15 @@
                         </a>
                     </div>
 
-                    <div class="col">
-                        <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer">
-                            <img src="/dgmoss-project/assets/img/colabs/WHO.png" alt="WHO" class="colab-icon img-fluid WHO">
+                    <div class="col text-center">
+                        <a href="https://www.iom.int/" target="_blank" rel="noopener noreferrer">
+                            <img src="/dgmoss-project/assets/img/colabs/IOM.png" alt="IOM" class="colab-icon img-fluid  IOM">
                         </a>
                     </div>
 
                     <div class="col text-center">
-                        <a href="https://www.unam.mx/" target="_blank" rel="noopener noreferrer">
-                            <img src="/dgmoss-project/assets/img/colabs/unam.png" alt="UNA" class="colab-icon img-fluid unam">
+                        <a href="https://www.paho.org/" target="_blank" rel="noopener noreferrer">
+                            <img src="/dgmoss-project/assets/img/colabs/PAHO.png" alt="PAHO" class="colab-icon img-fluid PAHO">
                         </a>
                     </div>
 

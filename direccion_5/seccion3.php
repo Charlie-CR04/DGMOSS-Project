@@ -24,7 +24,7 @@ $stmt->close();
 ?>
 
 <!-- Publicaciones destacadas -->
-<section class="publicacione">
+<section class="publicaciones">
     <h3 class="mt-5 text-center">Publicaciones Destacadas</h3>
     <div class="container-publicaciones-destacadas">
         <div class="row g-4 justify-content-center">

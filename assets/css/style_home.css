@@ -67,58 +67,62 @@ img.colab-icon.img-fluid.BRISA {
   transform: scale(1.1);
 }
 
-/*          Documentos y publicaciones           */
 
-.publicaciones-destacadas-home {
+/*          Carrusel de documentos           */
+
+.docs-dir {
   background-image: url('/dgmoss-project/assets/img/backs/texturaN1.png');
-}
-
-.documento-card {
-  border: 1px solid #ccc;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 22rem;
-  display: flex;
-  flex-direction:column;
-  justify-content:start;
 }
 
-/* Ajustar la imagen de cada tarjeta */
-.documento-card .card-img-top {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
-  border-bottom: 1px solid #ddd;
-  background-color: white;
-  padding: 5px;
-  display: block;
-  margin: auto;
-}
-
-
-.card-title {
-  font-weight: 600;
+.panel-izq h3{
   color: #611232;
 }
 
-.card-text {
-  color: black;
-  text-align: justify;
+.panel-izq p {
+  color: white;
 }
 
-#documentos-carrusel {
-    height: 250px;
+.document-card h5,
+.document-card h6{
+  color: #a57f2c;
 }
 
-/* Estilo para los botones del carrusel */
-.carousel-control-prev, .carousel-control-next {
-  z-index: 2;
+.document-card p{
+  color: white;
 }
+
+.document-card {
+  background: transparent;
+  border-radius: 8px;
+  padding: 1.5rem;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.document-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 992px) {
+    .banner-docs .col-lg-4, 
+    .banner-docs .col-lg-8 {
+        width: 100%;
+    }
+    
+    #carouselDocumentos {
+        min-height: auto;
+        margin-top: 2rem;
+    }
+}
+
 
 /*                       Publicaciones de Redes sociales                   */
 
-/* Contenedor del carrusel */
+/* Contenedor del carrusel 
 #carrusel4 h5{
   color: #611232;
   font-weight: 600;
@@ -142,10 +146,10 @@ img.colab-icon.img-fluid.BRISA {
 }
 
 #carrusel4 .carousel-control-prev{
-    left: -60px; /* Ajusta la posición del botón anterior */
+    left: -60px; /* Ajusta la posición del botón anterior 
     height: auto;
 }
 #carrusel4 .carousel-control-next {
-    right: -60px; /* Ajusta la posición del botón siguiente */
+    right: -60px; /* Ajusta la posición del botón siguiente 
     height: auto;
 }

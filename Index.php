@@ -20,13 +20,6 @@
         include('includes/header.php');
     ?>
 
-    <!--<section class="hero-section">
-        <div class="hero-overlay">
-            <h1 class="hero-title">Dirección General de <br> Modernización del Sector Salud</h1>
-            <p>La DGMoSS proporciona información basada en la mejor evidencia disponible para una adecuada toma de decisiones <br> en materia de Tecnologías para la salud, en los servicios de salud en México.</p>
-        </div>
-    </section>-->
-
     <section class="hero-video-section">
         <video autoplay muted loop playsinline class="hero-video">
             <source src="/dgmoss-project/assets/video/dgmoss.mp4" type="video/mp4">

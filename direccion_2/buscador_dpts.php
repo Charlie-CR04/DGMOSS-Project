@@ -32,7 +32,7 @@ if ($result->num_rows > 0): ?>
             <h5><?= htmlspecialchars($doc['titulo']) ?></h5>
             <p><?= htmlspecialchars($doc['descripcion']) ?></p>
             <a href="<?= htmlspecialchars($doc['url']) ?>" target="_blank" class="btn btn-sm btn-primary">
-                Ver Documento
+                Ver documento
             </a>
         </div>
     <?php endwhile; ?>
