@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestión de Equipo Médico</title>
+    <title>Certificado de Necesidad de Equipo Médico</title>
     <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/dgem.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
@@ -14,7 +15,9 @@
 <body>
     <?php
         include(__DIR__ . '/../includes/header_dir.php');
-        include(__DIR__ . '/breadcrumb.php');          
+        include(__DIR__ . '/../cdnem/breadcrumb.php');
+        include(__DIR__ . '/../cdnem/seccion1.php');            
     ?>
+    
 </body>
 </html>

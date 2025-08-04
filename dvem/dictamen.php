@@ -6,6 +6,7 @@
     <title>Dictamen de Validación de Equipo Médico</title>
     <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/dgem.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
@@ -14,7 +15,8 @@
 <body>
     <?php
         include(__DIR__ . '/../includes/header_dir.php');
-        include(__DIR__ . '/breadcrumb.php');          
+        include(__DIR__ . '/../dvem/breadcrumb.php');
+        include(__DIR__ . '/../dvem/seccion1.php');          
     ?>
     <div class="container">
         

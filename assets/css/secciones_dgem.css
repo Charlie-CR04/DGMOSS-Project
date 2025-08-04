@@ -1,0 +1,38 @@
+.secciones .row {
+    justify-content: center;
+    gap: 2rem 0;
+}
+
+.secciones .col-sm-4 {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.secciones a {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.secciones a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.secciones img{
+    width: 100%;
+    max-width: auto;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.secciones a:hover img {
+  transform: scale(1.05);
+}
+

@@ -1,0 +1,20 @@
+/*         Seccion 1         */
+
+.contenido .objetivo {
+    max-width: 1000px;
+}
+
+.contenido img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    height: 485px;
+    object-fit: contain;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/*          Breadcrumb          */
+.breadcrumb{
+    margin-top: 80px;
+}

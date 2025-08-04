@@ -73,7 +73,7 @@
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-10">
                     <div class="organigrama-container">
-                        <h3 class="sub-title mb-3 text-center">Organigrama</h3>
+                        <h3 class="sub-title mb-3 text-center">Colaboradores</h3>
                             <img src="/dgmoss-project/assets/img/organigramas/organigrama_dgem.png" 
                             alt="Organigrama Dirección de Salud Digital"
                             class="img-fluid organigrama-img shadow-sm">
