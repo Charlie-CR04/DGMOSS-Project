@@ -4,6 +4,6 @@
                 Tu navegador no soporta video HTML5
     </video>
     <div class="hero-video-overlay">
-        <h1 class="hero-title">Comité Nacional de Evaluación de Tecnologías para la Salud (CONETES)</h1>
+        <h1 class="hero-title text-center">Comité Nacional de Evaluación de <br> Tecnologías para la Salud <br> CNETS</h1>
     </div>
 </section>

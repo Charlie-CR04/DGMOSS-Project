@@ -11,9 +11,9 @@
     <div class="container py-4">
         <div class ="row justify-content-center">
             <div class="col-md-3 text-center text-md-start">
-                <a href="/dgmoss-project/direccion_2/CONETES/conetes.php" class="btn-second">
+                <a href="/dgmoss-project/CNETS/cnets.php" class="btn-second">
                     <h5 class="text-center">
-                        CONETES
+                        CNETS
                     </h5>
                 </a>
             </div>
