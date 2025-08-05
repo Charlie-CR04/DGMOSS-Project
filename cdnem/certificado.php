@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/dgem.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion3.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
@@ -16,7 +17,8 @@
     <?php
         include(__DIR__ . '/../includes/header_dir.php');
         include(__DIR__ . '/../cdnem/breadcrumb.php');
-        include(__DIR__ . '/../cdnem/seccion1.php');            
+        include(__DIR__ . '/../cdnem/seccion1.php');
+        include(__DIR__ . '/../cdnem/seccion2.php');            
     ?>
     
 </body>
