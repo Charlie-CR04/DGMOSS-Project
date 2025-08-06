@@ -1,6 +1,6 @@
 <section class="contenedor-dir">
     <div class="container">
-        <h2 class="titulo-dir text-center mb-4">DIRECCIONES DGMOSS</h2>
+        <h3 class="titulo-dir text-center mb-4">DIRECCIONES DGMOSS</h3>
         <div class="row g-3">
             
             <div class="col-md-6">
