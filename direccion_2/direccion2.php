@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion1.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion2.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion3.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/banners.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">

@@ -1,0 +1,54 @@
+.contenido .objetivo {
+    max-width: 1000px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #611232;
+    border-right: 5px solid #611232;
+    text-align: justify;
+}
+
+.contenido h2 {
+  color: #611232;
+}
+
+/*          Breadcrumb          */
+.breadcrumb{
+  margin-top: 65px;
+}
+
+
+/*   Contenedor de Colaboradores   */
+
+.colaboraciones {
+  background-color: #f8f9fa;
+  border-left: 5px solid #611232;
+  border-right: 5px solid #611232;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+  max-width: 1100px;
+  margin-top: 0 auto;
+}
+
+.colab-icon{
+  max-height: 100px;
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.colab-icon:hover {
+  transform: scale(1.1);
+}
+
+.filtros-container{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
