@@ -25,7 +25,7 @@ if (isset($_SESSION['nombre_usuario'])) {
     
     <div class="sign-in">
 
-    <?php  include(__DIR__ . "/../sign-in/login.php");?>
+        <?php  include(__DIR__ . "/../sign-in/login.php");?>
 
         <h2 class="text-center mb-4">Iniciar Sesión</h2>
 
@@ -34,7 +34,7 @@ if (isset($_SESSION['nombre_usuario'])) {
             <div class="alert alert-danger"><?= $_error ?></div>
         <?php endif; ?>
 
-        <form method="POST" autocomplete="off">
+        <form method="POST" autocomplete="off" class="formulario">
             <!--Usuario-->
             <div class="item-sesion">
                 <label for="inputEmail" class="form-label">Correo Electrónico</label>
@@ -49,7 +49,6 @@ if (isset($_SESSION['nombre_usuario'])) {
             <button type="submit" name="submit" class="btn btn-primary w-100">Ingresar</button>
         </form>
     </div>
-</script>
 
 
 </body>

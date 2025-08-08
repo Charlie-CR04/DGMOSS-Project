@@ -1,12 +1,17 @@
-.sign-in {
+body{
+    background-image: url('/dgmoss-project/assets/img/backs/4.png');
+}
+
+.formulario{
     background-color: #611232;
     color: white;
-    margin: 82px auto;
+    margin: 11rem auto;
     padding: 40px 30px;
-    max-width: 500px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, 1);
     border-radius: 20px;
 }
+
 
 .sign-in input[type=text],
 .sign-in input[type=password] {

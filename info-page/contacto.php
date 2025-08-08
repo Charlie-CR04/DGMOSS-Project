@@ -54,7 +54,7 @@
                                 <i class="fas fa-envelope-square"></i>
                                 <div class="mail">
                                     <span class="contacto-label">Email:</span>
-                                    <span class="contacto-value">informes_dgmoss@salud.gob.mx</span>
+                                    <span class="contacto-value">dgmoss@salud.gob.mx</span>
                                 </div>
                             </div>
                         </div>

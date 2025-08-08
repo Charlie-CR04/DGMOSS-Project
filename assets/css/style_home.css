@@ -33,33 +33,27 @@
   padding: 30px;
 }
 
-img.colab-icon.img-fluid {
-  max-width: 140px;
-  transition: transform 0.3s ease;
-}
-
-img.colab-icon.img-fluid.REDETSA {
-  max-width: 230px;
-  transition: transform 0.3s ease;
-}
-
-img.colab-icon.img-fluid.WHO {
-  max-width: 200px;
-  transition: transform 0.3s ease;
-}
-
-img.colab-icon.img-fluid.PAHO {
-  max-width: 200px;
-  transition: transform 0.3s ease;
-}
-
-img.colab-icon.img-fluid.PAHO {
-  max-width: 200px;
-  transition: transform 0.3s ease;
-}
-
 img.colab-icon.img-fluid.BRISA {
-  max-width: 280px;
+  max-width: 380px;
+  transition: transform 0.3s ease;
+}
+
+img.colab-icon.img-fluid.REDETSA{
+  max-width: 360px;
+  transition: transform 0.3s ease;
+}
+
+img.colab-icon.img-fluid.WHO{
+  max-width: 240px;
+  transition: transform 0.3s ease;
+}
+
+.colab-icon {
+  max-height: 100px;
+  object-fit: contain;
+  width: auto;
+  margin: 0 auto;
+  display: block;
   transition: transform 0.3s ease;
 }
 
