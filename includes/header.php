@@ -1,9 +1,9 @@
 <!-- Barra de navegación -->
-<nav class="navbar navbar-expand-md navbar-dark bg-light sub-navbar navbar-fixed-top">
+<nav class="navbar navbar-expand-md navbar-light bg-light sub-navbar fixed-top">
     <div class="container">
         <!-- Logo -->
         <a class="navbar-brand sub-navbar" href="/dgmoss-project/" title="Ir a la página principal">
-            <img src="/dgmoss-project/assets/img/logo/logo_blanco.png" alt="logo">
+            <img src="/dgmoss-project/assets/img/logo/logo.png" alt="logo">
         </a>
         <!-- Botón responsive para móvil (hamburguesa) -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">

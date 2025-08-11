@@ -88,17 +88,17 @@
 /*              Segunda Sección             */
 
 .hero-video-second {
-  background-color: black;
-  animation: fadeIn 2.2s ease-in-out forwards;
-  opacity: 0;
+    background-image: url('/dgmoss-project/assets/img/backs/3.png');
+    animation: fadeIn 2.2s ease-in-out forwards;
+    opacity: 0;
 }
 
 .btn-second h5{
-  color: white;
+  color: black;
   font-weight: 300;
   text-decoration: none;
   padding: 10px 20px;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 10px;
   transition: all 0.3s ease;
   display: inline-block;
@@ -108,9 +108,9 @@
   background-color: #a57f2c;
   color: white;
   text-decoration: none;
-  border-color: #a57f2c;
+  border-color: white;
 }
 
 .hero-video-second p {
-  color: white;
+  color: black;
 }

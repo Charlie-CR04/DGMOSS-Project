@@ -40,7 +40,7 @@
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <p class="text-light text-justify text-md-start">En la <strong>DGMoSS</strong> creemos firmemente que la salud digital debe ser un derecho universal, <br> no un privilegio.</p>
+                    <p class="text-justify text-md-start">En la <strong>DGMoSS</strong> creemos firmemente que la salud digital debe ser un derecho universal, <br> no un privilegio.</p>
                 </div>
             </div>
         </div>

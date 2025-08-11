@@ -1,55 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+     
 
-.navbar-admin {
-    background-color: #611232;
-    padding: 10px 20px;
-    color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.navbar-admin-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-admin-logo img{
-    height: 65px;
-}
-
-.navbar-admin-user{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.usuario-info {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-weight: bold;
-}
-
-.usuario-info i {
-    font-size: 24px;
-}
-
-.btn-cerrar-sesion {
-    color: white;
-    background-color: #a57f2c;
-    padding: 6px 12px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.btn-cerrar-sesion:hover {
-    background-color: #8e6c25;
-}
 
 /*  Direcciones */
 

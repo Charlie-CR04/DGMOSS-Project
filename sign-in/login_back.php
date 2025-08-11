@@ -42,7 +42,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){ //2. Solo si el usuario a enviado el 
                 $_error = "La contraseña es incorrecta";
             }
         } else {
-            $_error = "No se encontro una cuenta con ese correo";
+            $_error = "Usuario o contraseña incorrectos";
         }
         $stmt->close(); //9. Cerramos statement (Cerrar la conexión con la BD) para liberar memoria
     }

@@ -118,6 +118,23 @@ img.colab-icon.img-fluid.WHO{
   right: -20px;
 }
 
+#navbarDropdownMenuLink.nav-link.subnav-link.dropdown-toggle,
+#dropdownMultimedia.nav-link.subnav-link.dropdown-toggle,
+.nav-link.subnav-link{
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+#navbarDropdownMenuLink.nav-link.subnav-link.dropdown-toggle:hover,
+#dropdownMultimedia.nav-link.subnav-link.dropdown-toggle:hover,
+.nav-link.subnav-link:hover {
+  background-color: #80425b;
+  color: #a57f2c;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
 
 
 /* Ajustes responsivos */

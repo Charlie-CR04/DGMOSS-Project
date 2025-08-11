@@ -1,7 +1,7 @@
 <!-- Tu barra de navegación principal (modificada) -->
-<nav class="navbar navbar-expand-md navbar-dark bg-light sub-navbar navbar-fixed-top">
+<nav class="navbar navbar-expand-md navbar-light bg-ligth sub-navbar fixed-top">
     <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido" aria-expanded="false" aria-label="Toggle navegation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Logo institucional -->

@@ -15,12 +15,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" href="/dgmoss-project/assets/css/panel.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!-- GOB -->
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
+    <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
     <?php include(__DIR__ . '/../admin/navbar_panel.php'); // 6. Incluye barra de navegación ?>
 </head>
 <body>
 
-    <main class="panel-direcciones-container">
+    <main class="panel-direcciones-container mt-5">
         <h1 class="titulo-panel">Selecciona una dirección para administrar documentos</h1>
         <div class="grid-direcciones">
             <?php 
