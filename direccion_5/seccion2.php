@@ -58,7 +58,7 @@
             <!--    Dropdowns   -->
             <?php foreach ($categorias as $categoria): ?>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    <button class="btn btn-secondary w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         <?= htmlspecialchars($categoria['nombre']) ?>
                     </button>
                     <ul class="dropdown-menu">

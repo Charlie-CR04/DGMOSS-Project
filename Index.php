@@ -17,7 +17,7 @@
 <body>
 
     <?php
-        include('includes/header.php');
+        include('home/header.php');
     ?>
 
     <section class="hero-video-section">
@@ -47,10 +47,10 @@
     </section>
 
     <?php
-        include(__DIR__ . '/includes/direcciones_main.php');
-        include(__DIR__ . '/includes/colab.php');
-        include(__DIR__ . '/includes/documentos_publi.php');
-        include(__DIR__ . '/includes/redes_sociales.php');
+        include(__DIR__ . '/home/direcciones_main.php');
+        include(__DIR__ . '/home/colab.php');
+        include(__DIR__ . '/home/documentos_publi.php');
+        include(__DIR__ . '/home/redes_sociales.php');
     ?>
 </body>
 </html>

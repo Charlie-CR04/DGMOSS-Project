@@ -46,7 +46,7 @@ $stmt2->close();
             <!--    Dropdowns   -->
             <?php foreach($categorias2 as $categoria2): ?>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    <button class="btn btn-secondary w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         <?= htmlspecialchars($categoria2['nombre']) ?>
                     </button>
                     <ul class="dropdown-menu">
@@ -63,6 +63,8 @@ $stmt2->close();
 
             <!-- Buscador -->
             <input type="text" id="input-busqueda-dpts" class="form-control" placeholder="Buscar documento por nombre...">
-            <div class="mt-3" id="resultados-busqueda-dpts"></div>
+        </div>
+        <!--    Resultados  -->
+        <div class="mt-3" id="resultados-busqueda-dpts"></div>
     </div>
 </section>

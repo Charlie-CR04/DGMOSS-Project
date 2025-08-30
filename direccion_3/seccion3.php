@@ -30,7 +30,7 @@
         <div class="row g-4 justify-content-center">
             <?php if(!empty($docs_destacados)): ?>
                 <?php foreach($docs_destacados as $doc): ?>
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <a href=" <?= htmlspecialchars($doc['url']) ?>" target="_blank" style="text-decoration: none; color: inherit;">
                             <div class="card h-100 shadow-sm card-destacada">
                                 <img src="<?= htmlspecialchars($doc['imagen_destacada']) ?>" alt="Imagen destacada" class="card-img-top"> 

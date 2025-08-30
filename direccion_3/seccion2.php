@@ -47,7 +47,7 @@
             <!--    Dropdowns   -->
             <?php foreach ($categorias as $categoria): ?>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    <button class="btn btn-secondary w-100 dropdown-toggle" type="button" data-bs-toggle="dropdown">
                         <?= htmlspecialchars($categoria['nombre']) ?>
                     </button>
                     <ul class="dropdown-menu">
@@ -66,6 +66,6 @@
             <input type="text" id="input-busqueda-ddimbe" class="form-control" placeholder="Buscar documento">
         </div>
         <!--    Resultados  -->
-        <div id="resultados-busqueda-ddimbe"></div>
+        <div class="mt-3" id="resultados-busqueda-ddimbe"></div>
     </div>
 </section>

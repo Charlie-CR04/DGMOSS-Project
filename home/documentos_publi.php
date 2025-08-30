@@ -1,5 +1,5 @@
 <?php
-    include(__DIR__ . '/../sign-in/conexion.php');
+    include(__DIR__ . '/../includes/conexion.php');
 
     $sql = "SELECT d.titulo, d.descripcion, d.url, d.imagen_destacada, dir.nombre_direccion
             FROM documentos d

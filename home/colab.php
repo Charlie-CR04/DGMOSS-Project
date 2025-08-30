@@ -1,5 +1,5 @@
 <section class="seccion-colaboraciones py-5">
-    <h3 class="text-center mb-4">COLABORACIONES INTERNACIONALES</h3>
+    <h3 class="text-center mb-4">COLABORACIONES</h3>
     <div class="container colaboraciones col-8">
         <div class="row justify-content-center">
             <div class="col-9">

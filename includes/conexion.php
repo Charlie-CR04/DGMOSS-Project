@@ -3,24 +3,24 @@
     require __DIR__ . '/../vendor/autoload.php';
 
     //1. Validar que .env exista
-    if(!file_exists(__DIR__ . '/.env')){
+    if(!file_exists(__DIR__ . '/../.env')){
         die("Archivo .env no encontrado. Cópialo desde .env.example");
     }
 
     //2. Cargamos el .env de forma segura
     //Se usa esta variable para cargar las variables
-    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
     try {
         $dotenv->safeLoad();
 
         //3. Cargamos credenciales
-        $servername = $_ENV['DB_HOST'] ?? throw new Exception("DB_HOST no esta definido en .env, agreguelo");
+        $servername = $_ENV['DB_HOST'] ?? throw new Exception("DB_HOST no esta definido en .env, agréguelo");
         
-        $username = $_ENV['DB_USER'] ?? throw new Exception("BD_USER no esta definido en .env, agreguelo");
+        $username = $_ENV['DB_USER'] ?? throw new Exception("BD_USER no esta definido en .env, agréguelo");
             
-        $password = $_ENV['DB_PASS'] ?? throw new Exception("BD_PASS no esta definida en .env, agreguela");
+        $password = $_ENV['DB_PASS'] ?? throw new Exception("BD_PASS no esta definida en .env, agréguela");
         
-        $bd = $_ENV['DB_NAME'] ?? throw new Exception("BD_NAME no esta definida en .env, agreguela");
+        $bd = $_ENV['DB_NAME'] ?? throw new Exception("BD_NAME no esta definida en .env, agréguela");
 
         //4. Conectar con la BD con manejo de errores
         $conexion = new mysqli($servername,$username,$password, $bd);

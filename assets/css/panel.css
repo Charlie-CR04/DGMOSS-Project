@@ -26,3 +26,10 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     transform: translateY(-6px);
 }
+
+/*      Panel usuarios      */
+.usuarios-front {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
