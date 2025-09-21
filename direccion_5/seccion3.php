@@ -1,6 +1,6 @@
 <?php
 // Incluye la conexión a la base de datos
-include(__DIR__ . '/../sign-in/conexion.php');
+include(__DIR__ . '/../includes/conexion.php');
 
 // Definimos el ID de la dirección "Salud Digital"
 $id_direccion = 5;

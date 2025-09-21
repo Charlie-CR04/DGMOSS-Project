@@ -1,6 +1,6 @@
 <?php
     //1. Conectar a la base de datos
-    include(__DIR__ . '/../sign-in/conexion.php');
+    include(__DIR__ . '/../includes/conexion.php');
 
     //2. Escribir la consulta SQL 
     $sql = "SELECT c.id_categoria, c.nombre_categoria, d.titulo, d.url

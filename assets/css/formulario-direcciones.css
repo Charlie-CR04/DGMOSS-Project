@@ -1,0 +1,69 @@
+body {
+    padding-top: 150px; /* Ajusta el valor según la altura de tu barra de navegación */
+}
+
+.form-container {
+    display: flex;                    /* Usa Flexbox */
+    justify-content: center;          /* Centra los elementos horizontalmente */
+    align-items: center;              /* Centra los elementos verticalmente */
+    flex-wrap: wrap;                  /* Permite que los elementos se ajusten si no caben en una línea */
+    gap: 15px;                        /* Espacio entre los elementos */
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.form-container .col-auto {
+    display: flex;                    /* Usa Flexbox para los elementos dentro de las columnas */
+    justify-content: center;          /* Centra el contenido dentro de cada columna */
+}
+
+.form-container .col-auto select,
+.form-containerform .col-auto button,
+.form-container .col-auto a {
+    display: inline-flex;             /* Mantiene los elementos alineados de forma horizontal */
+    align-items: center;              /* Centra los iconos dentro del botón */
+}
+
+.form-container .col-auto button,
+.form-container .col-auto a {
+    padding: 8px 15px;                /* Espacio adicional en los botones */
+    text-align: center;               /* Alinea el texto dentro del botón */
+}
+
+.form-container .col-auto a {
+    margin-top: 0;                    /* Alineación de los botones */
+}
+
+.alert {
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.pagination {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination .page-link {
+    color: #611232;
+    border: 1px solid #ddd;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.pagination .active .page-link {
+    background-color: #611232;
+    color: white;
+    font-weight: bold;
+}
+
+.pagination .disabled .page-link {
+    color: #ccc;
+    pointer-events: none;
+}
+

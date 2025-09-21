@@ -1,5 +1,5 @@
 <?php
-    include(__DIR__ . '/../sign-in/conexion.php');
+    include(__DIR__ . '/../includes/conexion.php');
 
     $sql = "SELECT c.id_categoria, c.nombre_categoria, d.titulo, d.url 
             FROM categorias c
