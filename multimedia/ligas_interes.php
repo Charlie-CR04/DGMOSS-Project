@@ -10,9 +10,10 @@
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/multimedia.css">
 </head>
 <?php
-    include('../includes/header.php');
+    include('../home/header.php');
 ?>
 <body>
     <div class="container mt-4">

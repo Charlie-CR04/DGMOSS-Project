@@ -1,16 +1,20 @@
+body {
+    padding-top: 150px; /* Ajusta el valor según la altura de tu barra de navegación */
+} 
+
 .titulo-panel{
     color: #161a1d;
     text-align: center;
 }
 
 .tarjet img {
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .tarjet {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
 }
 
 .seccion-admin a{

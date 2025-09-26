@@ -10,7 +10,7 @@
     $direcciones = $conexion->query("SELECT id_direccion, nombre_direccion 
                               FROM direcciones 
                               ORDER BY id_direccion")->fetch_all(MYSQLI_ASSOC);
-
+                              
     $direcciones_map = array_column($direcciones, 'nombre_direccion', 'id_direccion');
     
     $id_direccion = (int)($_GET['id_direccion'] ?? ($direcciones[0]['id_direccion'] ?? 0));
@@ -25,7 +25,7 @@
             FROM documentos d
             LEFT JOIN categorias c ON c.id_categoria = d.id_categoria
             WHERE d.id_direccion = ?
-            ORDER BY d.actualizacion DESC, d.fecha_publicacion DESC
+            ORDER BY d.titulo
             LIMIT ? OFFSET ?";
 
     $stmt = $conexion->prepare($sql);
@@ -62,7 +62,7 @@
     <div class="container">
 
     <div class="mb-3">
-        <a class="btn btn-secondary btn-sm" href="/dgmoss-project/admin/panel.php">
+        <a class="btn btn-secondary btn-sm active" href="/dgmoss-project/admin/panel.php">
             <i class="bi bi-arrow-left"></i> Regresar
         </a>
     </div>
@@ -87,7 +87,6 @@
             </button>
         </div>
 
-        <!-- Botón para crear documento (si es permitido) -->
         <div>
             <?php if ($cfg['permite_docs'] === '1'): ?>
                 <a href="/dgmoss-project/admin/direcciones/crear_documento.php?id_direccion=<?= $id_direccion ?>" class="btn btn-danger btn-sm active">
@@ -110,8 +109,8 @@
                         <th class="text-center">Título</th>
                         <th class="text-center">Categoría</th>
                         <th class="text-center">Estado</th>
-                        <th class="text-center">Destacado</th>
                         <th class="text-center">Home</th>
+                        <th class="text-center">Destacado</th>
                         <th class="text-center">Acciones</th>
                     </tr>
                 </thead>
@@ -125,7 +124,7 @@
                             <td class="text-center"><?= htmlspecialchars($doc['destacado'] === '1' ? 'Si':'No') ?></td>
                             <td class="text-center">
                                 <a class="btn btn-danger btn-sm active mb-3" 
-                                    href="/dgmoss-project/admin/direcciones/editar_documento.php?id=<?= (int)$doc['id_documento'] ?>">
+                                    href="/dgmoss-project/admin/direcciones/editar_documento.php?id_documento=<?= (int)$doc['id_documento'] ?>">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
                                 <form action="/dgmoss-project/admin/direcciones/eliminar_documento.php" method="post" class="d-inline"

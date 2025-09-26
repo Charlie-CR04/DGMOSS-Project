@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/style_info_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/style_info_page.css">
     <?php
-        include('../includes/header.php');
+        include('../home/header.php');
     ?>
 </head>
 <body>

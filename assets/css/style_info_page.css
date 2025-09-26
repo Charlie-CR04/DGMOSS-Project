@@ -1,3 +1,7 @@
+body {
+    padding-top: 150px; /* Ajusta el valor según la altura de tu barra de navegación */
+} 
+
 h1.bottom-buffer {
     margin-top: 60px;       /* Espacio desde el top del navegador */
     margin-bottom: 30px;    /* Espacio debajo del título */

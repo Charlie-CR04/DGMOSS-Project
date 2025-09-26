@@ -1,8 +1,13 @@
 body {
-    padding-top: 150px; /* Ajusta el valor según la altura de tu barra de navegación */
+    padding-top: 130px; /* Ajusta el valor según la altura de tu barra de navegación */
 }
 
 .form-container {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #edeff0;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0,0.1);
     display: flex;                    /* Usa Flexbox */
     justify-content: center;          /* Centra los elementos horizontalmente */
     align-items: center;              /* Centra los elementos verticalmente */
@@ -67,3 +72,6 @@ body {
     pointer-events: none;
 }
 
+.btn {
+    min-width: 12rem;
+}
