@@ -4,6 +4,7 @@
 
     $isAdmin = (($_SESSION['rol'] ?? '') === 'admin');
     $miDir = (int)($_SESSION['id_direccion'] ?? 0);
+
 ?>
 
 <!DOCTYPE html>

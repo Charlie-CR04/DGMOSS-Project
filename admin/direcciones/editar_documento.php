@@ -28,6 +28,7 @@ $err = "";
 // Procesamiento del formulario
 if($_SERVER['REQUEST_METHOD'] === 'POST'){
     verifyCsrfOrDie();
+
     $titulo = trim($_POST['titulo'] ?? '');
     $descripcion = trim($_POST['descripcion'] ?? '');
     $estado = $_POST['estado'] ?? 'Activo';
@@ -56,16 +57,35 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         }
     }
 
+    //Guardar archivos subidos
+    $upload_dir = __DIR__ . '/../../uploads/';
+
     // Ruta del archivo PDF
     if(isset($_FILES['url']) && $_FILES['url']['error'] === 0){
-        $url = 'uploads/' . basename($_FILES['url']['name']);
+        $pdf_name = basename($_FILES['url']['name']);
+        $pdf_path = $upload_dir . $pdf_name;
+
+        if(move_uploaded_file($_FILES['url']['tmp_name'], $pdf_path)){
+            $url = '/dgmoss-project/uploads/' . $pdf_name;
+        } else {
+            $err = "Hubo un problema al subir el archivo PDF.";
+        }
+
     } else {
         $url = $doc['url']; // Si no hay archivo nuevo, mantenemos la URL existente
     }
 
     // Ruta de imagen destacada
     if (isset($_FILES['imagen_destacada']) && $_FILES['imagen_destacada']['error'] == 0) {
-        $imagen_destacada = 'uploads/' . basename($_FILES['imagen_destacada']['name']);
+        $img_name = basename($_FILES['imagen_destacada']['name']);
+        $img_path = $upload_dir . $img_name;
+
+        if(move_uploaded_file($_FILES['imagen_destacada']['tmp_name'], $img_path)){
+            $imagen_destacada = '/dgmoss-project/uploads/' . $img_name;
+        } else {
+            $err = "Hubo un problema al subir la imagen destacada";
+        }
+
     } else {
         $imagen_destacada = $doc['imagen_destacada']; // Si no hay imagen nueva, mantenemos la URL existente
     }
@@ -106,6 +126,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 <?= htmlspecialchars($err) ?>
             </div>
         <?php endif; ?>
+
+        <div class="alert alert-info">
+            Última modificación: <?= date('d/m/Y H:i:s', strtotime($doc['actualizacion'])) ?>
+        </div>
         
         <form method="post" action="editar_documento.php?id_documento=<?= $id_documento ?>" enctype="multipart/form-data">
             <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
