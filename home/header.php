@@ -24,17 +24,15 @@
                     </ul>
                 </li>
                 <!-- Múltimedia-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link subnav-link dropdown-toggle" href="#" id="dropdownMultimedia" role="button" data-bs-toggle="dropdown" title="Desplegar menú de Múltimedia">Múltimedia</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/dgmoss-project/multimedia/videos.php" title="Ir a la página de Videos">Videos</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/multimedia/ligas_interes.php" title="Ir a la página de Ligas de Interés">Ligas de interés</a></li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link subnav-link" href="/dgmoss-project/multimedia/videos.php" title="Ir a la pagina de videos">Contenido Múltimedia</a>
                 </li>
+
                 <!-- Contacto -->
                 <li class="nav-item">
                     <a class="nav-link subnav-link" href="/dgmoss-project/info-page/contacto.php" title="Ir a la pagina de Contacto">Contacto</a>
                 </li>
+                
                 <li class="nav-item">
                     <a class="nav-link subnav-link" href="#INTRANET" title="Ir a la pagina de Contacto">Intranet</a>
                 </li>

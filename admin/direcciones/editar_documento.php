@@ -163,8 +163,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             <div class="form-group">
                 <label>Imagen destacada (URL)</label>
                 <?php if (!empty($doc['imagen_destacada'])): ?>
-                    <small class="d-block mb-2">Imagen actual:</small>
-                    <img src="<?= htmlspecialchars($doc['imagen_destacada']) ?>" alt="Imagen destacada" style="max-width: 200px; margin-top: 10px;">
+                    <div style="text-align: center; margin-top: 10px;">
+                        <small class="d-block mb-2">Imagen actual:</small>
+                        <img src="<?= htmlspecialchars($doc['imagen_destacada']) ?>" alt="Imagen destacada" style="max-width: 600px; margin-top: 10px; margin-bottom: 20px;">
+                    </div>
                 <?php endif; ?>
                 <input name="imagen_destacada" class="form-control" type="file" accept=".jpg, .jpeg, .png">
             </div>
