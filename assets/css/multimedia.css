@@ -1,3 +1,17 @@
 body {
     padding-top: 150px; /* Ajusta el valor según la altura de tu barra de navegación */
-} 
+}
+
+.videos iframe {
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.videos p a:hover {
+  text-decoration: underline;
+}
+
+.contenedor-videos {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

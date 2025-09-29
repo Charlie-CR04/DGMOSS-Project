@@ -130,7 +130,7 @@
                                 <form action="/dgmoss-project/admin/direcciones/eliminar_documento.php" method="post" class="d-inline"
                                     onsubmit="return confirm('¿Eliminar documento?');">
                                     <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
-                                    <input type="hidden" name="id" value="<?= (int)$doc['id_documento'] ?>">
+                                    <input type="hidden" name="id_documento" value="<?= (int)$doc['id_documento'] ?>">
                                     <button class="btn btn-primary btn-sm active"><i class="bi bi-trash-fill"></i></button>
                                 </form>
                             </td>
