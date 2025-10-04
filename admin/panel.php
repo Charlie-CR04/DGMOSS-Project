@@ -46,7 +46,7 @@
                 <?php else: ?>
                     <!-- Editores -->
                     <div class="col-12 col-md-6 offset-md-3 d-flex tarjet" >
-                        <a href="/dgmoss-project/usuario/panel_usuario.php" class="text-decoration-none text-black">
+                        <a href="/dgmoss-project/usuario/documentos.php" class="text-decoration-none text-black">
                             <img src="/dgmoss-project/assets/img/banners/4.png" alt="Panel de documentos" class="img-fluid">
                             <h5 class="text-center mt-5">Documentos</h5>
                         </a>

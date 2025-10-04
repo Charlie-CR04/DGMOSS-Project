@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Logo -->
         <a class="navbar-brand sub-navbar" href="/dgmoss-project/" title="Ir a la página principal">
-            <img src="/dgmoss-project/assets/img/logo/logo_blanco.png" alt="logo">
+            <img src="/dgmoss-project/assets/img/logo/LogoBlanco.png" alt="logo">
         </a>
         <!-- Botón responsive para móvil (hamburguesa) -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">

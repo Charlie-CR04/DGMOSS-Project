@@ -6,7 +6,7 @@
         </button>
         <!-- Logo institucional -->
         <a class="navbar-brand sub-navbar" href="/dgmoss-project/">
-            <img src="/dgmoss-project/assets/img/logo/logo_blanco.png" alt="logo">  
+            <img src="/dgmoss-project/assets/img/logo/LogoBlanco.png" alt="logo">  
         </a>
         <div class="collapse navbar-collapse" id="navbarContenido">
             <ul class="navbar-nav">

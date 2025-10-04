@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Crear documento</title>
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/crear-formulario.css">
+    <link rel="stylesheet" href="/dgmoss-project/assets/css/crear-documentos.css">
 </head>
 <body>
     <?php include(__DIR__ . '/../navbar_panel.php'); ?>

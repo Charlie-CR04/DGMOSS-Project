@@ -1,96 +1,108 @@
 body {
-    padding-top: 150px; /* Ajusta el valor según la altura de tu barra de navegación */
-} 
-
-h1.bottom-buffer {
-    margin-top: 60px;       /* Espacio desde el top del navegador */
-    margin-bottom: 30px;    /* Espacio debajo del título */
+    padding-top: 110px; /* Ajusta el valor según la altura de tu barra de navegación */
 }
 
-h2 {
-    margin-top: 30px;       /* Espacio desde el top del navegador */
-    margin-bottom: 20px;    /* Espacio debajo del título */
+.img-banner img {
+    width: 100%;
+    height: 30rem;
+    display: block; /* Asegura que la imagen sea un bloque y no quede con márgenes extra */
 }
 
-p.text-justifi {
-    text-align: justify;     /* Justifica el texto */
-    margin-bottom: 20px;    /* Espacio debajo del párrafo */
-}
- 
-/* Estilos para la tarjeta de contacto */
-
-.contacto-main {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    margin: 1.5rem 0;
-    border: 1px solid #eaeaea;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.contacto {
+    margin: 2rem auto;
+    max-width: 110rem;
 }
 
-.contacto-main:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+.contacto .seccion {
+    margin-top:  3rem;
 }
 
-.header-contacto-card {
+.card {
+    height: 35rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
     background-color: #611232;
-    color: white;
-    padding: 1rem 1.5rem;
-    font-size: 1.2rem;
-    font-weight: 600;
+    color: #FFFFFF;
 }
 
-.header-contacto-card h5 {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.card-body{
+    padding: 4rem;
+    color: black;
 }
 
-.body-contacto-card {
-    padding: 1.5rem;
+.mapa {
+    height: 35rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.contacto-item {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 1rem;
-}
-
-.contacto-item:last-child {
-    margin-bottom: 0;
-}
-
-.contacto-item i {
-    font-size: 1.2rem;
-    color: #a57f2c;
-    width: 24px;
-    text-align: center;
-}
-
-.contacto-label {
-    display: block;
-    font-weight: 600;
-    color: #161a1d;
-    font-size: 1.1rem;
-}
-
-.contacto-value {
-    display: block;
-    color: #161a1d;
-    font-size: 1rem;
-}
-
-.contacto-value a {
-    color: #a57f2c;
+.texto-map a{
     text-decoration: none;
-    transition: color 0.3s;
+    color: black;
+    font-size: 2rem;
+    padding-left: 70rem;
 }
 
-.contacto-value a:hover {
-    color: #611232;
-    text-decoration: underline;
+/* Medias queries para pantallas pequeñas y tabletas */
+@media (max-width: 768px) {
+
+    /* Reduce el tamaño de la tarjeta */
+    .card {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    /* Ajusta el padding del cuerpo de la tarjeta */
+    .card-body {
+        padding: 2rem;
+    }
+
+    /* Ajusta el tamaño del mapa */
+    .mapa {
+        height: 30rem;
+    }
+
+    /* Ajusta el texto y el espacio del link */
+    .texto-map a {
+        font-size: 1.5rem;
+        padding-left: 0;
+        text-align: center;
+        display: block;
+        margin-top: 1rem;
+    }
+
+    /* Rediseña la sección para que las columnas sean de una sola columna */
+    .contacto .seccion {
+        display: block;
+    }
+
+    .contacto .col-md-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Medias queries para pantallas más grandes como tabletas en orientación horizontal y escritorios */
+@media (max-width: 1024px) {
+    .card {
+        height: auto;
+    }
+
+    .card-body {
+        padding: 3rem;
+    }
+
+    .mapa {
+        height: 30rem;
+    }
+
+    .texto-map a {
+        font-size: 1.8rem;
+        padding-left: 0;
+        text-align: center;
+    }
 }
