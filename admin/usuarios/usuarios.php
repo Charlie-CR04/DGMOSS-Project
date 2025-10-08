@@ -36,7 +36,25 @@
 <body>
     <?php include(__DIR__ . '/../../admin/navbar_panel.php'); ?>
     <div class="container usuarios-front mt-5">
-        <h2 class="text-center mb-5">Listado de Usuarios</h2>
+
+        <div class="mb-3">
+            <a class="btn btn-secondary btn-sm active" href="/dgmoss-project/admin/panel.php">
+                <i class="bi bi-arrow-left"></i> Regresar
+            </a>
+        </div>
+
+        <h3 class="text-center mb-5">Listado de Usuarios</h3>
+
+        <?php if (isset($_GET['error'])): ?>
+            <div class="alert alert-danger text-center" id="alerta">
+                <?= htmlspecialchars($_GET['error']) ?>
+            </div>
+        <?php elseif (isset($_GET['success'])): ?>
+            <div class="alert alert-success text-center" id="alerta">
+                <?= htmlspecialchars($_GET['success']) ?>
+            </div>
+        <?php endif; ?>
+
         <a class="btn btn-secondary btn-sm active mb-5" href="/dgmoss-project/admin/usuarios/crear_usuarios.php">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
                 <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
@@ -73,8 +91,8 @@
                                        href="/dgmoss-project/admin/usuarios/editar_usuarios.php?id_usuario=<?= (int)$row['id_usuario'] ?>">
                                         <i class="bi bi-pencil-square"></i> Editar
                                     </a>
-                                    <form action="/dgmoss-project/admin/eliminar.php" method="POST" class="d-inline" onsubmit="return confirm('¿Eliminar este usuario?');">
-                                        <input type="hidden" name="id" value="<?= (int)$row['id_usuario'] ?>">
+                                    <form action="/dgmoss-project/admin/usuarios/eliminar_usuarios.php" method="POST" class="d-inline" onsubmit="return confirm('¿Eliminar este usuario?');">
+                                        <input type="hidden" name="id_usuario" value="<?= (int)$row['id_usuario'] ?>">
                                         <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
                                         <button type="submit" class="btn btn-primary btn-sm active">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
@@ -92,5 +110,6 @@
         </div>
 
     </div>
+    <script src="/dgmoss-project/assets/js/alerta_quitar.js"></script>
 </body>
 </html>

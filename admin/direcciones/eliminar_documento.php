@@ -1,7 +1,7 @@
 <?php
 //Autenticación 
 require __DIR__ . '/../../includes/auth.php';
-requireAdmin();
+requireEditorOrAdmin();
 require __DIR__ . '/../../includes/conexion.php';
 require __DIR__ . '/../../includes/direcciones_config.php';
 

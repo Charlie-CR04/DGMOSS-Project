@@ -1,7 +1,7 @@
 <?php
 // buscador_dpts.php
 
-include(__DIR__ . '/../sign-in/conexion.php');
+include(__DIR__ . '/../includes/conexion.php');
 
 // Sanitizamos la búsqueda
 $busqueda = trim($_GET['q'] ?? '');

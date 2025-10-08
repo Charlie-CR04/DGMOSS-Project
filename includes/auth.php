@@ -17,7 +17,7 @@ function requireAuth(): void {
 function requireAdmin(): void {
     requireAuth();
     if(($_SESSION['rol'] ?? '') !== 'admin') {
-        header('Location: /dgmoss-project/admin/Index_login.php');
+        header('Location: /dgmoss-project/sign-in/Index_login.php');
         exit;
     }
 }
@@ -27,23 +27,29 @@ function requireEditorOrAdmin(): void {
     requireAuth();
     $rol = $_SESSION['rol'] ?? '';
     if($rol !== 'admin' && $rol !== 'editor') {
-        header('Location: /dgmoss-project/admin/Index_login.php');
+        header('Location: /dgmoss-project/sign-in/Index_login.php');
         exit;
     }
 }
 
 //Para editar documentos
-function requireDireccion(int $id_direccion_param): void {
+function requireDireccion(?int $id_direccion_param): void {
     requireAuth();
-    if(($_SESSION['rol'] ?? '') === 'admin') {
-        return;
-    }
+    if(($_SESSION['rol'] ?? '') === 'admin') return;
+    
     $miDir = (int)($_SESSION['id_direccion'] ?? 0);
-    if($miDir !== (int)$id_direccion_param) {
-        header('Location: /dgmoss-project/admin/Index_login.php');
+
+    // Si no se pasó id_direccion o es inválido, se toma la del editor
+    if(!$id_direccion_param || $id_direccion_param <= 0) {
+        $id_direccion_param = $miDir;
+    }
+
+    if($miDir !== $id_direccion_param) {
+        header('Location: /dgmoss-project/admin/panel.php');
         exit;
     }
 }
+
 
 //Token de seguridad CSRF
 function ensureCsrfToken(): string {

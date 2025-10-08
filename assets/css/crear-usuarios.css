@@ -25,29 +25,19 @@ body {
     margin-right: 1rem;
 }
 
-.input-group {
-  display: flex;
-  align-items: center;
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
-
-.input-group .form-control {
-  width: 100%;
-  padding-right: 40px;
-  border-radius: 0.25rem;
+.password-container input {
+    padding-right: 40px;
+    width: 100%;
 }
-
-.input-group-append {
-  background-color: transparent; /* Fondo transparente */
+.password-container .toggle-password {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: none;
+    z-index: 2;
 }
-
-.input-group button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  padding: 0.5rem; /* Ajustamos el tamaño del botón */
-}
-
-.input-group button:focus {
-  outline: none;
-}
-

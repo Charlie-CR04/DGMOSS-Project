@@ -32,13 +32,28 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $rol = $_POST['rol'] ?? 'editor';
     $id_direccion = trim($_POST['id_direccion'] ?? '') ? (int)$_POST['id_direccion'] : null;
 
+    if($rol === 'admin'){
+        $id_direccion = null;
+    }
+
+    if($rol !== 'admin'){
+        $query_admin = "SELECT COUNT(*) AS total FROM usuarios WHERE rol='admin'";
+        $countAdmins = $conexion->query($query_admin)->fetch_assoc()['total'] ?? 0;
+        
+        if((int)$countAdmins === 1 && $usuario['rol'] === 'admin'){
+            $error = "No puedes cambiar el rol del último administrador";
+        }
+    }
+
     if($nombre === '' || $correo === ''){
         $error = "El nombre y el correo son obligatorios";
     } elseif(!filter_var($correo, FILTER_VALIDATE_EMAIL)) {
         $error = "Correo inválido";
     } elseif ($rol === 'editor' && empty($id_direccion)) {
         $error = "Para un editor, debes seleccionar una dirección";
-    } else {
+    } 
+    
+        if($error === "") {
         //Verificar si el correo ya existe en otro usuario
         $st = $conexion->prepare("SELECT 1 FROM usuarios WHERE correo=? AND id_usuario<>? LIMIT 1");
         $st->bind_param("si",$correo ,$id_usuario);
@@ -55,12 +70,12 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 $st = $conexion->prepare("UPDATE usuarios 
                                         SET nombre_usuario=?, correo=?, contraseña=?, rol=?, id_direccion=?
                                         WHERE id_usuario=?");
-                $st->bind_param("sssiii", $nombre, $correo, $hash, $rol, $id_direccion,$id_usuario);
+                $st->bind_param("ssssii", $nombre, $correo, $hash, $rol, $id_direccion,$id_usuario);
             } else {
                 $st = $conexion->prepare("UPDATE usuarios 
                                         SET nombre_usuario=?, correo=?, rol=?, id_direccion=?
                                         WHERE id_usuario=?");
-                $st->bind_param("ssiii", $nombre, $correo, $rol,$id_direccion , $id_usuario);
+                $st->bind_param("sssii", $nombre, $correo, $rol,$id_direccion , $id_usuario);
             }
             $st->execute();
             $st->close();
@@ -109,13 +124,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             
             <div class="form-group">
                 <label>Contraseña (dejar vacío para no cambiar)</label>
-                <div class="input-group">
+                <div class="password-container">
                     <input id="passwordField" name="contraseña" type="password" class="form-control" minlength="8" title="La contraseña debe tener al menos 8 caracteres">
-                    <div class="input-group-append">
-                        <button type="button" class="btn btn-outline-secondary" id="togglePassword">
-                            <i class="bi bi-eye-slash-fill" id="eyeIcon"></i>
-                        </button>
-                    </div>
+                    <button type="button" class="toggle-password" id="togglePassword">
+                        <i class="bi bi-eye-slash-fill" id="eyeIcon"></i>
+                    </button>
                 </div>
             </div>
 

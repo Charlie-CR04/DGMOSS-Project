@@ -1,5 +1,5 @@
  <?php
-require_once(__DIR__ . "/../sign-in/conexion.php");
+require_once(__DIR__ . "/../includes/conexion.php");
 
 $termino = $_GET['q'] ?? '';
 $termino = trim($termino);

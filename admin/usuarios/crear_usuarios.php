@@ -91,13 +91,11 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
 
     <div class="form-group">
       <label>Contraseña</label>
-      <div class="input-group">
+      <div class="password-container">
         <input id="passwordField" name="contraseña" type="password" class="form-control" required minlength="8" title="La contraseña debe tener al menos 8 caracteres">
-        <div class="input-group-append">
-          <button type="button" class="btn btn-outline-secondary" id="togglePassword">
-              <i class="bi bi-eye-slash-fill" id="eyeIcon"></i>
-          </button>
-        </div>
+        <button type="button" class="toggle-password" id="togglePassword">
+            <i class="bi bi-eye-slash-fill" id="eyeIcon"></i>
+        </button>
       </div>
     </div>
 
