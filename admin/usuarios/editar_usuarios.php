@@ -93,14 +93,14 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Usuario</title>
-    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
-    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/crear-usuarios.css">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
 </head>
 <body>
     <?php include(__DIR__ . '/../navbar_panel.php'); ?>
 
-    <div class="container mt-4">
+    <div class="container">
         <h2 class="text-center">Editar Usuario</h2>
 
         <?php if($error): ?> 

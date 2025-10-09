@@ -31,6 +31,8 @@
   border-radius: 15px;
   text-align: center;
   padding: 30px;
+  margin: 2rem auto;
+  max-width: 1200px;
 }
 
 img.colab-icon.img-fluid.BRISA {
@@ -61,6 +63,27 @@ img.colab-icon.img-fluid.WHO{
   transform: scale(1.1);
 }
 
+@media (max-width: 1366px) {
+  .colaboraciones {
+    padding: 25px;
+  }
+
+  img.colab-icon.img-fluid.BRISA {
+    max-width: 200px;
+  }
+
+  img.colab-icon.img-fluid.REDETSA {
+    max-width: 180px;
+  }
+
+  img.colab-icon.img-fluid.WHO {
+    max-width: 180px;
+  }
+
+  .colab-icon {
+    max-height: 90px;
+  }
+}
 
 /*          Carrusel de documentos           */
 
@@ -148,4 +171,95 @@ img.colab-icon.img-fluid.WHO{
         min-height: auto;
         margin-top: 2rem;
     }
+}
+
+@media (max-width: 768px) {
+  #navbarDropdownMenuLink.nav-link.subnav-link.dropdown-toggle,
+  #dropdownMultimedia.nav-link.subnav-link.dropdown-toggle,
+  .nav-link.subnav-link {
+    font-size: 0.95rem;
+    padding: 12px 18px;
+  }
+}
+
+.redes-sociales {
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+}
+
+.redes-sociales h2 {
+  color: #611232;
+  font-weight: bold;
+}
+
+.contenedor-redes {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.banner-red {
+  position: relative;
+  width: 320px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-red img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.banner-red .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.banner-red:hover img {
+  transform: scale(1.1);
+}
+
+.banner-red:hover .overlay {
+  background: rgba(97,18,50,0.7);
+}
+
+/* Íconos */
+.banner-red i {
+  margin-right: 8px;
+  font-size: 1.8rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .contenedor-redes {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .banner-red {
+    width: 90%;
+    height: 160px;
+  }
+
+  .banner-red .overlay {
+    font-size: 1.2rem;
+  }
 }

@@ -37,3 +37,46 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 200px; /* un poco menos para móviles */
+  }
+
+  .titulo-panel {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .tarjet {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tarjet img {
+    max-width: 150px; /* reduce tamaño de imagen */
+    height: auto;
+  }
+
+  .seccion-admin a {
+    display: block;
+    width: 100%;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .seccion-admin a:hover {
+    transform: none; /* evita que “salte” mucho en pantallas táctiles */
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.3);
+  }
+
+  .usuarios-front {
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+  }
+}

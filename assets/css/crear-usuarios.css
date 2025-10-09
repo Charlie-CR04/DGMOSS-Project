@@ -1,5 +1,5 @@
 body {
-    margin-top: 5rem;
+    padding-top: 130px; 
 }
 
  form {
@@ -40,4 +40,49 @@ body {
     background: transparent;
     border: none;
     z-index: 2;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 130px; 
+  }
+
+  form {
+    max-width: 100%;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .form-control {
+    font-size: 1.1rem; /* reduce ligeramente el tamaño del texto */
+    padding: 10px;
+  }
+
+  .btn {
+    width: 100%;        /* botones al ancho total del contenedor */
+    min-width: unset;   /* elimina el ancho mínimo fijo */
+    margin-bottom: 10px;
+  }
+
+  .btn-success {
+    margin-right: 0;    /* elimina el margen lateral */
+  }
+
+  .password-container {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+
+  .password-container input {
+    width: 100%;
+    font-size: 1rem;
+    padding-right: 35px;
+  }
+
+  .password-container .toggle-password {
+    right: 8px;
+  }
 }

@@ -64,7 +64,6 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/crear-usuarios.css">
-    <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
 <body>
 <?php include(__DIR__ . '/../navbar_panel.php'); ?>
 <div class="container mt-4">
@@ -124,5 +123,6 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
 </div>
 <script src="/dgmoss-project/assets/js/form-usuarios.js"></script>
 <script src="/dgmoss-project/assets/js/show-password.js"></script>
+<script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
 </body>
 </html>

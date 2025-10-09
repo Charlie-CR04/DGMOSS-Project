@@ -1,5 +1,5 @@
 body {
-    padding-top: 130px; /* Ajusta el valor según la altura de tu barra de navegación */
+    padding-top: 130px; 
 }
 
 .form-container {
@@ -8,35 +8,35 @@ body {
     background-color: #edeff0;
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0,0.1);
-    display: flex;                    /* Usa Flexbox */
-    justify-content: center;          /* Centra los elementos horizontalmente */
-    align-items: center;              /* Centra los elementos verticalmente */
-    flex-wrap: wrap;                  /* Permite que los elementos se ajusten si no caben en una línea */
-    gap: 15px;                        /* Espacio entre los elementos */
+    display: flex;                    
+    justify-content: center;          
+    align-items: center;              
+    flex-wrap: wrap;                  
+    gap: 15px;                        
     margin-bottom: 4rem;
     margin-top: 4rem;
 }
 
 .form-container .col-auto {
-    display: flex;                    /* Usa Flexbox para los elementos dentro de las columnas */
-    justify-content: center;          /* Centra el contenido dentro de cada columna */
+    display: flex;                    
+    justify-content: center;          
 }
 
 .form-container .col-auto select,
 .form-containerform .col-auto button,
 .form-container .col-auto a {
-    display: inline-flex;             /* Mantiene los elementos alineados de forma horizontal */
-    align-items: center;              /* Centra los iconos dentro del botón */
+    display: inline-flex;             
+    align-items: center;              
 }
 
 .form-container .col-auto button,
 .form-container .col-auto a {
-    padding: 8px 15px;                /* Espacio adicional en los botones */
-    text-align: center;               /* Alinea el texto dentro del botón */
+    padding: 8px 15px;                
+    text-align: center;               
 }
 
 .form-container .col-auto a {
-    margin-top: 0;                    /* Alineación de los botones */
+    margin-top: 0;                    
 }
 
 .alert {
@@ -74,4 +74,54 @@ body {
 
 .btn {
     min-width: 12rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 200px; /* ajusta el espacio superior para navbar más pequeña */
+  }
+
+  .form-container {
+    flex-direction: column;   /* coloca los elementos uno debajo del otro */
+    padding: 1.5rem;
+    gap: 10px;
+    width: 95%;
+  }
+
+  .form-container .col-auto {
+    width: 100%;              /* cada columna ocupa todo el ancho */
+    justify-content: center;
+  }
+
+  .form-container .col-auto select,
+  .form-container .col-auto button,
+  .form-container .col-auto a {
+    width: 100%;               /* los selects y botones se expanden */
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .alert {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .pagination {
+    flex-wrap: wrap;           /* permite que se acomoden varias líneas si no caben */
+    gap: 8px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .pagination .page-link {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .btn {
+    min-width: unset;          /* elimina el ancho mínimo para adaptarse al contenedor */
+    width: 100%;
+  }
 }

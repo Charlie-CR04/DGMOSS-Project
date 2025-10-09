@@ -142,3 +142,46 @@
         padding: 1rem;
     }
 }
+
+@media (max-width: 768px) {
+  .valores {
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .valores svg {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 24px;
+    height: 24px;
+  }
+
+  .valores p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .valores .col-lg-9 {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .valores ul {
+    padding-left: 15px;
+    margin: 0;
+    word-wrap: break-word;
+  }
+
+  .valores li {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-size: 1.2rem;
+  }
+
+  .valores li strong {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+}
+

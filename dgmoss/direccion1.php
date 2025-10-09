@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirección General de Modernización del Sector Salud</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion1.css">
     <!-- GOB -->
@@ -14,7 +13,7 @@
 </head>
 <body>
     <?php
-        include(__DIR__ . '/../home/header_dir.php'); 
+        include(__DIR__ . '/../home/header.php'); 
         include(__DIR__ . '/hero_video.php');
         include(__DIR__ . '/breadcrumb.php');
         include(__DIR__ . '/seccion1.php');

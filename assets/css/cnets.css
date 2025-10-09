@@ -16,7 +16,7 @@
 
 /*          Breadcrumb          */
 .breadcrumb{
-  margin-top: 65px;
+  margin-top: 20rem;
 }
 
 
@@ -51,4 +51,59 @@
   justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+
+  /* ======= CONTENIDO / OBJETIVO ======= */
+  .contenido .objetivo {
+    max-width: 100%;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    text-align: left; /* más legible en pantallas pequeñas */
+    border-left: 4px solid #611232;
+    border-right: 4px solid #611232;
+  }
+
+  .contenido h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  /* ======= BREADCRUMB ======= */
+  .breadcrumb {
+    margin-top: 8rem; /* reduce el espacio superior */
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  /* ======= COLABORACIONES ======= */
+  .colaboraciones {
+    max-width: 100%;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+  }
+
+  .colab-icon {
+    max-height: 80px;  /* reduce el tamaño de los íconos */
+    margin-bottom: 1rem;
+  }
+
+  /* ======= FILTROS ======= */
+  .filtros-container {
+    flex-direction: column; /* apila los filtros */
+    gap: 1rem;
+    margin: 1.5rem auto;
+    align-items: center;
+  }
+
+  .filtros-container select,
+  .filtros-container button {
+    width: 90%;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
 }

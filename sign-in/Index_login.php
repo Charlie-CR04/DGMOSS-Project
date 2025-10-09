@@ -16,14 +16,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="/dgmoss-project/assets/css/sign-in.css">
-        <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
 </head>
 <body>
     <?php 
-        include(__DIR__ . "/../home/header_dir.php");
+        include(__DIR__ . "/../home/header.php");
     ?>
     
     <div class="sign-in">

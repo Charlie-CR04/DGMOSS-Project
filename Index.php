@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirección General de Modernización del Sector Salud | Gobierno | gob.mx</title>
     <link rel="stylesheet" href="/dgmoss-project/assets/css/style_home.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/sub-navbar.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/banners.css">
     <!-- GOB -->
@@ -33,7 +31,7 @@
         <div class="container py-4">
             <div class ="row justify-content-center">
                 <div class="col-md-3 text-center text-md-start">
-                    <a href="/dgmoss-project/direccion_1/direccion1.php" class="btn-second">
+                    <a href="/dgmoss-project/dgmoss/direccion1.php" class="btn-second">
                         <h5 class="text-center">
                             ¿Qué es la DGMoSS?
                         </h5>

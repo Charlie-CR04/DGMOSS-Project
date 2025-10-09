@@ -5,7 +5,7 @@
         </button>
 
         <a class="navbar-brand sub-navbar" href="/dgmoss-project/">
-            <img src="/dgmoss-project/assets/img/logo/logo.png" alt="logo">  
+            <img src="/dgmoss-project/assets/img/logo/logoBlanco.png" alt="logo">  
         </a>
 
         <div class="collapse navbar-collapse" id="navbarContenido">

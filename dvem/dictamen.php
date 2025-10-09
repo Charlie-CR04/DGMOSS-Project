@@ -15,7 +15,7 @@
 </head>
 <body>
     <?php
-        include(__DIR__ . '/../home/header_dir.php');
+        include(__DIR__ . '/../home/header.php');
         include(__DIR__ . '/../dvem/breadcrumb.php');
         include(__DIR__ . '/../dvem/seccion1.php');
         include(__DIR__ . '/../dvem/seccion2.php');          
