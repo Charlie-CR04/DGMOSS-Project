@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",function(){
             return;
         }
 
-        fetch(`/dgmoss-project/direccion_3/buscador_ddimbe.php?q=${encodeURIComponent(query)}`)
+        fetch(`/dgmoss-project/DDIMBE/buscador_ddimbe.php?q=${encodeURIComponent(query)}`)
             .then(response => response.text())
             .then(html => {
                 contenedor.innerHTML = html;

@@ -1,3 +1,3 @@
 <?php
-    header("Location: direccion1.php");
+    header("Location: dgmoss_index.php");
     exit;

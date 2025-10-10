@@ -31,24 +31,36 @@
             <div class="row g-4">
                 <?php if($isAdmin): ?>
                     <!-- Admin -->
-                    <div class="col-12 col-md-6 d-flex tarjet">
+                    <div class="col-4 col-md-4 d-flex tarjet">
                         <a href="/dgmoss-project/admin/usuarios/usuarios.php" class="text-decoration-none text-black">
                             <img src="/dgmoss-project/assets/img/banners/2.png" alt="Panel usuarios" class="img-fluid">
                             <h5 class="text-center mt-5">Usuarios</h5>
                         </a>
                     </div>
-                    <div class="col-12 col-md-6 d-flex tarjet">
+                    <div class="col-4 col-md-4 d-flex tarjet">
                         <a href="/dgmoss-project/admin/direcciones/direcciones.php" class="text-decoration-none text-black">
                             <img src="/dgmoss-project/assets/img/banners/1.png" alt="Panel de direcciones" class="img-fluid">
                             <h5 class="text-center mt-5">Direcciones</h5>
                         </a>
                     </div>
+                    <div class="col-4 col-md-4 d-flex tarjet">
+                        <a href="/dgmoss-project/admin/categorias/index_admin.php" class="text-decoration-none text-black">
+                            <img src="/dgmoss-project/assets/img/banners/5.png" alt="Panel de direcciones" class="img-fluid">
+                            <h5 class="text-center mt-5">Categorias</h5>
+                        </a>
+                    </div>
                 <?php else: ?>
                     <!-- Editores van directo a la lista de documentos -->
-                    <div class="col-12 col-md-6 offset-md-3 d-flex tarjet">
+                    <div class="col-6 col-md-6 d-flex tarjet">
                         <a href="/dgmoss-project/admin/direcciones/editores.php" class="text-decoration-none text-black">
                             <img src="/dgmoss-project/assets/img/banners/4.png" alt="Documentos" class="img-fluid">
                             <h5 class="text-center mt-5">Mis Documentos</h5>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-6 d-flex tarjet">
+                        <a href="/dgmoss-project/admin/categorias/index_editor.php" class="text-decoration-none text-black">
+                            <img src="/dgmoss-project/assets/img/banners/5.png" alt="Panel de direcciones" class="img-fluid">
+                            <h5 class="text-center mt-5">Categorias</h5>
                         </a>
                     </div>
                 <?php endif; ?>

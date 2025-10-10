@@ -31,7 +31,7 @@
         <div class="container py-4">
             <div class ="row justify-content-center">
                 <div class="col-md-3 text-center text-md-start">
-                    <a href="/dgmoss-project/dgmoss/direccion1.php" class="btn-second">
+                    <a href="/dgmoss-project/DGMOSS/dgmoss_index.php" class="btn-second">
                         <h5 class="text-center">
                             ¿Qué es la DGMoSS?
                         </h5>

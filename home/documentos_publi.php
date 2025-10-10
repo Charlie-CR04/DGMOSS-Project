@@ -32,11 +32,11 @@
                             Direcciones
                         </button>
                         <ul class="dropdown-menu w-150">
-                            <li><a class="dropdown-item" href="/dgmoss-project/direccion_1/direccion1.php">Dirección General de Modernización <br> del Sector Salud</a></li>
-                            <li><a class="dropdown-item" href="/dgmoss-project/direccion_2/direccion2.php">Dirección de Políticas de Tecnologías <br> para la Salud</a></li>
-                            <li><a class="dropdown-item" href="/dgmoss-project/direccion_3/direccion3.php">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</a></li>
-                            <li><a class="dropdown-item" href="/dgmoss-project/direccion_4/direccion4.php">Dirección de Gestión de Equipo <br> Médico</a></li>
-                            <li><a class="dropdown-item" href="/dgmoss-project/direccion_5/direccion5.php">Dirección de Salud Digital</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/DGMOSS/dgmoss_index.php">Dirección General de Modernización <br> del Sector Salud</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/DPTS/dpts_index.php">Dirección de Políticas de Tecnologías <br> para la Salud</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/DDIMBE/ddimbe_index.php">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/DGEM/dgem_index.php">Dirección de Gestión de Equipo <br> Médico</a></li>
+                            <li><a class="dropdown-item" href="/dgmoss-project/DSD/dsd_index.php">Dirección de Salud Digital</a></li>
                         </ul>
                     </div>
                 </div>

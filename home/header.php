@@ -16,11 +16,11 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link subnav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Desplegar menú de Direcciones">Direcciones</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirecciones">
-                        <li><a class="dropdown-item" href="/dgmoss-project/direccion_1/direccion1.php" title="Ir a la Dirección General de Modernización del Sector Salud">Dirección General de Modernización <br> del Sector Salud</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direccion_2/direccion2.php" title="Ir a la Dirección de Políticas de Tecnologías para la Salud">Dirección de Políticas de Tecnologías para la Salud</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direccion_3/direccion3.php" title="Ir a la Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direccion_4/direccion4.php" title="Ir a la Dirección de Gestión de Equipo Médico">Dirección de Gestión de Equipo Médico</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/direccion_5/direccion5.php" title="Ir a la Dirección de Salud Digital">Dirección de Salud Digital</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/DGMOSS/dgmoss_index.php" title="Ir a la Dirección General de Modernización del Sector Salud">Dirección General de Modernización <br> del Sector Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/DPTS/dpts_index.php" title="Ir a la Dirección de Políticas de Tecnologías para la Salud">Dirección de Políticas de Tecnologías para la Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/DDIMBE/ddimbe_index.php" title="Ir a la Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/DGEM/dgem_index.php" title="Ir a la Dirección de Gestión de Equipo Médico">Dirección de Gestión de Equipo Médico</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss-project/DSD/dsd_index.php" title="Ir a la Dirección de Salud Digital">Dirección de Salud Digital</a></li>
                     </ul>
                 </li>
                 <!-- Múltimedia-->

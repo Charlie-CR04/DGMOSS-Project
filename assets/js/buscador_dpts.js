@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        fetch(`/dgmoss-project/direccion_2/buscador_dpts.php?q=${encodeURIComponent(query)}`)
+        fetch(`/dgmoss-project/DPTS/buscador_dpts.php?q=${encodeURIComponent(query)}`)
             .then(response => response.text())
             .then(html => {
                 contenedor.innerHTML = html;
