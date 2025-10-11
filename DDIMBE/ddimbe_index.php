@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/fonts.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion1.css">
     <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion2.css">

@@ -3,13 +3,16 @@
 
     $sql = "SELECT c.id_categoria, c.nombre_categoria, d.titulo, d.url  
             FROM categorias c
-            JOIN documentos d ON c.id_categoria = d.id_categoria
-            WHERE id_direccion = ? AND d.estado = 'Activo'
+            JOIN documentos d 
+              ON c.id_categoria = d.id_categoria
+             AND c.id_direccion = d.id_direccion
+            WHERE c.id_direccion = ? 
+              AND d.estado = 'Activo'
             ORDER BY c.nombre_categoria, d.titulo";
 
     $stmt = $conexion->prepare($sql);
     $id_direccion = 6;
-    $stmt->bind_param("i",$id_direccion);
+    $stmt->bind_param("i", $id_direccion);
     $stmt->execute();
     $resultado = $stmt->get_result();
 
@@ -31,6 +34,7 @@
             'url' => $row['url']
         ];
     }
+    $stmt->close();
 ?>
 
 <section class="section-publicaciones mb-5">

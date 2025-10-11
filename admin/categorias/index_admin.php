@@ -3,6 +3,13 @@
     requireAdmin();
     require __DIR__ . '/../../includes/conexion.php';
 
+    // Bloqueo de dirección 4
+    if (isset($_SESSION['id_direccion']) && (int)$_SESSION['id_direccion'] === 4) {
+        header("Location: /dgmoss-project/admin/panel.php");
+        exit;
+    }
+
+
     $csrf = ensureCsrfToken();
 
     // Paginación
@@ -11,12 +18,11 @@
     $offset = ($page - 1) * $limit;
 
     // Consulta para obtener las categorías con la paginación
-    $sql = "SELECT DISTINCT c.id_categoria, c.nombre_categoria, dir.nombre_direccion
-            FROM categorias c
-            LEFT JOIN documentos d ON d.id_categoria = c.id_categoria
-            LEFT JOIN direcciones dir ON dir.id_direccion = d.id_direccion
-            ORDER BY dir.nombre_direccion
-            LIMIT ? OFFSET ?";
+    $sql = "SELECT c.id_categoria, c.nombre_categoria, dir.nombre_direccion
+        FROM categorias c
+        INNER JOIN direcciones dir ON dir.id_direccion = c.id_direccion
+        ORDER BY dir.nombre_direccion, c.nombre_categoria
+        LIMIT ? OFFSET ?";
 
     $stmt = $conexion->prepare($sql);
     $stmt->bind_param("ii", $limit, $offset);
@@ -57,6 +63,21 @@
         </div>
 
         <h3 class="mb-3 text-center">Categorías</h3>
+
+        <?php if (!empty($_SESSION['error'])): ?>
+            <div class="alert alert-danger text-center">
+                <?= htmlspecialchars($_SESSION['error']) ?>
+            </div>
+            <?php unset($_SESSION['error']); ?>
+        <?php endif; ?>
+
+        <?php if (!empty($_SESSION['success_msg'])): ?>
+            <div class="alert alert-success text-center">
+                <?= htmlspecialchars($_SESSION['success_msg']) ?>
+            </div>
+            <?php unset($_SESSION['success_msg']); ?>
+        <?php endif; ?>
+
 
         <div class="mb-3">
             <a class="btn btn-danger btn-sm active" href="/dgmoss-project/admin/categorias/crear_categoria.php">

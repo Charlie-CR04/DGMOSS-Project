@@ -21,13 +21,15 @@
     $offset = ($page - 1) * $limit;
 
     $sql = "SELECT d.id_documento, d.titulo, d.descripcion, d.url, d.estado, d.destacado, d.destacado_home,
-            c.nombre_categoria AS categoria
-            FROM documentos d
-            LEFT JOIN categorias c ON c.id_categoria = d.id_categoria
-            WHERE d.id_direccion = ?
-            ORDER BY d.titulo
-            LIMIT ? OFFSET ?";
-
+        c.nombre_categoria AS categoria
+        FROM documentos d
+        LEFT JOIN categorias c 
+        ON c.id_categoria = d.id_categoria 
+        AND c.id_direccion = d.id_direccion
+        WHERE d.id_direccion = ?
+        ORDER BY d.titulo
+        LIMIT ? OFFSET ?";
+        
     $stmt = $conexion->prepare($sql);
     $stmt->bind_param("iii", $id_direccion, $limit, $offset);
     $stmt->execute();

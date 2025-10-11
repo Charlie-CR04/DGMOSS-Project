@@ -43,7 +43,7 @@
                     </div>
                 <?php endforeach; ?>
             <?php else: ?>
-                <p>No hay publicaciones destacadas por el momento. </p>
+                <p class="text-center">No hay publicaciones destacadas por el momento. </p>
             <?php endif; ?>
         </div>
     </div>

@@ -3,8 +3,11 @@ include(__DIR__ . '/../includes/conexion.php');
 
 $sql2 = "SELECT c.id_categoria, c.nombre_categoria, d.titulo, d.url
          FROM categorias c
-         JOIN documentos d ON c.id_categoria = d.id_categoria
-         WHERE id_direccion = ? AND d.estado = 'Activo'
+         JOIN documentos d 
+           ON c.id_categoria = d.id_categoria 
+          AND c.id_direccion = d.id_direccion
+         WHERE c.id_direccion = ? 
+           AND d.estado = 'Activo'
          ORDER BY c.nombre_categoria, d.titulo";
 
 $stmt2 = $conexion->prepare($sql2);
@@ -19,7 +22,6 @@ while ($row2 = $resultado2->fetch_assoc()) {
     $id_categoria2 = $row2['id_categoria'];
     $nombre_categoria2 = $row2['nombre_categoria'];
     
-    // Si la categoría no ha sido registrada aún
     if (!isset($categorias2[$id_categoria2])) {
         $categorias2[$id_categoria2] = [
             'nombre' => $nombre_categoria2,
@@ -27,7 +29,6 @@ while ($row2 = $resultado2->fetch_assoc()) {
         ];
     }
 
-    // Agregamos el documento a esa categoría
     $categorias2[$id_categoria2]['documentos'][] = [
         'titulo' => $row2['titulo'],
         'url' => $row2['url']
