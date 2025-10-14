@@ -9,6 +9,7 @@
     //Direcciones para el selector
     $direcciones = $conexion->query("SELECT id_direccion, nombre_direccion 
                               FROM direcciones 
+                              WHERE id_direccion != 1
                               ORDER BY id_direccion")->fetch_all(MYSQLI_ASSOC);
                               
     $direcciones_map = array_column($direcciones, 'nombre_direccion', 'id_direccion');
@@ -27,7 +28,7 @@
         ON c.id_categoria = d.id_categoria 
         AND c.id_direccion = d.id_direccion
         WHERE d.id_direccion = ?
-        ORDER BY d.titulo
+        ORDER BY d.actualizacion DESC, d.fecha_publicacion DESC
         LIMIT ? OFFSET ?";
         
     $stmt = $conexion->prepare($sql);

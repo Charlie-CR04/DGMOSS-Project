@@ -4,7 +4,9 @@ requireAdmin();
 require __DIR__ . '/../../includes/conexion.php';
 
 $csrf = ensureCsrfToken();
-$query = "SELECT id_direccion, nombre_direccion FROM direcciones ORDER BY id_direccion";
+$query = "SELECT id_direccion, nombre_direccion FROM direcciones
+          WHERE id_direccion != 1
+          ORDER BY id_direccion";
 $dirs = $conexion->query($query)->fetch_all(MYSQLI_ASSOC);
 
 $error = "";

@@ -23,7 +23,7 @@ $direcciones = [];
 if ($is_admin) {
     $sql = "SELECT id_direccion, nombre_direccion 
             FROM direcciones 
-            WHERE id_direccion != 4 
+            WHERE id_direccion != 1 AND id_direccion != 4
             ORDER BY nombre_direccion";
     $direcciones = $conexion->query($sql)->fetch_all(MYSQLI_ASSOC);
 }

@@ -12,7 +12,7 @@ $st->execute();
 $doc = $st->get_result()->fetch_assoc();
 $st->close();
 
-if(!$doc){
+if (!$doc) {
     header('Location: /dgmoss-project/admin/panel.php');
     exit;
 }
@@ -26,7 +26,7 @@ $csrf = ensureCsrfToken();
 $err = "";
 
 // Procesamiento del formulario
-if($_SERVER['REQUEST_METHOD'] === 'POST'){
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     verifyCsrfOrDie();
 
     $titulo = trim($_POST['titulo'] ?? '');
@@ -35,74 +35,90 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $id_categoria = (int)($_POST['id_categoria'] ?? 0);
     $destacado = isset($_POST['destacado']) ? '1' : '0';
     $home = isset($_POST['destacado_home']) ? '1' : '0';
+    $url_externa = trim($_POST['url_externa'] ?? '');
+    $upload_dir = __DIR__ . '/../../uploads/';
+
+    $tiene_archivo = isset($_FILES['url']) && $_FILES['url']['error'] === 0;
+    $tiene_enlace = $url_externa !== '';
+
+    // Validaciones
+    if ($titulo === '' || $descripcion === '' || $estado === '' || $id_categoria === 0) {
+        $err = "Título, descripción y categoría son obligatorios.";
+    } elseif (!$tiene_archivo && !$tiene_enlace && empty($doc['url'])) {
+        $err = "Debes subir un archivo o ingresar un enlace.";
+    } elseif ($tiene_archivo && $tiene_enlace) {
+        $err = "Solo puedes elegir uno: archivo o enlace, no ambos.";
+    }
 
     // Lógica para manejar el campo "Mostrar en Home"
-    if($home === '1'){
-        $st = $conexion->prepare("UPDATE documentos SET destacado_home = '0' WHERE id_direccion =? AND id_documento<>?");
+    if ($err === "" && $home === '1') {
+        $st = $conexion->prepare("UPDATE documentos SET destacado_home = '0' WHERE id_direccion = ? AND id_documento <> ?");
         $st->bind_param("ii", $id_direccion, $id_documento);
         $st->execute();
         $st->close();
     }
 
-    // Límite de documentos "Destacados"
-    if($destacado === '1' && $cfg['show_all_docs'] !== '1'){
+    // Límite de documentos destacados
+    if ($err === "" && $destacado === '1' && $cfg['show_all_docs'] !== '1') {
         $sql = "SELECT COUNT(*) c FROM documentos WHERE id_direccion=? AND destacado = '1' AND id_documento<>?";
         $st = $conexion->prepare($sql);
         $st->bind_param("ii", $id_direccion, $id_documento);
         $st->execute();
         $c = $st->get_result()->fetch_assoc()['c'] ?? 0;
         $st->close();
-        if((int)$c >= (int)$cfg['max_destacados']){
-            $err = "Máximo {$cfg['max_destacados']} documentos destacados en esta dirección";
+        if ((int)$c >= (int)$cfg['max_destacados']) {
+            $err = "Máximo {$cfg['max_destacados']} documentos destacados en esta dirección.";
         }
     }
 
-    //Guardar archivos subidos
-    $upload_dir = __DIR__ . '/../../uploads/';
+    // Procesar archivo o enlace
+    if ($err === "") {
+        if ($tiene_archivo) {
+            $pdf_name = basename($_FILES['url']['name']);
+            $pdf_path = $upload_dir . $pdf_name;
 
-    // Ruta del archivo PDF
-    if(isset($_FILES['url']) && $_FILES['url']['error'] === 0){
-        $pdf_name = basename($_FILES['url']['name']);
-        $pdf_path = $upload_dir . $pdf_name;
-
-        if(move_uploaded_file($_FILES['url']['tmp_name'], $pdf_path)){
-            $url = '/dgmoss-project/uploads/' . $pdf_name;
+            if (move_uploaded_file($_FILES['url']['tmp_name'], $pdf_path)) {
+                $url = '/dgmoss-project/uploads/' . $pdf_name;
+            } else {
+                $err = "Hubo un problema al subir el archivo.";
+            }
+        } elseif ($tiene_enlace) {
+            $url = $url_externa;
         } else {
-            $err = "Hubo un problema al subir el archivo PDF.";
+            $url = $doc['url']; // Mantiene la URL anterior si no se cambió
         }
-
-    } else {
-        $url = $doc['url']; // Si no hay archivo nuevo, mantenemos la URL existente
     }
 
-    // Ruta de imagen destacada
-    if (isset($_FILES['imagen_destacada']) && $_FILES['imagen_destacada']['error'] == 0) {
-        $img_name = basename($_FILES['imagen_destacada']['name']);
-        $img_path = $upload_dir . $img_name;
+    // Imagen destacada
+    if ($err === "") {
+        if (isset($_FILES['imagen_destacada']) && $_FILES['imagen_destacada']['error'] == 0) {
+            $img_name = basename($_FILES['imagen_destacada']['name']);
+            $img_path = $upload_dir . $img_name;
 
-        if(move_uploaded_file($_FILES['imagen_destacada']['tmp_name'], $img_path)){
-            $imagen_destacada = '/dgmoss-project/uploads/' . $img_name;
+            if (move_uploaded_file($_FILES['imagen_destacada']['tmp_name'], $img_path)) {
+                $imagen_destacada = '/dgmoss-project/uploads/' . $img_name;
+            } else {
+                $err = "Hubo un problema al subir la imagen destacada.";
+            }
         } else {
-            $err = "Hubo un problema al subir la imagen destacada";
+            $imagen_destacada = $doc['imagen_destacada'];
         }
-
-    } else {
-        $imagen_destacada = $doc['imagen_destacada']; // Si no hay imagen nueva, mantenemos la URL existente
     }
 
-    // Actualizar el documento en la base de datos
-    if($err === ""){
+    // Guardar cambios si no hay errores
+    if ($err === "") {
         $sql = "UPDATE documentos 
                 SET titulo=?, descripcion=?, url=?, estado=?, actualizacion=NOW(),
                 id_categoria=?, destacado_home=?, destacado=?, imagen_destacada=?
                 WHERE id_documento=?";
         $st = $conexion->prepare($sql);
-        $st->bind_param("ssssisssi", $titulo, $descripcion, $url, $estado, $id_categoria, $home, $destacado, $imagen_destacada, $id_documento); 
+        $st->bind_param("ssssisssi", $titulo, $descripcion, $url, $estado, $id_categoria, $home, $destacado, $imagen_destacada, $id_documento);
         $st->execute();
         $st->close();
-        header('Location: /dgmoss-project/admin/direcciones/direcciones.php?id_direccion='. $id_direccion);
+
+        header('Location: /dgmoss-project/admin/direcciones/direcciones.php?id_direccion=' . $id_direccion);
         exit;
-    }    
+    }
 }
 ?>
 
@@ -121,19 +137,17 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     <div class="container mt-4">
         <h2 class="text-center">Editar documento</h2>
 
-        <?php if($err):?>
-            <div class="alert alert-danger">
-                <?= htmlspecialchars($err) ?>
-            </div>
+        <?php if ($err): ?>
+            <div class="alert alert-danger"><?= htmlspecialchars($err) ?></div>
         <?php endif; ?>
 
         <div class="alert alert-info">
             Última modificación: <?= date('d/m/Y H:i:s', strtotime($doc['actualizacion'])) ?>
         </div>
-        
+
         <form method="post" action="editar_documento.php?id_documento=<?= $id_documento ?>" enctype="multipart/form-data">
             <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
-            
+
             <div class="form-group">
                 <label>Título</label>
                 <input name="titulo" class="form-control" value="<?= htmlspecialchars($doc['titulo']) ?>" required>
@@ -145,27 +159,28 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             </div>
 
             <div class="form-group">
-                <label>Archivo (PDF/Enlace)</label>
+                <label>Archivo (PDF/DOC/XLS) o Enlace externo</label>
+
                 <?php if (!empty($doc['url'])): ?>
-                    <div>
-                        <!-- Mostrar el PDF en un iframe -->
-                        <iframe src="<?= htmlspecialchars($doc['url']) ?>" width="100%" height="400px"></iframe>
+                    <div class="mb-2">
+                        <small class="d-block">Documento o enlace actual:</small>
+                        <a href="<?= htmlspecialchars($doc['url']) ?>" target="_blank">
+                            <?= htmlspecialchars($doc['url']) ?>
+                        </a>
                     </div>
                 <?php endif; ?>
-                <small class="d-block mb-2">Archivo actual: 
-                    <?php if (!empty($doc['url'])): ?>
-                        <a href="<?= htmlspecialchars($doc['url']) ?>" target="_blank"><?= basename($doc['url']) ?></a>
-                    <?php endif; ?>
-                </small>
-                <input type="file" name="url" class="form-control" accept=".pdf, .doc, .docx, .xls, .xlsx">
+
+                <input type="file" name="url" class="form-control mb-2" accept=".pdf, .doc, .docx, .xls, .xlsx">
+                <input type="url" name="url_externa" class="form-control" placeholder="https://ejemplo.com/documento" pattern="https?://.+" title="Debe comenzar con http:// o https://">
+                <small class="text-muted">Solo uno de los dos es obligatorio (archivo o enlace).</small>
             </div>
 
             <div class="form-group">
-                <label>Imagen destacada (URL)</label>
+                <label>Imagen destacada</label>
                 <?php if (!empty($doc['imagen_destacada'])): ?>
-                    <div style="text-align: center; margin-top: 10px;">
+                    <div style="text-align:center; margin-top:10px;">
                         <small class="d-block mb-2">Imagen actual:</small>
-                        <img src="<?= htmlspecialchars($doc['imagen_destacada']) ?>" alt="Imagen destacada" style="max-width: 600px; margin-top: 10px; margin-bottom: 20px;">
+                        <img src="<?= htmlspecialchars($doc['imagen_destacada']) ?>" alt="Imagen destacada" style="max-width:600px; margin-bottom:20px;">
                     </div>
                 <?php endif; ?>
                 <input name="imagen_destacada" class="form-control" type="file" accept=".jpg, .jpeg, .png">
@@ -182,7 +197,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
             <div class="form-group">
                 <label>Categoría</label>
                 <select name="id_categoria" class="form-control">
-                    <?php foreach($cats as $c): ?>
+                    <?php foreach ($cats as $c): ?>
                         <option value="<?= (int)$c['id_categoria'] ?>" <?= $c['id_categoria'] == $doc['id_categoria'] ? 'selected' : '' ?>>
                             <?= htmlspecialchars($c['nombre_categoria']) ?>
                         </option>
@@ -190,7 +205,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 </select>
             </div>
 
-            <?php if($cfg['show_all_docs'] !== '1'): ?>
+            <?php if ($id_direccion != 4 && $cfg['show_all_docs'] !== '1'): ?>
                 <div class="form-group">
                     <label><input type="checkbox" name="destacado" value="1" <?= $doc['destacado'] === '1' ? 'checked' : '' ?>> Destacado</label>
                     <small class="text-muted d-block">Máximo <?= (int)$cfg['max_destacados'] ?> documentos destacados.</small>
