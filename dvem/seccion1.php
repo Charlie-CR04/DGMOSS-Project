@@ -1,4 +1,4 @@
-<section class="contenido py-5">
+﻿<section class="contenido py-5">
     <div class="container">
         <h1 class="text-center mt-0 mb-5">Dictamen de validación de Equipo Médico</h1>
         <div class="objetivo mx-auto mb-5" >

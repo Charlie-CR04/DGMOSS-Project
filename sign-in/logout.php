@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
     //1. Iniciar sesión para tener acceso a las variables de sesión
     session_start();
 
@@ -9,6 +9,6 @@
     session_destroy();
 
     //4. Redirigir al inicio del sitio
-    header("Location: /dgmoss-project/Index.php");
+    header("Location: /dgmoss/Index.php");
     exit(); //Detiene cualquier ejecución adicional 
 ?>

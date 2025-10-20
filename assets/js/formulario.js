@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+﻿document.addEventListener('DOMContentLoaded', function(){
     function enableDisableSearchButton(){
         const select = document.querySelector('#direccion-select');
         const searchButton = document.querySelector('#search-button');

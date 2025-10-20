@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     //1. Conectar a la base de datos
     include(__DIR__ . '/../includes/conexion.php');
 

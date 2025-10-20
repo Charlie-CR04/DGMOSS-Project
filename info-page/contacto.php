@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/style_info_page.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/style_info_page.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <?php
@@ -17,7 +17,7 @@
 <body>
 
     <div class="img-banner">
-        <img src="/dgmoss-project/assets/img/backs/secGob.jpg" alt="Imagen del lugar" class="img-fluid">
+        <img src="/dgmoss/assets/img/backs/secGob.jpg" alt="Imagen del lugar" class="img-fluid">
     </div>
 
     <div class="container contacto">
@@ -50,6 +50,6 @@
         </div>
         
     </div>
-    <script src="/dgmoss-project/assets/js/mapa.js"></script>
+    <script src="/dgmoss/assets/js/mapa.js"></script>
 </body>
 </html>

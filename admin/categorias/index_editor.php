@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require __DIR__ . '/../../includes/auth.php';
 requireEditorOrAdmin(); 
 require __DIR__ . '/../../includes/conexion.php';
@@ -10,11 +10,11 @@ $id_direccion = (int)($_SESSION['id_direccion'] ?? 0);
 
 // Bloqueo de dirección 4
 if (isset($_SESSION['id_direccion']) && (int)$_SESSION['id_direccion'] === 4) {
-    header("Location: /dgmoss-project/admin/panel.php");
+    header("Location: /dgmoss/admin/panel.php");
     exit;
 }// Bloqueo de dirección 4
 if (isset($_SESSION['id_direccion']) && (int)$_SESSION['id_direccion'] === 4) {
-    header("Location: /dgmoss-project/admin/panel.php");
+    header("Location: /dgmoss/admin/panel.php");
     exit;
 }
 
@@ -55,14 +55,14 @@ $total_pages = ceil($total_categorias / $limit);
     <title>Administración de Categorías</title>
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/formulario-direcciones.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/formulario-direcciones.css">
     <?php include(__DIR__ . '/../../admin/navbar_panel.php'); ?>
 </head>
 <body>
 <div class="container">
 
     <div class="mb-3">
-        <a class="btn btn-secondary btn-sm active" href="/dgmoss-project/admin/panel.php">
+        <a class="btn btn-secondary btn-sm active" href="/dgmoss/admin/panel.php">
             <i class="bi bi-arrow-left"></i> Regresar
         </a>
     </div>
@@ -70,7 +70,7 @@ $total_pages = ceil($total_categorias / $limit);
     <h3 class="mb-3 text-center">Categorías</h3>
 
     <div class="mb-3">
-        <a class="btn btn-danger btn-sm active" href="/dgmoss-project/admin/categorias/crear_categoria.php">
+        <a class="btn btn-danger btn-sm active" href="/dgmoss/admin/categorias/crear_categoria.php">
             <i class="bi bi-plus-circle"></i> Crear categoría
         </a>
     </div>
@@ -90,10 +90,10 @@ $total_pages = ceil($total_categorias / $limit);
                         <td class="text-center"><?= htmlspecialchars($cat['nombre_categoria']) ?></td>
                         <td class="text-center"><?= htmlspecialchars($cat['nombre_direccion']) ?></td>
                         <td class="text-center">
-                            <a class="btn btn-danger btn-sm active" href="/dgmoss-project/admin/categorias/editar_categoria.php?id_categoria=<?= (int)$cat['id_categoria'] ?>">
+                            <a class="btn btn-danger btn-sm active" href="/dgmoss/admin/categorias/editar_categoria.php?id_categoria=<?= (int)$cat['id_categoria'] ?>">
                                 <i class="bi bi-pencil-square"></i> Editar
                             </a>
-                            <form action="/dgmoss-project/admin/categorias/eliminar_categoria.php" method="post" class="d-inline" onsubmit="return confirm('¿Eliminar esta categoría?');">
+                            <form action="/dgmoss/admin/categorias/eliminar_categoria.php" method="post" class="d-inline" onsubmit="return confirm('¿Eliminar esta categoría?');">
                                 <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
                                 <input type="hidden" name="id_categoria" value="<?= (int)$cat['id_categoria'] ?>">
                                 <button class="btn btn-primary btn-sm active">
@@ -134,6 +134,6 @@ $total_pages = ceil($total_categorias / $limit);
 </div>
 
 <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
-<script src="/dgmoss-project/assets/js/formulario.js"></script>
+<script src="/dgmoss/assets/js/formulario.js"></script>
 </body>
 </html>

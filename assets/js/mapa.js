@@ -1,4 +1,4 @@
-// Crear el mapa
+﻿// Crear el mapa
     var map = L.map('map').setView([19.3992942, -99.1740027], 16);
 
     // Usar OpenStreetMap como capa base

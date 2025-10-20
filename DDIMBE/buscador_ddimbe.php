@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     include(__DIR__ . '/../includes/conexion.php');
 
     $busqueda = trim($_GET['q'] ?? '');

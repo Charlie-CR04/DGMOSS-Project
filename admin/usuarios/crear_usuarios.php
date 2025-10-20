@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require __DIR__ . '/../../includes/auth.php';
 requireAdmin();
 require __DIR__ . '/../../includes/conexion.php';
@@ -51,7 +51,7 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
             }
             $st->execute();
             $st->close();
-            header('Location: /dgmoss-project/admin/usuarios/usuarios.php');
+            header('Location: /dgmoss/admin/usuarios/usuarios.php');
             exit;
         }
     }
@@ -65,7 +65,7 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
   <title>Crear usuario</title>
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/crear-usuarios.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/crear-usuarios.css">
 <body>
 <?php include(__DIR__ . '/../navbar_panel.php'); ?>
 <div class="container mt-4">
@@ -119,12 +119,12 @@ if($_SERVER['REQUEST_METHOD']==='POST') {
     </div>
 
     <button class="btn btn-success">Crear</button>
-    <a class="btn btn-secondary" href="/dgmoss-project/admin/usuarios/usuarios.php">Cancelar</a>
+    <a class="btn btn-secondary" href="/dgmoss/admin/usuarios/usuarios.php">Cancelar</a>
 
   </form>
 </div>
-<script src="/dgmoss-project/assets/js/form-usuarios.js"></script>
-<script src="/dgmoss-project/assets/js/show-password.js"></script>
+<script src="/dgmoss/assets/js/form-usuarios.js"></script>
+<script src="/dgmoss/assets/js/show-password.js"></script>
 <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
 </body>
 </html>

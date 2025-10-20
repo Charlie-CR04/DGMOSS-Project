@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirección de Salud Digital</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion1.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion2.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/seccion3.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/hero-banner.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/seccion1.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/seccion2.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/seccion3.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
@@ -28,6 +28,6 @@
 
 </body>
     <!-- Cargar el script -->
-    <script src="/dgmoss-project/assets/js/buscar_dsd.js"></script>
+    <script src="/dgmoss/assets/js/buscar_dsd.js"></script>
 
 </html>

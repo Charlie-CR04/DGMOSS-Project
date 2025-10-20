@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require __DIR__ . '/../../includes/auth.php';
 requireEditorOrAdmin();
 require __DIR__ . '/../../includes/conexion.php';
@@ -53,9 +53,9 @@ if ($total_docs > 0) {
 
 //  Redirigir según el rol
 if ($rol === 'admin') {
-    header("Location: /dgmoss-project/admin/categorias/index_admin.php");
+    header("Location: /dgmoss/admin/categorias/index_admin.php");
 } else {
-    header("Location: /dgmoss-project/admin/categorias/index_editor.php");
+    header("Location: /dgmoss/admin/categorias/index_editor.php");
 }
 exit;
 ?>

@@ -1,9 +1,9 @@
-<!-- Barra de navegación -->
+﻿<!-- Barra de navegación -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sub-navbar fixed-top">
     <div class="container">
         <!-- Logo -->
-        <a class="navbar-brand sub-navbar" href="/dgmoss-project/" title="Ir a la página principal">
-            <img src="/dgmoss-project/assets/img/logo/LogoBlanco.png" alt="logo">
+        <a class="navbar-brand sub-navbar" href="/dgmoss/" title="Ir a la página principal">
+            <img src="/dgmoss/assets/img/logo/LogoBlanco.png" alt="logo">
         </a>
         <!-- Botón responsive para móvil (hamburguesa) -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido">
@@ -16,28 +16,28 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link subnav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Desplegar menú de Direcciones">Direcciones</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirecciones">
-                        <li><a class="dropdown-item" href="/dgmoss-project/DGMOSS/dgmoss_index.php" title="Ir a la Dirección General de Modernización del Sector Salud">Dirección General de Modernización <br> del Sector Salud</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/DPTS/dpts_index.php" title="Ir a la Dirección de Políticas de Tecnologías para la Salud">Dirección de Políticas de Tecnologías para la Salud</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/DDIMBE/ddimbe_index.php" title="Ir a la Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/DGEM/dgem_index.php" title="Ir a la Dirección de Gestión de Equipo Médico">Dirección de Gestión de Equipo Médico</a></li>
-                        <li><a class="dropdown-item" href="/dgmoss-project/DSD/dsd_index.php" title="Ir a la Dirección de Salud Digital">Dirección de Salud Digital</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss/DGMOSS/dgmoss_index.php" title="Ir a la Dirección General de Modernización del Sector Salud">Dirección General de Modernización <br> del Sector Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss/DPTS/dpts_index.php" title="Ir a la Dirección de Políticas de Tecnologías para la Salud">Dirección de Políticas de Tecnologías para la Salud</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss/DDIMBE/ddimbe_index.php" title="Ir a la Dirección de Desarrollo e Integración de Medicina Basada en la Evidencia">Dirección de Desarrollo e Integración <br> de Medicina Basada en la Evidencia</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss/DGEM/dgem_index.php" title="Ir a la Dirección de Gestión de Equipo Médico">Dirección de Gestión de Equipo Médico</a></li>
+                        <li><a class="dropdown-item" href="/dgmoss/DSD/dsd_index.php" title="Ir a la Dirección de Salud Digital">Dirección de Salud Digital</a></li>
                     </ul>
                 </li>
                 <!-- Múltimedia-->
                 <li class="nav-item">
-                    <a class="nav-link subnav-link" href="/dgmoss-project/multimedia/videos.php" title="Ir a la pagina de videos">Contenido Múltimedia</a>
+                    <a class="nav-link subnav-link" href="/dgmoss/multimedia/videos.php" title="Ir a la pagina de videos">Contenido Múltimedia</a>
                 </li>
 
                 <!-- Contacto -->
                 <li class="nav-item">
-                    <a class="nav-link subnav-link" href="/dgmoss-project/info-page/contacto.php" title="Ir a la pagina de Contacto">Contacto</a>
+                    <a class="nav-link subnav-link" href="/dgmoss/info-page/contacto.php" title="Ir a la pagina de Contacto">Contacto</a>
                 </li>
                 
                 <li class="nav-item">
                     <a class="nav-link subnav-link" href="#INTRANET" title="Ir a la pagina de Contacto">Intranet</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/dgmoss-project/sign-in/Index_login.php" class="nav-link subnav-link" title="Iniciar Sesión">
+                    <a href="/dgmoss/sign-in/Index_login.php" class="nav-link subnav-link" title="Iniciar Sesión">
                         <span class="icon-user" aria-hidden="true"></span>
                     </a>
                 </li>

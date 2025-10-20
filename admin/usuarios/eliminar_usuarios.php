@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require __DIR__ . '/../../includes/auth.php';
 requireAdmin();
 require __DIR__ . '/../../includes/conexion.php';
@@ -35,7 +35,7 @@ if ($user['rol'] === 'admin') {
 
     if ((int)$totalAdmins === 1) {
         // Es el último admin
-        header("Location: /dgmoss-project/admin/usuarios/usuarios.php?error=" . urlencode("No puedes eliminar al último administrador del sistema."));
+        header("Location: /dgmoss/admin/usuarios/usuarios.php?error=" . urlencode("No puedes eliminar al último administrador del sistema."));
         exit;
     }
 }
@@ -46,6 +46,6 @@ $st->bind_param("i", $id_usuario);
 $st->execute();
 $st->close();
 
-header('Location: /dgmoss-project/admin/usuarios/usuarios.php?success=' . urldecode("Usuario eliminado correctamente."));
+header('Location: /dgmoss/admin/usuarios/usuarios.php?success=' . urldecode("Usuario eliminado correctamente."));
 exit;
 ?>

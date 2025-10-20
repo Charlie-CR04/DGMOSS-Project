@@ -1,4 +1,4 @@
-// buscador_dpts.js
+﻿// buscador_dpts.js
 document.addEventListener('DOMContentLoaded', function () {
     const input = document.getElementById('input-busqueda-dpts');
     const contenedor = document.getElementById('resultados-busqueda-dpts');
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        fetch(`/dgmoss-project/DPTS/buscador_dpts.php?q=${encodeURIComponent(query)}`)
+        fetch(`/dgmoss/DPTS/buscador_dpts.php?q=${encodeURIComponent(query)}`)
             .then(response => response.text())
             .then(html => {
                 contenedor.innerHTML = html;

@@ -1,4 +1,4 @@
-/*              Contenedor de las direcciones           */
+﻿/*              Contenedor de las direcciones           */
 .contenedor-dir{
   padding: 2rem 0;
 }
@@ -88,7 +88,7 @@ img.colab-icon.img-fluid.WHO{
 /*          Carrusel de documentos           */
 
 .docs-dir {
-  background-image: url('/dgmoss-project/assets/img/backs/2.png');
+  background-image: url('/dgmoss/assets/img/backs/2.png');
   border-radius: 10px;
 }
 

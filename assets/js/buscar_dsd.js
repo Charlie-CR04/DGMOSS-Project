@@ -1,4 +1,4 @@
-// buscar_dsd.js
+﻿// buscar_dsd.js
 
 // 1. Espera a que la página cargue completamente
 document.addEventListener("DOMContentLoaded", function () {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // 5. Realizamos una petición al servidor (busqueda_dsd.php)
-    fetch(`/dgmoss-project/DSD/busqueda_dsd.php?q=${encodeURIComponent(termino)}`)
+    fetch(`/dgmoss/DSD/busqueda_dsd.php?q=${encodeURIComponent(termino)}`)
       .then(response => response.text()) // Esperamos texto (HTML)
       .then(data => {
         document.getElementById("resultados-busqueda-dsd").innerHTML = data;

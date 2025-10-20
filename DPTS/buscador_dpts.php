@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // buscador_dpts.php
 
 include(__DIR__ . '/../includes/conexion.php');

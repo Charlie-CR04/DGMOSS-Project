@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dirección General de Modernización del Sector Salud | Gobierno | gob.mx</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/style_home.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/hero-banner.css">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/banners.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/style_home.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/hero-banner.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/banners.css">
     <!-- GOB -->
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
@@ -20,7 +20,7 @@
 
     <section class="hero-video-section">
         <video autoplay muted loop playsinline class="hero-video">
-            <source src="/dgmoss-project/assets/video/dgmoss.mp4" type="video/mp4">
+            <source src="/dgmoss/assets/video/dgmoss.mp4" type="video/mp4">
             Tu navegador no soporta video HTML5
         </video>
         <div class="hero-video-overlay">
@@ -31,7 +31,7 @@
         <div class="container py-4">
             <div class ="row justify-content-center">
                 <div class="col-md-3 text-center text-md-start">
-                    <a href="/dgmoss-project/DGMOSS/dgmoss_index.php" class="btn-second">
+                    <a href="/dgmoss/DGMOSS/dgmoss_index.php" class="btn-second">
                         <h5 class="text-center">
                             ¿Qué es la DGMoSS?
                         </h5>

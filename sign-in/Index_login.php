@@ -1,8 +1,8 @@
-<?php
+﻿<?php
     session_start();
 
     if (isset($_SESSION['nombre_usuario'])) {
-        header("Location: /dgmoss-project/admin/panel.php");
+        header("Location: /dgmoss/admin/panel.php");
         exit();
     }
 
@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/sign-in.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/sign-in.css">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 
 function getConfigDireccion(mysqli $db,int $id_direccion): array {

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     //Carga de dependencias
     require __DIR__ . '/../vendor/autoload.php';
 

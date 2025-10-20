@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //Nos aseguramos que haya sesión
 if(session_status() !== PHP_SESSION_ACTIVE){
@@ -8,7 +8,7 @@ if(session_status() !== PHP_SESSION_ACTIVE){
 //Requiere usuario logueado
 function requireAuth(): void {
     if(!isset($_SESSION['id_usuario'])) {
-        header('Location: /dgmoss-project/sign-in/Index_login.php');
+        header('Location: /dgmoss/sign-in/Index_login.php');
         exit;
     }
 }
@@ -17,7 +17,7 @@ function requireAuth(): void {
 function requireAdmin(): void {
     requireAuth();
     if(($_SESSION['rol'] ?? '') !== 'admin') {
-        header('Location: /dgmoss-project/sign-in/Index_login.php');
+        header('Location: /dgmoss/sign-in/Index_login.php');
         exit;
     }
 }
@@ -27,7 +27,7 @@ function requireEditorOrAdmin(): void {
     requireAuth();
     $rol = $_SESSION['rol'] ?? '';
     if($rol !== 'admin' && $rol !== 'editor') {
-        header('Location: /dgmoss-project/sign-in/Index_login.php');
+        header('Location: /dgmoss/sign-in/Index_login.php');
         exit;
     }
 }
@@ -45,7 +45,7 @@ function requireDireccion(?int $id_direccion_param): void {
     }
 
     if($miDir !== $id_direccion_param) {
-        header('Location: /dgmoss-project/admin/panel.php');
+        header('Location: /dgmoss/admin/panel.php');
         exit;
     }
 }

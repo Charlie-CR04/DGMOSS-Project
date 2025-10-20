@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //1. Llamamos a la BD
 require_once(__DIR__ . "/../includes/conexion.php");
@@ -45,7 +45,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){ //2. Solo si el usuario a enviado el 
                 $_SESSION['id_direccion'] = $usuario['id_direccion'] ?? 0;
 
                 //8. Redirigimos al panel de administración
-                header("Location: /dgmoss-project/admin/panel.php", true, 303);
+                header("Location: /dgmoss/admin/panel.php", true, 303);
                 exit(); //Aquí se detiene el codigo inmediatamente
             } else {
                 $_error = "Credenciales inválidas";

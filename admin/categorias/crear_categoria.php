@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require __DIR__ . '/../../includes/auth.php';
 requireEditorOrAdmin();
 require __DIR__ . '/../../includes/conexion.php';
@@ -14,7 +14,7 @@ $id_direccion_editor = (int)($_SESSION['id_direccion'] ?? 0);
 
 // Bloqueo de dirección 4
 if (isset($_SESSION['id_direccion']) && (int)$_SESSION['id_direccion'] === 4) {
-    header("Location: /dgmoss-project/admin/panel.php");
+    header("Location: /dgmoss/admin/panel.php");
     exit;
 }
 
@@ -57,9 +57,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             // Redirigir según el rol
             if ($is_admin) {
-                header("Location: /dgmoss-project/admin/categorias/index_admin.php");
+                header("Location: /dgmoss/admin/categorias/index_admin.php");
             } else {
-                header("Location: /dgmoss-project/admin/categorias/index_editor.php");
+                header("Location: /dgmoss/admin/categorias/index_editor.php");
             }
             exit;
         }
@@ -75,13 +75,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Crear Categoría</title>
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/formulario-direcciones.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/formulario-direcciones.css">
     <?php include(__DIR__ . '/../navbar_panel.php'); ?>
 </head>
 <body>
 <div class="container mt-4">
     <div class="mb-3">
-        <a class="btn btn-secondary btn-sm active" href="<?= $is_admin ? '/dgmoss-project/admin/categorias/index_admin.php' : '/dgmoss-project/admin/categorias/index_editor.php' ?>">
+        <a class="btn btn-secondary btn-sm active" href="<?= $is_admin ? '/dgmoss/admin/categorias/index_admin.php' : '/dgmoss/admin/categorias/index_editor.php' ?>">
             <i class="bi bi-arrow-left"></i> Regresar
         </a>
     </div>

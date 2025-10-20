@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded",function(){
+﻿document.addEventListener("DOMContentLoaded",function(){
     const input = document.getElementById('input-busqueda-ddimbe');
     const contenedor = document.getElementById('resultados-busqueda-ddimbe');
     input.addEventListener('keyup', function () {
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",function(){
             return;
         }
 
-        fetch(`/dgmoss-project/DDIMBE/buscador_ddimbe.php?q=${encodeURIComponent(query)}`)
+        fetch(`/dgmoss/DDIMBE/buscador_ddimbe.php?q=${encodeURIComponent(query)}`)
             .then(response => response.text())
             .then(html => {
                 contenedor.innerHTML = html;

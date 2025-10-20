@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 //Autenticación 
 require __DIR__ . '/../../includes/auth.php';
 requireEditorOrAdmin();
@@ -30,7 +30,7 @@ function webPathToFs(?string $path): ?string {
     // Si ya viene como ruta absoluta de Windows (C:\... o D:/...)
     if (preg_match('#^[A-Za-z]:[\\\\/]#', $path)) return $path;
 
-    // Si es ruta pública (/dgmoss-project/uploads/archivo.pdf)
+    // Si es ruta pública (/dgmoss/uploads/archivo.pdf)
     if (strpos($path, '/') === 0) {
         // DOCUMENT_ROOT suele ser C:\xampp\htdocs
         $docroot = rtrim($_SERVER['DOCUMENT_ROOT'] ?? '', '/\\');
@@ -80,7 +80,7 @@ try {
     $conexion->commit();
 
     // 8) Redirigir de vuelta al listado de esa dirección
-    header('Location: /dgmoss-project/admin/direcciones/direcciones.php?id_direccion=' . $id_direccion);
+    header('Location: /dgmoss/admin/direcciones/direcciones.php?id_direccion=' . $id_direccion);
     exit;
 
 } catch(Throwable $e) {

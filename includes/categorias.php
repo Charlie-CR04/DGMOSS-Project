@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 function getCategorias(mysqli $db, int $id_direccion): array {
     $sql = "SELECT id_categoria, nombre_categoria

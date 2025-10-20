@@ -1,3 +1,3 @@
-<?php
-    header("Location: /dgmoss-project/");
+﻿<?php
+    header("Location: /dgmoss/");
     exit;

@@ -1,4 +1,4 @@
-<section class="contenido py-5">
+﻿<section class="contenido py-5">
     <div class="container">
         <h1 class="text-center mt-0 mb-5">Gestión de Equipo Médico</h1>
         <div class="objetivo mx-auto mb-5" >
@@ -18,7 +18,7 @@
             </ul>
         </div>
         
-        <img src="/dgmoss-project/assets/img/dir4-public/Imagen GEM 2025.png" alt="Gestión de Equipo Médico" class="img-responsive">
+        <img src="/dgmoss/assets/img/dir4-public/Imagen GEM 2025.png" alt="Gestión de Equipo Médico" class="img-responsive">
 
     </div>
 </section>

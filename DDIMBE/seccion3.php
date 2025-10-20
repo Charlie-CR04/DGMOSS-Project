@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     include(__DIR__ . '/../includes/conexion.php');
 
     $id_direccion = 3;

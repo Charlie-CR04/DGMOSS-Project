@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require __DIR__ . '/../../includes/auth.php';
 requireEditorOrAdmin(); // Solo admin o editor
 require __DIR__ . '/../../includes/conexion.php';
@@ -7,7 +7,7 @@ require __DIR__ . '/../../includes/direcciones_config.php';
 // Verificar rol y obtener dirección
 $isAdmin = (($_SESSION['rol'] ?? '') === 'admin');
 if($isAdmin){
-    header('Location: /dgmoss-project/admin/panel.php');
+    header('Location: /dgmoss/admin/panel.php');
     exit;
 }
 
@@ -57,7 +57,7 @@ $direccion_name = $conexion->query("SELECT nombre_direccion FROM direcciones WHE
 <title>Panel del Editor</title>
 <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
 <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-<link rel="stylesheet" href="/dgmoss-project/assets/css/formulario-direcciones.css">
+<link rel="stylesheet" href="/dgmoss/assets/css/formulario-direcciones.css">
 <?php include(__DIR__ . '/../../admin/navbar_panel.php'); ?>
 </head>
 <body>
@@ -66,7 +66,7 @@ $direccion_name = $conexion->query("SELECT nombre_direccion FROM direcciones WHE
     <h2 class="text-center mb-4">Panel de Documentos - <?= htmlspecialchars($direccion_name) ?></h2>
 
     <?php if($cfg['permite_docs'] === '1'): ?>
-        <a href="/dgmoss-project/admin/direcciones/crear_documento.php?id_direccion=<?= $id_direccion ?>" class="btn btn-danger btn-sm mb-3 active">
+        <a href="/dgmoss/admin/direcciones/crear_documento.php?id_direccion=<?= $id_direccion ?>" class="btn btn-danger btn-sm mb-3 active">
             <i class="bi bi-file-earmark-plus-fill"></i> Crear documento
         </a>
     <?php else: ?>
@@ -95,10 +95,10 @@ $direccion_name = $conexion->query("SELECT nombre_direccion FROM direcciones WHE
                         <td class="text-center"><?= $doc['destacado'] === '1' ? 'Si' : 'No' ?></td>
                         <td class="text-center">
                             <a class="btn btn-danger btn-sm mb-1 active" 
-                               href="/dgmoss-project/admin/direcciones/editar_documento.php?id_documento=<?= $doc['id_documento'] ?>&id_direccion=<?= $id_direccion ?>">
+                               href="/dgmoss/admin/direcciones/editar_documento.php?id_documento=<?= $doc['id_documento'] ?>&id_direccion=<?= $id_direccion ?>">
                                 <i class="bi bi-pencil-square"></i>
                             </a>
-                            <form action="/dgmoss-project/admin/direcciones/eliminar_documento.php" method="post" class="d-inline" onsubmit="return confirm('¿Eliminar documento?');">
+                            <form action="/dgmoss/admin/direcciones/eliminar_documento.php" method="post" class="d-inline" onsubmit="return confirm('¿Eliminar documento?');">
                                 <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
                                 <input type="hidden" name="id_documento" value="<?= (int)$doc['id_documento'] ?>">
                                 <button class="btn btn-primary btn-sm active">
@@ -133,6 +133,6 @@ $direccion_name = $conexion->query("SELECT nombre_direccion FROM direcciones WHE
 </div>
 
 <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
-<script src="/dgmoss-project/assets/js/formulario.js"></script>
+<script src="/dgmoss/assets/js/formulario.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     require __DIR__ . '/../../includes/auth.php';
     requireAdmin();
     require __DIR__ . '/../../includes/conexion.php';
@@ -58,14 +58,14 @@
     <title>Administración de direcciones</title>
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/formulario-direcciones.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/formulario-direcciones.css">
     <?php include(__DIR__ . '/../../admin/navbar_panel.php');?>
 </head>
 <body>
     <div class="container">
 
     <div class="mb-3">
-        <a class="btn btn-secondary btn-sm active" href="/dgmoss-project/admin/panel.php">
+        <a class="btn btn-secondary btn-sm active" href="/dgmoss/admin/panel.php">
             <i class="bi bi-arrow-left"></i> Regresar
         </a>
     </div>
@@ -92,7 +92,7 @@
 
         <div>
             <?php if ($cfg['permite_docs'] === '1'): ?>
-                <a href="/dgmoss-project/admin/direcciones/crear_documento.php?id_direccion=<?= $id_direccion ?>" class="btn btn-danger btn-sm active">
+                <a href="/dgmoss/admin/direcciones/crear_documento.php?id_direccion=<?= $id_direccion ?>" class="btn btn-danger btn-sm active">
                     <i class="bi bi-file-earmark-plus-fill"></i> Crear documento
                 </a>
             <?php endif; ?>
@@ -127,10 +127,10 @@
                             <td class="text-center"><?= htmlspecialchars($doc['destacado'] === '1' ? 'Si':'No') ?></td>
                             <td class="text-center">
                                 <a class="btn btn-danger btn-sm active mb-3" 
-                                    href="/dgmoss-project/admin/direcciones/editar_documento.php?id_documento=<?= (int)$doc['id_documento'] ?>">
+                                    href="/dgmoss/admin/direcciones/editar_documento.php?id_documento=<?= (int)$doc['id_documento'] ?>">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
-                                <form action="/dgmoss-project/admin/direcciones/eliminar_documento.php" method="post" class="d-inline"
+                                <form action="/dgmoss/admin/direcciones/eliminar_documento.php" method="post" class="d-inline"
                                     onsubmit="return confirm('¿Eliminar documento?');">
                                     <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
                                     <input type="hidden" name="id_documento" value="<?= (int)$doc['id_documento'] ?>">
@@ -172,6 +172,6 @@
     </div>
 
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
-    <script src="/dgmoss-project/assets/js/formulario.js"></script>
+    <script src="/dgmoss/assets/js/formulario.js"></script>
 </body>
 </html>

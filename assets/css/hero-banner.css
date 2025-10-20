@@ -1,4 +1,4 @@
-
+﻿
 /*                          Video                  */     
 
 .hero-video-section{
@@ -61,7 +61,7 @@
 /*              Segunda Sección             */
 
 .hero-video-second {
-    background-image: url('/dgmoss-project/assets/img/backs/3.png');
+    background-image: url('/dgmoss/assets/img/backs/3.png');
     animation: fadeIn 2.2s ease-in-out forwards;
     opacity: 0;
 }

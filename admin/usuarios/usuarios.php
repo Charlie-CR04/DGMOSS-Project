@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     include(__DIR__ . '/../../includes/auth.php');
     include(__DIR__ . '/../../includes/conexion.php');
     requireAdmin();
@@ -27,10 +27,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administración de usuarios</title>
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/panel.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/panel.css">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/formulario-direcciones.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/formulario-direcciones.css">
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
 </head>
 <body>
@@ -38,7 +38,7 @@
     <div class="container usuarios-front mt-5">
 
         <div class="mb-3">
-            <a class="btn btn-secondary btn-sm active" href="/dgmoss-project/admin/panel.php">
+            <a class="btn btn-secondary btn-sm active" href="/dgmoss/admin/panel.php">
                 <i class="bi bi-arrow-left"></i> Regresar
             </a>
         </div>
@@ -55,7 +55,7 @@
             </div>
         <?php endif; ?>
 
-        <a class="btn btn-danger btn-sm active mb-5" href="/dgmoss-project/admin/usuarios/crear_usuarios.php">
+        <a class="btn btn-danger btn-sm active mb-5" href="/dgmoss/admin/usuarios/crear_usuarios.php">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
                 <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
                 <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
@@ -88,10 +88,10 @@
                                 <td class="text-center"><?= htmlspecialchars($row['nombre_direccion'] ?? '----'); ?></td>
                                 <td class="text-center">
                                     <a type="submit" class="btn btn-danger btn-sm active" 
-                                       href="/dgmoss-project/admin/usuarios/editar_usuarios.php?id_usuario=<?= (int)$row['id_usuario'] ?>">
+                                       href="/dgmoss/admin/usuarios/editar_usuarios.php?id_usuario=<?= (int)$row['id_usuario'] ?>">
                                         <i class="bi bi-pencil-square"></i> Editar
                                     </a>
-                                    <form action="/dgmoss-project/admin/usuarios/eliminar_usuarios.php" method="POST" class="d-inline" onsubmit="return confirm('¿Eliminar este usuario?');">
+                                    <form action="/dgmoss/admin/usuarios/eliminar_usuarios.php" method="POST" class="d-inline" onsubmit="return confirm('¿Eliminar este usuario?');">
                                         <input type="hidden" name="id_usuario" value="<?= (int)$row['id_usuario'] ?>">
                                         <input type="hidden" name="csrf" value="<?= htmlspecialchars($csrf) ?>">
                                         <button type="submit" class="btn btn-primary btn-sm active">
@@ -110,6 +110,6 @@
         </div>
 
     </div>
-    <script src="/dgmoss-project/assets/js/alerta_quitar.js"></script>
+    <script src="/dgmoss/assets/js/alerta_quitar.js"></script>
 </body>
 </html>

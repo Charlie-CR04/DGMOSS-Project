@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require __DIR__ . '/../../includes/auth.php';
 requireEditorOrAdmin();
 require __DIR__ . '/../../includes/conexion.php';
@@ -11,7 +11,7 @@ $cfg = getConfigDireccion($conexion, $id_direccion);
 
 // Verificar si la dirección permite documentos
 if ($cfg['permite_docs'] !== '1') {
-    header('Location: /dgmoss-project/admin/direcciones/direcciones.php?id_direccion=' . $id_direccion);
+    header('Location: /dgmoss/admin/direcciones/direcciones.php?id_direccion=' . $id_direccion);
     exit;
 }
 
@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $pdf_path = $upload_dir . $pdf_name;
 
             if (move_uploaded_file($_FILES['url']['tmp_name'], $pdf_path)) {
-                $url = '/dgmoss-project/uploads/' . $pdf_name;
+                $url = '/dgmoss/uploads/' . $pdf_name;
             } else {
                 $err = "Hubo un problema al subir el archivo.";
             }
@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $img_path = $upload_dir . $img_name;
 
             if (move_uploaded_file($_FILES['imagen_destacada']['tmp_name'], $img_path)) {
-                $imagen_destacada = '/dgmoss-project/uploads/' . $img_name;
+                $imagen_destacada = '/dgmoss/uploads/' . $img_name;
             } else {
                 $err = "Hubo un problema al subir la imagen destacada.";
             }
@@ -113,7 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $st->execute();
             $st->close();
 
-            header('Location: /dgmoss-project/admin/direcciones/direcciones.php?id_direccion=' . $id_direccion);
+            header('Location: /dgmoss/admin/direcciones/direcciones.php?id_direccion=' . $id_direccion);
             exit;
         }
     }
@@ -128,7 +128,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Crear documento</title>
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link rel="stylesheet" href="/dgmoss-project/assets/css/crear-documentos.css">
+    <link rel="stylesheet" href="/dgmoss/assets/css/crear-documentos.css">
 </head>
 <body>
     <?php include(__DIR__ . '/../navbar_panel.php'); ?>
@@ -195,7 +195,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <button class="btn btn-success">Guardar</button>
-            <a href="/dgmoss-project/admin/direcciones/direcciones.php?id_direccion=<?= $id_direccion ?>" class="btn btn-secondary active">Cancelar</a>
+            <a href="/dgmoss/admin/direcciones/direcciones.php?id_direccion=<?= $id_direccion ?>" class="btn btn-secondary active">Cancelar</a>
         </form>
     </div>
 

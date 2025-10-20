@@ -1,4 +1,4 @@
-<section class="director-section">
+﻿<section class="director-section">
     <div class="container py-5">
         <!-- OBJETIVO -->
         <div class="row justify-content-center mb-5">
@@ -89,7 +89,7 @@
             <div class="col-lg-4 col-md-5 mb-4">
                 <div class="director-container text-center">
                     <figure class="mb-4">
-                        <img src="/dgmoss-project/assets/img/Directores/2.png" 
+                        <img src="/dgmoss/assets/img/Directores/2.png" 
                             alt="Dr. José Enrique Pérez Olguín" 
                             class="img-fluid rounded-circle director-img mb-3"
                             style="width: 200px; height: 200px; object-fit: cover;">

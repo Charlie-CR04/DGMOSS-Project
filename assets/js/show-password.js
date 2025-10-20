@@ -1,4 +1,4 @@
-//Función para alternar la contraseña
+﻿//Función para alternar la contraseña
   const togglePassword = document.getElementById('togglePassword');
   const passwordField = document.getElementById('passwordField');
   const eyeIcon = document.getElementById('eyeIcon');

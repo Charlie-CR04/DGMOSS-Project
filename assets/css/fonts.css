@@ -1,7 +1,7 @@
-/*   Cuerpo de la página   */
+﻿/*   Cuerpo de la página   */
 @font-face {
     font-family: 'Noto Sans';
-    src: url('/dgmoss-project/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
+    src: url('/dgmoss/assets/fonts/Noto Sans/NotoSans-Light.ttf') format('opentype');
     font-style: normal;
 }
 
@@ -14,7 +14,7 @@ body a, p, li {
 
 @font-face { 
     font-family: 'Patria';
-    src: url('/dgmoss-project/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+    src: url('/dgmoss/assets/fonts/Patria/Patria_Regular.otf') format('opentype');
     font-style: normal;
 }
 
